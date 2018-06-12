@@ -1,0 +1,48 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Katambe Limited </title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+</head>
+<body>
+	<div id="wrapper">
+		<nav>
+			<span id="brand">
+				<a href="index.html">BRAND </a>
+			</span>
+			<ul id="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Football</a></li>
+				<li><a href="#">BasketBall</a></li>
+				<li><a href="#">Tennis</a></li>
+				<li><a href="#">Search</a></li>
+			</ul>
+			<div id="toggle">
+				<div class="span" id="one"></div>
+				<div class="span" id="two"></div>
+				<div class="span" id="three"></div>
+
+			</div>
+
+		</nav>
+		<div id="resize">
+			<ul id="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Football</a></li>
+				<li><a href="#">BasketBall</a></li>
+				<li><a href="#">Tennis</a></li>
+				<li><a href="#">Search</a></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$('#toggle').click(function() {
+			$(this).toggleClass('on');
+			$('#resize').toggleClass("active");
+
+		});
+	</script>
+</body>
+</html>

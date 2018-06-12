@@ -1,0 +1,156 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+
+}
+body {
+	font-family: Quicksand;
+	width: 100%;
+	height: 100vh;
+	background: url('pexels-photo-1039302.jpeg')no-repeat 50% 50% ;
+	background-size: cover;
+	display: table;
+}
+nav{
+	height: 80px;
+	width: 100%;
+	background: #000;
+	position: static;
+	z-index: 1;
+
+
+}
+nav #brand {
+	float: left;
+	display: block;
+	margin-left: 84px;
+	line-height: 70px;
+	font-weight: bold;
+}
+
+nav #brand a{
+	color:#fff;
+	font-family:Quicksand;
+	font-size:24px;
+	transition: all 0.3s ease-out;
+	font-weight:400;
+}
+nav #menu {
+	float: left;
+	position: relative;
+	left: 50%;
+}
+nav #menu li{
+	display: inline-block;
+	padding: 0px 30px;
+	line-height: 80px;
+	transition: all 0.3s ease-out;
+	cursor: pointer;
+	position: relative;
+}
+nav #menu li a {
+	color: #fff;
+	font-family: Quicksand;
+	font-weight: 200;
+}
+#toggle{
+	position: absolute;
+	right: 20px;
+	top: 14px;
+	z-index: 999;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	float: right;
+	transition: all 0.3s ease-out;
+	visibility: hidden;
+	opacity: 0;
+
+
+}
+#toggle .span{
+	height: 3px;
+	background: #fff;
+	transition: all 0.3s ease-out;
+	margin: 5px auto;
+}
+
+#toggle.on #one {
+    transform: rotate(45deg) translateX(2px) translateY(4px);
+}
+#toggle.on #two {
+	opacity: 0;
+}
+#toggle.on #three {
+	transform: rotate(-45deg) translateX(8px) translateY(-10px);
+}
+
+#resize {
+	z-index: 1;
+	background: #000;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	visibility: hidden;
+	transition: all 1s ease-out;
+	top: 0px;
+	opacity: 0;
+	display: table;
+
+}
+#resize #menu {
+	height: 50px;
+	display: table-cell;
+	vertical-align: center;
+
+}
+
+#resize #menu li{
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 400;
+	transition: all 0.3s ease-out;
+	font-size: 50px;
+	min-height: 50px;
+	padding: 20px 0;
+}
+#resize #menu li:nth-child(1){
+margin-top: 140px;
+}
+#resize #menu li a{
+	color:#fff;
+}
+
+#resize.active {
+	opacity: 0.99;
+	visibility: visible;
+}
+
+@media(max-width: 768px){
+	nav #brand{
+		margin-left: 18px;
+	}
+	#toggle {
+		visibility: visible;
+		opacity: 1;
+		margin-top: 6px;
+	}
+	#menu a{
+		font-size: 20px;
+		font-family: Quicksand;
+		font-weight: 200;
+
+	}
+	nav #menu {
+		display: none;
+	}
+}
+@media(min-width: 768px){
+	#resize {
+		visibility: hidden !important;
+	}
+
+}
