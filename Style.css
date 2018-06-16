@@ -1,26 +1,54 @@
 * {
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
 
 }
+html{
+   padding:0;
+   width:100%;
+}
+
 body {
-	font-family: Quicksand;
-	width: 100%;
-	height: 100vh;
-	background: url('nature-forest-trees-fog.jpeg')no-repeat 50% 50% ;
-	background-size: cover;
-	display: table;
+	background: #fff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 15px;
+    line-height: 140%;
+    color: #333;
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 0.01px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 nav{
-	height: 80px;
+	height: 70px;
 	width: 100%;
-	background: #000;
-	position: static;
-	z-index: 1;
+	background-color: rgba(0,0,0,1);
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    overflow: hidden;
+    position: fixed;
+    background: url(bg4.jpg) no-repeat 50% 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
 
+}
+nav.position{
+    position: static;
+}
+nav.black, .spacer.black{
+   background: rgba(0,0,0,0.7);
+   transition:all 0.1s;
+}
 
+.spacer.height,.spacer {
+   width: 100%;
+   height: 70px;
+   background-color: rgba(0,0,0,0);
 }
 nav #brand {
 	float: left;
@@ -40,7 +68,7 @@ nav #brand a{
 nav #menu {
 	float: left;
 	position: relative;
-	left: 50%;
+	left: 40%;
 }
 nav #menu li{
 	display: inline-block;
@@ -54,6 +82,9 @@ nav #menu li a {
 	color: #fff;
 	font-family: Quicksand;
 	font-weight: 200;
+    font-size: 20px;
+    transition: 1s;
+
 }
 #toggle{
 	position: absolute;
@@ -89,7 +120,7 @@ nav #menu li a {
 
 #resize {
 	z-index: 1;
-	background: #000;
+	background: rgba(0,0,0,0.9);
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -118,7 +149,7 @@ nav #menu li a {
 	padding: 20px 0;
 }
 #resize #menu li:nth-child(1){
-margin-top: 100px;
+    margin-top: 100px;
 }
 #resize #menu li a{
 	color:#fff;
@@ -147,10 +178,375 @@ margin-top: 100px;
 	nav #menu {
 		display: none;
 	}
+  .spacer {
+   width: 100%;
+   height: 70px;
+   background-color: rgba(0,0,0,0);
+}
 }
 @media(min-width: 768px){
 	#resize {
 		visibility: hidden !important;
 	}
+
+}
+#content {
+    background: url(bg4.jpg) no-repeat 50% 0;
+    height: 700px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#content .wrap {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 0 0 10px;
+    color: #fff;
+}
+
+#content .ttl {
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    padding: 22px 0 0 0;
+}
+
+#content h2 {
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0;
+    margin: -8px 0 0 0;
+    text-align: center;
+    border: none;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+#content .ttl2 {
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    padding: 0 0 45px 0;
+    text-align: right;
+}
+
+#content .item {
+    width: 976px;
+    height: 118px;
+    background: url(x7.png) no-repeat 0 0;
+    margin: -28px 0 0 -19px;
+    position: relative;
+    z-index: 10;
+    display: block;
+}
+
+#content .item:hover {
+    margin-left: -14px;
+}
+
+#content .item .flag {
+    width: 82px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    padding: 4px 0 0 19px;
+    font-size: 0;
+    float: left;
+}
+
+#content .item .info {
+    float: left;
+}
+
+#content .item .info .name {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #374044;
+    font-size: 18px;
+    padding: 19px 0 0 0;
+}
+
+#content .item .info .y {
+    color: #374044;
+    font-size: 15px;
+    padding: 6px 0 0 0;
+}
+
+#content .item .info .y span {
+    color: #0272c8
+}
+
+#content .ttl3 {
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    padding: 0;
+    text-align: right;
+    margin: -12px 0 0 0;
+}
+
+#content .item:nth-child(2) {
+    z-index: 9;
+}
+
+#content .item:nth-child(3) {
+    z-index: 8;
+}
+
+#content .item:nth-child(4) {
+    z-index: 7;
+}
+
+#content .item:nth-child(5) {
+    z-index: 6;
+}
+
+#content .item:nth-child(6) {
+    z-index: 5;
+}
+
+@media (max-width: 1000px) {
+
+    #wrap header .wrap {
+        width: 100%;
+    }
+
+    #wrap header .wrap .x5{
+        width: auto;
+        padding-left: 30px;
+    }
+
+    #dont{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #dont .wrap {
+        margin: 0 20px;
+        max-width: 550px;
+        min-width: 285px;
+        padding: 104px 0 0;
+        width: auto;
+    }
+
+    #wrap header .wrap .x6 {
+        height: 68px;
+    }
+
+    #ten,
+    #content{
+        background-repeat: repeat-y;
+        height: auto;
+        min-height: 450px;
+        padding: 0 0 20px;
+    }
+
+    #ten .wrap,
+    #content .wrap {
+        padding: 0 10px;
+        width: auto;
+    }
+
+    #ten h2,
+    #content h2 {
+        font-size: 40px;
+    }
+
+    #ten .item,
+    #content .item {
+        background: white none no-repeat scroll 0 0;
+        height: auto;
+        width: auto;
+        margin: 10px 0;
+    }
+
+    #ten .ttl2,
+    #content .ttl2 {
+        padding-bottom: 20px;
+    }
+
+    #ten .ttl3,
+    #content .ttl3 {
+        margin: 0;
+    }
+
+    #ten h2{
+        padding-bottom: 20px;
+    }
+
+    #simple .wrap{
+        width: auto;
+    }
+
+    #faq .line {
+        width: 95%;
+    }
+
+    #ddd{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #ddd .wrap{
+        margin: 0;
+        max-width: 530px;
+        width: auto;
+        padding: 40px 10px;
+    }
+
+    #ddd .ttl2{
+        width: auto;
+    }
+
+    #ddd p {
+        width: auto;
+    }
+
+    #reg .wrap {
+        margin: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: auto;
+    }
+
+    footer{
+        height: auto;
+        padding: 0 15px 20px;
+    }
+
+    footer .wrap {
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    }
+
+    footer .c1 {
+        width: auto;
+        max-width: 370px;
+    }
+
+    footer .c2 {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        padding: 0 10px;
+    }
+
+}
+.myStyle{
+    position: absolute;
+}
+
+@media (max-width: 800px) {
+    #content .item {
+        display: flex;
+    }
+    #content .item .info .name {
+        padding: 0;
+    }
+    #content .item .info {
+        float: none;
+        padding: 5px 0;
+    }
+    #content .item .flag {
+        width: 50px;
+        padding: 0;
+        height: 70px;
+        line-height: 70px;
+        float: none;
+    }
+    #content .item:hover{
+        margin-left: 0;
+    }
+
+    #content .item .info .y span:nth-child(2) {
+        display: block;
+    }
+
+    #content h2 {
+        margin: 10px 0;
+        line-height: 45px;
+    }
+
+    #simple{
+        height: auto;
+    }
+
+    #simple .wrap {
+        width: auto;
+        padding: 10px 10px 40px;
+    }
+
+    #simple h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #content .ttl2,
+    #content .ttl {
+        text-align: center;
+    }
+
+    #wrap header .wrap .get {
+        top: 335px;
+    }
+    #content .item .info .name {
+        font-size: 15px;
+    }
+    #content .item .info .y {
+        padding-top: 0;
+    }
+    #content .ttl3 {
+        font-size: 22px;
+    }
+
+
+    #wrap header .wrap .x2 {
+        padding-bottom: 12px;
+    }
+
+    #wrap header .wrap .x5 {
+        line-height: 50px;
+        font-size: 31px;
+    }
+
+    #wrap header .wrap .x5 span {
+        font-size: 50px;
+    }
+
+    #wrap header .wrap .x2,
+    #wrap header .wrap .x4,
+    #wrap header .wrap .x3{
+        background-image: none;
+        background-color: white;
+        font-size: 22pt;
+        height: auto;
+        margin: 15px 0;
+        width: auto;
+    }
+
+    #ddd .wrap{
+        padding-top: 0;
+    }
+
+    #reg h2 {
+        font-size: 39px;
+        line-height: 35px;
+    }
+
+    
 
 }

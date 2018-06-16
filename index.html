@@ -1,8 +1,11 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta charset="utf8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
 	<title> Katambe Limited </title>
 	<link rel="stylesheet" type="text/css" href="Style.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
@@ -15,7 +18,7 @@
 				<a href="index.html">BRAND </a>
 			</span>
 			<ul id="menu">
-				<li><a href="#">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="#">Football</a></li>
 				<li><a href="#">BasketBall</a></li>
 				<li><a href="#">Tennis</a></li>
@@ -31,19 +34,106 @@
 		</nav>
 		<div id="resize">
 			<ul id="menu">
-				<li><a href="#">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="#">Football</a></li>
 				<li><a href="#">BasketBall</a></li>
 				<li><a href="#">Tennis</a></li>
 				<li><a href="#">Search</a></li>
 			</ul>
 		</div>
+		<div class="spacer">
+			&nbsp;
+		</div>
 	</div>
-	<script type="text/javascript">
+	<section id="content">
+		<div class="wrap">
+			<span class="ttl">Having registered</span>
+			<h2>you will get access</h2>
+			<span class="ttl2">to today’s predictions:</span>
+
+			<div>
+				<a href="#reg" class="item get">
+					<div class="flag"><img src="flag_default.png" /></div>
+					<div class="info">
+						<div class="name">Finland - Veikkausliiga</div>
+						<div class="y">
+							<span><b>19:30</b></span>
+							Prediction and bet of the match <span>TPS - Lahti</span>
+						</div>
+					</div>
+					<div class="clr"></div>
+				</a>
+				<a href="#reg" class="item get">
+					<div class="flag"><img src="flag_default.png" /></div>
+					<div class="info">
+						<div class="name">International - World Cup</div>
+						<div class="y">
+							<span><b>20:00</b></span>
+							Prediction and bet of the match <span>Portugal - Spain</span>
+						</div>
+					</div>
+					<div class="clr"></div>
+				</a>
+				<a href="#reg" class="item get">
+					<div class="flag"><img src="flag_default.png" /></div>
+					<div class="info">
+						<div class="name">Ireland - First Division</div>
+						<div class="y">
+							<span><b>20:45</b></span>
+							Prediction and bet of the match <span>Shelbourne D. - Cabinteely FC</span>
+						</div>
+					</div>
+					<div class="clr"></div>
+				</a>
+				<a href="#reg" class="item get">
+					<div class="flag"><img src="flag_default.png" /></div>
+					<div class="info">
+						<div class="name">Ireland - First Division</div>
+						<div class="y">
+							<span><b>20:45</b></span>
+							Prediction and bet of the match <span>Longford Town - Drogheda United</span>
+						</div>
+					</div>
+					<div class="clr"></div>
+				</a>
+				<a href="#reg" class="item get">
+					<div class="flag"><img src="flag_default.png" /></div>
+					<div class="info">
+						<div class="name">Ireland - Premier Division</div>
+						<div class="y">
+							<span><b>20:45</b></span>
+							Prediction and bet of the match <span>Bray Wanderers - Waterford Utd</span>
+						</div>
+					</div>
+					<div class="clr"></div>
+				</a>
+
+			</div>
+			<span class="ttl3">and also 5 matches for today</span>
+		</div>
+		
+	</section>
+	<script>
 		$('#toggle').click(function() {
 			$(this).toggleClass('on');
-			$('#resize').toggleClass("active");
+			$("nav").toggleClass('position');
+			$(".spacer").toggleClass('position');
+			$(".spacer").toggleClass("height");
+			$(".spacer").css("height","0px");
+			$('#resize').toggleClass("active");	
+			$('#content .item').toggle('myStyle');		
 
+		});
+		$(window).on("scroll",function(){
+			if ($(window).scrollTop()){
+				$("nav").addClass("black");
+				$(".spacer").css("height","0px");
+				$(".spacer").css("transition","all 0.1s ease-out");
+			}else {
+				$("nav").removeClass("black");	
+
+			$(".spacer").css("transition","all 0.4s ease-in");
+			}
 		});
 	</script>
 </body>
