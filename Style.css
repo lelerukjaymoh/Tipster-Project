@@ -133,7 +133,7 @@ nav #menu li a {
 
 }
 #resize #menu {
-	height: 50px;
+	height: 100%;
 	display: table-cell;
 	vertical-align: center;
 
