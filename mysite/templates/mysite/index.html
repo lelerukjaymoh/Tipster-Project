@@ -1,0 +1,48 @@
+{% extends 'mysite/base_html.html' %}
+
+{% block content %}
+{% for game in games %}
+<div>
+    <a href="#reg" class="item get">
+        <div class="flag"><img src="flag_default.png" /></div>
+        <div class="info">
+            <div class="name">{{ game.teams }}</div>
+            <div class="y">
+                <span><b>{{ game.date }}{{ game.time }}
+                {{ game.prob1 }}{{ game.probX }}{{ game.prob2 }}</b></span>
+                Prediction and bet of the match <span>{{ game.odd1 }}{{ game.odd2 }}</span>
+            </div>
+        </div>
+        <div class="clr"></div>
+    </a>
+
+</div>
+{% endfor %}
+{% endblock %}
+
+<!-- <script>
+		$('#toggle').click(function() {
+			$(this).toggleClass('on');
+			$("nav").toggleClass('position');
+			$(".spacer").toggleClass('position');
+			$(".spacer").toggleClass("height");
+			$(".spacer").css("height","0px");
+			$('#resize').toggleClass("active");
+			$('#content .item').toggle('myStyle');
+
+		});
+		$(window).on("scroll",function(){
+			if ($(window).scrollTop()){
+				$("nav").addClass("black");
+				$(".spacer").css("height","0px");
+				$(".spacer").css("transition","all 0.1s ease-out");
+			}else {
+				$("nav").removeClass("black");
+                $(".spacer").css("height","70px");
+			    $(".spacer").css("transition","all 0.1s ease-in");
+			}
+		});
+
+    </script> -->
+</body>
+
