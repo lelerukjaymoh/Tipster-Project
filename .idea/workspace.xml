@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/css/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/mysite/base_html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/mysite/gamecard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/templates/mysite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bg4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/bg4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bg5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/bg5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bg6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/bg6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bg8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/bg8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pexels-photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/pexels-photo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x2.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/x2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/x3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x4.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/x4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x5.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/x5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x6.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/x6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x7.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/x7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x8.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/css/assets/x8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,11 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/static/css/Style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="183">
               <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -133,10 +123,11 @@
         <option value="$PROJECT_DIR$/mysite/templates/mysite/index.html" />
         <option value="$PROJECT_DIR$/mysite/templates/mysite/base_html.html" />
         <option value="$PROJECT_DIR$/mysite/static/css/Style.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="439" />
     <option name="y" value="68" />
     <option name="width" value="924" />
@@ -155,43 +146,6 @@
               <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
               <item name="Katambe Limited" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Katambe Limited" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Katambe Limited" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Katambe Limited" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Katambe Limited" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Katambe Limited" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Katambe Limited" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -205,8 +159,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mysite" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/mysite" />
       <recent name="$PROJECT_DIR$/mysite/static/css" />
       <recent name="$PROJECT_DIR$/mysite/static/assets" />
     </key>
@@ -284,9 +238,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="743" extended-state="7" />
+    <frame x="0" y="24" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12816691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39344263" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007452" side_tool="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -328,13 +283,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysite/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -664,6 +612,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
