@@ -181,10 +181,6 @@ span.user_name{
 .forecasts-free__table-head .forecasts-free__table-row{
     height:32px;
 }
-/*
-.forecasts-free__table-head .forecasts-free__table-ceforecasts-free__table-cell-linksll:first-child{
-    background:url(../img/pin.png) 50% no-repeat;
-}*/
 .forecasts-free__table-head .forecasts-free__table-cell:nth-child(2){
     text-indent:10px;
 }
@@ -198,66 +194,63 @@ span.user_name{
     font-size:14px;
 }
 .forecasts-free__table-body .forecasts-free__table-row .forecasts-free__table-cell:nth-child(2){
-    padding-left:20px;}
-    /*.forecasts-free__table-body .forecasts-free__table-row_vip .forecasts-free__table-cell_description{
-        background:url(../img/locked-vip.png) 100% 0 no-repeat;
-    }*/
-    .forecasts-free__table-body .forecasts-free__table-row_vip .forecasts-free__table-cell_coefficient{
-        font-weight:700;
-    }
-    /*.forecasts-free__table-body .forecasts-free__table-row_premium .forecasts-free__table-cell_description{
-        background:url(../img/premium-icon1.png) 100% 0 no-repeat;
-    }*/
-    .forecasts-free__table-body .forecasts-free__table-row_premium .forecasts-free__table-cell_coefficient{
-        font-weight:700;
-    }
-    .forecasts-free__table-body .forecasts-free__table-row_won .forecasts-free__table-cell_result{
-        color:#08b204;
-    }
-    .forecasts-free__table-body .forecasts-free__table-row_loss .forecasts-free__table-cell_result{
-        font-size:13px;
-        color:#c9c9c9;
-    }
-    .forecasts-free__table-body .forecasts-free__flag-icon{
-        display:inline-block;
-        width:22px;
-        height:16px;
-        background-size:cover;  
-    }
-    .forecasts-free__table-body .forecasts-free__table-cell-links{
-        display:block;
-        font-size:10px;
-        text-transform:uppercase;
-        margin-bottom:5px;
-    }
-    .forecasts-free__table-body .forecasts-free__table-cell-match{
-        font-size:12px;
-    }
-    .forecasts-free__table-body .forecasts-free__table-cell-match .time{
-        font-weight:700;
-    }
-    .forecasts-free__table-body .forecasts-free__table-cell-match .teams{
-        color:#006bce;
-    }
-    .forecasts-free__table-body .forecasts-free__table-cell_result{
-        text-decoration:underline;
-    }
-    .forecasts-free__table-foot .forecasts-free__table-row{
-        height:38px;
-    }
-    .forecasts-free__table-foot .forecasts-free__table-cell a{
-        display:inline-block;
-        padding-right:25px;height:18px;
-        font-size:11px;
-        line-height:18px;
-        /*text-transform:uppercase;background:url(../img/angle.png) 100% no-repeat;*/
-    }
-    .forecasts-free__table-foot .forecasts-free__table-cell a:hover{
-        text-decoration:underline;
-    }
-    .forecasts-free__table-cell_tips{
+    padding-left:20px;
+}
+
+.forecasts-free__table-body .forecasts-free__table-row_vip .forecasts-free__table-cell_coefficient{
+    font-weight:700;
+}
+
+.forecasts-free__table-body .forecasts-free__table-row_premium .forecasts-free__table-cell_coefficient{
+    font-weight:700;
+}
+.forecasts-free__table-body .forecasts-free__table-row_won .forecasts-free__table-cell_result{
+    color:#08b204;
+}
+.forecasts-free__table-body .forecasts-free__table-row_loss .forecasts-free__table-cell_result{
+    font-size:13px;
+    color:#c9c9c9;
+}
+.forecasts-free__table-body .forecasts-free__flag-icon{
+    display:inline-block;
+    width:22px;
+    height:16px;
+    background-size:cover;  
+}
+.forecasts-free__table-body .forecasts-free__table-cell-links{
+    display:block;
+    font-size:10px;
+    text-transform:uppercase;
+    margin-bottom:5px;
+}
+.forecasts-free__table-body .forecasts-free__table-cell-match{
+    font-size:12px;
+}
+.forecasts-free__table-body .forecasts-free__table-cell-match .time{
+    font-weight:700;
+}
+.forecasts-free__table-body .forecasts-free__table-cell-match .teams{
+    color:#006bce;
+}
+.forecasts-free__table-body .forecasts-free__table-cell_result{
+    text-decoration:underline;
+}
+.forecasts-free__table-foot .forecasts-free__table-row{
+    height:38px;
+}
+.forecasts-free__table-foot .forecasts-free__table-cell a{
+    display:inline-block;
+    padding-right:25px;height:18px;
+    font-size:11px;
+    line-height:18px;
+
+}
+.forecasts-free__table-foot .forecasts-free__table-cell a:hover{
+    text-decoration:underline;
+}
+.forecasts-free__table-cell_tips{
     padding:4px;
-    }
+}
 
 
 /*
