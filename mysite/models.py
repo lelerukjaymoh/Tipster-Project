@@ -12,8 +12,10 @@ class Prono(models.Model):
     odd1 = models.CharField(max_length=40)
     oddX = models.CharField(max_length=40)
     odd2 = models.CharField(max_length=40)
+    match_result = models.CharField(max_length=40)
     result_home = models.CharField(max_length=10)
     result_away = models.CharField(max_length=10)
+    result_overall = models.CharField(max_length=20)
 
     def __str__(self):
         return self.date

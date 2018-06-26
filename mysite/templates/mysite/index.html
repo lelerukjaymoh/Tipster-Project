@@ -8,10 +8,8 @@
     </td>
     <td class="forecasts-free__table-cell forecasts-free__table-cell_description">
         <span class="forecasts-free__table-cell-links">
-
             Australia
             -
-
             NPL, Victoria
         </span>
         <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/" class="forecasts-free__table-cell-match">
@@ -27,19 +25,43 @@
     </td>
     <td class="forecasts-free__table-cell forecasts-free__table-cell_tips">
         <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">
-            {{ game.chance}}
+            {{ game.chance }}
         </a>
     </td>
+    <td class="forecasts-free__table-cell forecasts-free__table-cell_tips">
+        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">
+            {{ game.match_result }}
+        </a>
+    </td>
+
     <td class="forecasts-free__table-cell forecasts-free__table-cell_result">
-        {% if game.result_home > result_away %}
+        {% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' %}
         <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">Win</a>
-        {% elif game.result_home == result_away %}
+        {% endif %}
+        {% if game.result_overall == 'drawwin' %}
         <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">Draw</a>
-        {% else %}
+        {% endif %}
+        {% if game.result_overall == 'drawlose' or game.result_overall == 'homelose' or game.result_overall == 'awaylose' or game.result_overall == '12lose' %}
         <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">Lose</a>
+        {% endif %}
+        {% if game.result_overall == 'no_results_yet' %}
+        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">No results</a>
         {% endif %}
     </td>
 </tr>
+{% endfor %}
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
 <!-- <div>
     <a hreff="#reg" class="item get">
         <div class="flag"><img src="flag_default.png" /></div>
@@ -57,9 +79,6 @@
     </a>
 
 </div> -->
-{% endfor %}
-{% endblock %}
-
 <!-- <script>
 		$('#toggle').click(function() {
 			$(this).toggleClass('on');
@@ -84,5 +103,5 @@
 		});
 
     </script> -->
-</body>
+
 
