@@ -180,10 +180,10 @@ span.user_name{
 }
 .forecasts-free__table-head .forecasts-free__table-row{
     height:32px;
-}
+}/*
 .forecasts-free__table-head .forecasts-free__table-ceforecasts-free__table-cell-linksll:first-child{
     background:url(../img/pin.png) 50% no-repeat;
-}
+}*/
 .forecasts-free__table-head .forecasts-free__table-cell:nth-child(2){
     text-indent:10px;
 }
@@ -198,15 +198,15 @@ span.user_name{
 }
 .forecasts-free__table-body .forecasts-free__table-row .forecasts-free__table-cell:nth-child(2){
     padding-left:20px;}
-    .forecasts-free__table-body .forecasts-free__table-row_vip .forecasts-free__table-cell_description{
+    /*.forecasts-free__table-body .forecasts-free__table-row_vip .forecasts-free__table-cell_description{
         background:url(../img/locked-vip.png) 100% 0 no-repeat;
-    }
+    }*/
     .forecasts-free__table-body .forecasts-free__table-row_vip .forecasts-free__table-cell_coefficient{
         font-weight:700;
     }
-    .forecasts-free__table-body .forecasts-free__table-row_premium .forecasts-free__table-cell_description{
+    /*.forecasts-free__table-body .forecasts-free__table-row_premium .forecasts-free__table-cell_description{
         background:url(../img/premium-icon1.png) 100% 0 no-repeat;
-    }
+    }*/
     .forecasts-free__table-body .forecasts-free__table-row_premium .forecasts-free__table-cell_coefficient{
         font-weight:700;
     }
@@ -249,7 +249,7 @@ span.user_name{
         padding-right:25px;height:18px;
         font-size:11px;
         line-height:18px;
-        text-transform:uppercase;background:url(../img/angle.png) 100% no-repeat;
+        /*text-transform:uppercase;background:url(../img/angle.png) 100% no-repeat;*/
     }
     .forecasts-free__table-foot .forecasts-free__table-cell a:hover{
         text-decoration:underline;
