@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'katambe.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'games_db',
-        'USER': 'peterson',
-        'PASSWORD': 'Dennis5050',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': 'd9ic1f2ivmcg39',
+        'USER': 'pdehzuulbjqnqy',
+        'PASSWORD': 'dc4663696cfe6108aafbe71141b1b52132d089594515141d9ae9bb5769a4cb61',
+        'HOST': 'ec2-54-83-0-158.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
