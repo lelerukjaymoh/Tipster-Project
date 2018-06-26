@@ -4,12 +4,16 @@ import bs4
 import requests
 from django.shortcuts import render, get_object_or_404
 
+from datetime import timedelta
+import datetime
+
 from .models import Prono
 
 
 def homepage(request):
     # error = get_object_or_404(Prono)
-    res = requests.get('http://www.zulubet.com/tips-21-06-2018.html')
+    today = datetime.datetime.now()
+    res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (26, today.month, today.year))
     try:
         res.raise_for_status()
 
@@ -17,12 +21,13 @@ def homepage(request):
         print('There was a problem getting web data: %s' % error)
 
     zulu_soup = bs4.BeautifulSoup(res.content, 'html.parser')
-    error_games = 0
 
     if type(zulu_soup) == bs4.BeautifulSoup:
         tr_elems = zulu_soup.findAll("tr", bgcolor=re.compile('^#.*'))
         games_number = len(tr_elems)
+        error_games = []
         removing_mf_usertime = re.compile(r'^mf_usertime(.*);')
+        getting_results = re.compile(r'\d+[^:]')
         for gameNo in range(games_number):
             team = removing_mf_usertime.sub('', tr_elems[gameNo].getText())
             groupings_trial = re.compile(r'''(
@@ -44,16 +49,30 @@ def homepage(request):
         ''', re.VERBOSE)
             game_info = groupings_trial.findall(team)
             if len(game_info) < 1:
-                error_games += 1
+                error_games += ["empty list"]
+
             else:
+                game_time = game_info[0][1].strip()
+                full_date = datetime.datetime.strptime(game_time, "%H:%M")
+                full_date = full_date + timedelta(hours=2)
+                formatted_date = full_date.strftime("%H:%M")
                 try:
-                    prono = Prono.objects.get(date=game_info[0][0], time=game_info[0][1], teams=game_info[0][2],
+                    results = getting_results.findall(game_info[0][14])
+                    result_home = int(results[0])
+                    result_away = int(results[1])
+                except IndexError as no_score:
+                    error_games += [no_score]
+                    result_home = 10
+                    result_away = 10
+                try:
+                    prono = Prono.objects.get(date=game_info[0][0], time=formatted_date, teams=game_info[0][2],
                                               prob1=game_info[0][4], probX=game_info[0][5], prob2=game_info[0][6],
                                               chance=game_info[0][8], odd1=game_info[0][10], oddX=game_info[0][11],
-                                              odd2=game_info[0][12], result=game_info[0][14])
+                                              odd2=game_info[0][12], result_home=result_home,
+                                              result_away=result_away)
 
                     prono.date = game_info[0][0]
-                    prono.time = game_info[0][1]
+                    prono.time = formatted_date
                     prono.teams = game_info[0][2]
                     prono.prob1 = game_info[0][4]
                     prono.probX = game_info[0][5]
@@ -62,14 +81,15 @@ def homepage(request):
                     prono.odd1 = game_info[0][10]
                     prono.oddX = game_info[0][11]
                     prono.odd2 = game_info[0][12]
-                    prono.result = game_info[0][14]
+                    prono.result_home = result_home
+                    prono.result_away = result_away
                     prono.save()
                 except Prono.DoesNotExist:
-                    prono = Prono(date=game_info[0][0], time=game_info[0][1], teams=game_info[0][2],
+                    prono = Prono(date=game_info[0][0], time=formatted_date, teams=game_info[0][2],
                                   prob1=game_info[0][4], probX=game_info[0][5], prob2=game_info[0][6],
                                   chance=game_info[0][8], odd1=game_info[0][10], oddX=game_info[0][11],
-                                  odd2=game_info[0][12], result=game_info[0][14])
+                                  odd2=game_info[0][12], result_home=result_home, result_away=result_away)
                     prono.save()
 
-        games = Prono.objects.all().reverse()
+        games = Prono.objects.order_by('time').order_by('date')[:games_number]
         return render(request, 'mysite/index.html', {"games": games})

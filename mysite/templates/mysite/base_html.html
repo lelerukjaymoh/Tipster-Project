@@ -8,7 +8,7 @@
     <meta http-equiv="Content-Language" content="en">
     <meta name="description" content=""/>
     <title> Prono Classic </title>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/Style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/prono.css' %}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 
 </head>
@@ -69,9 +69,35 @@
 </div>
 <section id="content">
     <div class="wrap">
-        {% block content %}
+        <div class="tabs">
+            <a href="/before_yesterday/" class="tabs__link">23.06</a>
+            <a href="/yesterday/" class="tabs__link">Yesterday</a>
+            <a href="/" class="tabs__link tabs__link_active">Today</a>
+            <a href="/tomorrow/" class="tabs__link">Tomorrow</a>
+            <a href="/after_tomorrow/" class="tabs__link">27.06</a>
 
-        {% endblock %}
+        </div>
+        <table class="forecasts-free__table">
+            <thead class="forecasts-free__table-head">
+                <tr class="forecasts-free__table-row">
+                    <th class="forecasts-free__table-cell"></th>
+                    <th class="forecasts-free__table-cell">Game </th>
+                    <th class="forecasts-free__table-cell">Odds</th>
+                    <th class="forecasts-free__table-cell">Tips</th>
+                    <th class="forecasts-free__table-cell">Result</th>
+                </tr>
+            </thead>
+            <tbody class="forecasts-free__table-body">            
+                {% block content %}
+
+                {% endblock %}
+
+            </tbody> 
+            <tfoot class="forecasts-free__table-foot">
+                <tr class="forecasts-free__table-row"><td colspan="4" class="forecasts-free__table-cell"><a href="/football/">ALL FOOTBALL PREDICTIONS</a></td></tr>
+            </tfoot>
+        </table>
+        
     </div>
 
 </section>

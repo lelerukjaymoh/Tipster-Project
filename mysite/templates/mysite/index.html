@@ -2,21 +2,61 @@
 
 {% block content %}
 {% for game in games %}
-<div>
+<tr class="forecasts-free__table-row forecasts-free__table-row_free forecasts-free__table-row_loss">
+    <td class="forecasts-free__table-cell">
+        <i class="forecasts-free__flag-icon" style="background-image: url('/i/seria/9.middle.jpg')"></i>
+    </td>
+    <td class="forecasts-free__table-cell forecasts-free__table-cell_description">
+        <span class="forecasts-free__table-cell-links">
+
+            Australia
+            -
+
+            NPL, Victoria
+        </span>
+        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/" class="forecasts-free__table-cell-match">
+            <span class="time">{{ game.time}}</span> 
+            Match prediction
+            <span class="teams">{{ game.teams}} </span>
+        </a>
+    </td>
+    <td class="forecasts-free__table-cell forecasts-free__table-cell_coefficient">
+        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">
+            {{ game.odd2}}
+        </a>
+    </td>
+    <td class="forecasts-free__table-cell forecasts-free__table-cell_tips">
+        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">
+            {{ game.chance}}
+        </a>
+    </td>
+    <td class="forecasts-free__table-cell forecasts-free__table-cell_result">
+        {% if game.result_home > result_away %}
+        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">Win</a>
+        {% elif game.result_home == result_away %}
+        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">Draw</a>
+        {% else %}
+        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">Lose</a>
+        {% endif %}
+    </td>
+</tr>
+<!-- <div>
     <a href="#reg" class="item get">
         <div class="flag"><img src="flag_default.png" /></div>
         <div class="info">
             <div class="name">{{ game.teams }}</div>
             <div class="y">
-                <span><b>{{ game.date }}{{ game.time }}
-                {{ game.prob1 }}{{ game.probX }}{{ game.prob2 }}</b></span>
-                Prediction and bet of the match <span>{{ game.odd1 }}{{ game.odd2 }}</span>
+                <span>
+                    <b>{{ game.time }}</b>
+                    <span>Match Prediction</span>
+                    {{ game.prob1 }}{{ game.probX }}{{ game.prob2 }}</span>
+                <span>{{ game.odd1 }}{{ game.odd2 }}</span>
             </div>
         </div>
         <div class="clr"></div>
     </a>
 
-</div>
+</div> -->
 {% endfor %}
 {% endblock %}
 
