@@ -125,8 +125,8 @@ def homepage(request):
                     prono = Prono(date=game_info[0][0], time=formatted_date, teams=game_info[0][2],
                                   prob1=game_info[0][4], probX=game_info[0][5], prob2=game_info[0][6],
                                   chance=game_info[0][8], odd1=game_info[0][10], oddX=game_info[0][11],
-                                  odd2=game_info[0][12], result_home=result_home, match_result=game_info[0][14],
-                                  result_away=result_away, result_overall=overall_result())
+                                  odd2=game_info[0][12], result_home=result_home,
+                                  result_away=result_away, match_result=game_info[0][14], result_overall=overall_result())
                     prono.save()
 
         games = Prono.objects.order_by('time', 'date')[:games_number]
