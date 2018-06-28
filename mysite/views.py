@@ -28,6 +28,7 @@ def homepage(request):
         error_games = []
         removing_mf_usertime = re.compile(r'^mf_usertime(.*);')
         getting_results = re.compile(r'\d+[^:]')
+
         for gameNo in range(games_number):
             team = removing_mf_usertime.sub('', tr_elems[gameNo].getText())
             groupings_trial = re.compile(r'''(
@@ -57,13 +58,14 @@ def homepage(request):
                 full_date = full_date + timedelta(hours=2)
                 formatted_date = full_date.strftime("%H:%M")
                 try:
-                    results = getting_results.findall(game_info[0][14])
+                    results = game_info[0][14].split(':')
                     result_home = int(results[0])
                     result_away = int(results[1])
                 except Exception as no_score:
                     error_games += [no_score]
-                    result_home = 10
-                    result_away = 10
+                    if game_info[0][14].strip() == '' or game_info[0][14].strip() == '-':
+                        result_home = 10
+                        result_away = 10
 
                 def overall_result():
                     if result_home == 10 and result_away == 10:
@@ -100,6 +102,8 @@ def homepage(request):
                             else:
                                 return 'awaylose'
 
+                result_home = str(result_home)
+                result_away = str(result_away)
                 try:
                     prono = Prono.objects.get(date=game_info[0][0], time=formatted_date, teams=game_info[0][2],
                                               prob1=game_info[0][4], probX=game_info[0][5], prob2=game_info[0][6],
