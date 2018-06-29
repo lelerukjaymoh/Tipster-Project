@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/mysite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/mysite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/activate.csh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/activate.fish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/easy_install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/easy_install-3.6" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/easy_install-3.6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/pip3.6" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/pip3.6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/python" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/python3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/pip-10.0.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/pip-10.0.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/easy_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/easy_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/egg_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/egg_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/install_egg_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/install_egg_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/install_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/install_lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/dist.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/dist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/monkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/monkey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/package_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/package_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/pep425tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/pep425tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/pyvenv.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +43,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+            <state relative-caret-position="22">
+              <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -34,8 +55,35 @@
       <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="101" column="17" lean-forward="true" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+            <state relative-caret-position="220">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runtime.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prono.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/static/css/prono.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4532">
+              <caret line="206" column="93" selection-start-line="206" selection-end-line="206" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -49,22 +97,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/templates/mysite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+            <state relative-caret-position="990">
+              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#td#5;n#tr#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +137,8 @@
       <find>img</find>
       <find>lo</find>
       <find>result_home</find>
+      <find>.forecasts-free__table-body .forecasts-free__table-row_won .forecasts-free__table-cell_result</find>
+      <find>tr</find>
     </findStrings>
     <replaceStrings>
       <replace>Prono</replace>
@@ -115,7 +158,6 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/mysite/templates/mysite/gamecard.html" />
         <option value="$PROJECT_DIR$/runtime" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/mysite/static/css/Style.css" />
         <option value="$PROJECT_DIR$/Pipfile" />
         <option value="$PROJECT_DIR$/runtime.txt" />
@@ -128,12 +170,13 @@
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/mysite/overall_result.py" />
         <option value="$PROJECT_DIR$/mysite/models.py" />
-        <option value="$PROJECT_DIR$/mysite/templates/mysite/index.html" />
         <option value="$PROJECT_DIR$/mysite/views.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/mysite/index.html" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="177" />
     <option name="y" value="68" />
     <option name="width" value="924" />
@@ -151,17 +194,6 @@
             <path>
               <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
               <item name="Katambe Limited" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Katambe Limited" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Katambe Limited" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,9 +234,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/myvenv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mysite" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mysite/tests.py" />
@@ -255,8 +287,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="24" width="1366" height="743" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19150522" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -279,21 +310,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12816691" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19150522" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24962743" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.81260365" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49925485" weight="0.9270315" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007452" side_tool="true" weight="0.3283582" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014903" side_tool="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32935917" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49850968" weight="0.9270315" />
     </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
@@ -468,24 +499,10 @@
     <entry file="file://$PROJECT_DIR$/katambe/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/runtime.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/templates/mysite/gamecard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/static/css/prono.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -524,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/katambe/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -545,12 +555,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/static/css/prono.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4532">
+          <caret line="206" column="93" selection-start-line="206" selection-end-line="206" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/templates/mysite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+        <state relative-caret-position="990">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#i#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#td#5;n#tr#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -569,10 +595,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="77" column="32" lean-forward="true" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        <state relative-caret-position="22">
+          <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -581,8 +614,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="101" column="17" lean-forward="true" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+        <state relative-caret-position="220">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
