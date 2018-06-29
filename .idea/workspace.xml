@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/mysite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/mysite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/activate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/activate.csh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/activate.fish" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/easy_install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/easy_install-3.6" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/easy_install-3.6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/pip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/pip3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/pip3.6" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/pip3.6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/python" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/python" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/python3" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/python3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/pip-10.0.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/pip-10.0.1.dist-info/RECORD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/easy_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/easy_install.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/egg_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/egg_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/install_egg_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/install_egg_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/install_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/install_lib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/dist.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/dist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/monkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/monkey.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/package_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/package_index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/pep425tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/pep425tags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/wheel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,16 +28,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state>
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runtime.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
@@ -160,7 +136,6 @@
         <option value="$PROJECT_DIR$/runtime" />
         <option value="$PROJECT_DIR$/mysite/static/css/Style.css" />
         <option value="$PROJECT_DIR$/Pipfile" />
-        <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/mysite/templates/mysite/base_html.html" />
         <option value="$PROJECT_DIR$/mysite/static/css/prono.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -173,10 +148,11 @@
         <option value="$PROJECT_DIR$/mysite/views.py" />
         <option value="$PROJECT_DIR$/mysite/templates/mysite/index.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/runtime.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="177" />
     <option name="y" value="68" />
     <option name="width" value="924" />
@@ -287,7 +263,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="743" extended-state="7" />
+    <frame x="0" y="24" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19150522" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -595,10 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runtime.txt">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -612,10 +589,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
