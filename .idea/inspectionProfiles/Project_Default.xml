@@ -4,7 +4,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="104">
+          <list size="105">
             <item index="0" class="java.lang.String" itemvalue="tabulate" />
             <item index="1" class="java.lang.String" itemvalue="PyYAML" />
             <item index="2" class="java.lang.String" itemvalue="apparmor" />
@@ -109,6 +109,7 @@
             <item index="101" class="java.lang.String" itemvalue="pyxattr" />
             <item index="102" class="java.lang.String" itemvalue="openpyxl" />
             <item index="103" class="java.lang.String" itemvalue="stem" />
+            <item index="104" class="java.lang.String" itemvalue="setuptools" />
           </list>
         </value>
       </option>

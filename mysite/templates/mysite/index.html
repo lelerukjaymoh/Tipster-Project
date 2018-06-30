@@ -20,7 +20,7 @@
     </td>
     <td class="forecasts-free__table-cell forecasts-free__table-cell_coefficient">
         <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">
-            {{ game.odd2}}
+            {{ game.win_odd }}
         </a>
     </td>
     <td class="forecasts-free__table-cell forecasts-free__table-cell_tips">
@@ -39,13 +39,13 @@
         <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/" style="color: #08b204;">Win</a>
         {% endif %}
         {% if game.result_overall == 'drawwin' %}
-        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">Draw</a>
+        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/" style="color: #08b204;">Draw</a>
         {% endif %}
         {% if game.result_overall == 'drawlose' or game.result_overall == 'homelose' or game.result_overall == 'awaylose' or game.result_overall == '12lose' %}
         <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/" style="font-size: 13px;color: #c9c9c9;">Lose</a>
         {% endif %}
         {% if game.result_overall == 'no_results_yet' %}
-        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">No results</a>
+        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">Pending</a>
         {% endif %}
     </td>
 </tr>
