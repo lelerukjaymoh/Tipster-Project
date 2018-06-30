@@ -23,33 +23,34 @@ def homepage_today(request):
 
 
 def before_yesterday(request):
-    today = topnavselector()
-    res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day - 2, today.month, today.year))
-    match_date = today.day - 2  # date when the match is played
+    today = topnavselector() - timedelta(days=2)
+    res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
+    match_date = today.day   # date when the match is played
     games = parser(res, match_date)
     return render(request, 'mysite/index.html', {"games": games})
 
 
 def yesterday(request):
-    today = topnavselector()
-    res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day - 1, today.month, today.year))
-    match_date = today.day - 1  # date when the match is played
+    today = topnavselector() - timedelta(days=1)
+    res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
+    match_date = today.day  # date when the match is played
     games = parser(res, match_date)
     return render(request, 'mysite/index.html', {"games": games})
 
 
 def tomorrow(request):
-    today = topnavselector()
-    res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day + 1, today.month, today.year))
-    match_date = today.day + 1  # date when the match is played
+    today = topnavselector() + timedelta(days=1)
+    res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
+    match_date = today.day  # date when the match is played
     games = parser(res, match_date)
     return render(request, 'mysite/index.html', {"games": games})
 
 
 def after_tomorrow(request):
-    today = topnavselector()
-    res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day + 2, today.month, today.year))
-    match_date = today.day + 2  # date when the match is played
+    today = topnavselector() + timedelta(days=2)
+    res = requests.get(
+        'http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
+    match_date = today.day   # date when the match is played
     games = parser(res, match_date)
     return render(request, 'mysite/index.html', {"games": games})
 
