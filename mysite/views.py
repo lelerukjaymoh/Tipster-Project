@@ -185,5 +185,5 @@ def parser(res, match_date):
                                   result_overall=overall_result()[0])
                     prono.save()
 
-        games = Prono.objects.filter(match_date=match_date).order_by('time', 'id')[:games_number]
+        games = Prono.objects.filter(match_date=match_date).order_by('time')[:games_number]
         return games
