@@ -19,8 +19,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="185" column="32" lean-forward="true" selection-start-line="185" selection-start-column="32" selection-end-line="185" selection-end-column="32" />
+            <state relative-caret-position="357">
+              <caret line="187" column="80" selection-start-line="187" selection-start-column="80" selection-end-line="187" selection-end-column="80" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -297,7 +297,7 @@
     <frame x="0" y="24" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19150522" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19150522" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5014903" side_tool="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -606,8 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="185" column="32" lean-forward="true" selection-start-line="185" selection-start-column="32" selection-end-line="185" selection-end-column="32" />
+        <state relative-caret-position="357">
+          <caret line="187" column="80" selection-start-line="187" selection-start-column="80" selection-end-line="187" selection-end-column="80" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
