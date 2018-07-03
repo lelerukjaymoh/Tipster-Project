@@ -240,7 +240,8 @@ span.user_name{
 }
 .forecasts-free__table-foot .forecasts-free__table-cell a{
     display:inline-block;
-    padding-right:25px;height:18px;
+    padding-right:25px;
+    height:18px;
     font-size:11px;
     line-height:18px;
 
