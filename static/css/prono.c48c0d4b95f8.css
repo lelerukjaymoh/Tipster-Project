@@ -18,7 +18,7 @@ body {
     background-color:#101115;
     font-size: 16px;
     color: #202020;
-   /* background: url(assets/bg4.jpg) no-repeat 50% 50%;
+   /* background: url("assets/bg4.b1d0897dcd57.jpg") no-repeat 50% 50%;
    background-size:cover;*/
    padding-top: 0.01px;
    font-family: Arial, sans-serif;
@@ -249,7 +249,7 @@ end of tabs
 #content .item {
     width: 976px;
     height: 118px;
-    background: url(assets/x7.png) no-repeat 0 0;
+    background: url("assets/x7.72ca5f94a1bb.png") no-repeat 0 0;
     margin: -28px 0 0 -19px;
     position: relative;
     z-index: 10;

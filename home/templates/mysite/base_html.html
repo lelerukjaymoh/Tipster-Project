@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="utf8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="description" content=""/>
+    <title> Prono Classic </title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/prono.css' %}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+</head>
+<body>
+<nav>
+    <!-- brand name -->
+    <div class="nav_brand">
+        <a class="DqHeader__logo" href=" ">
+            <div class="Logo__logo">
+                <div class="rocket"></div>
+                <div class="dq_text">Prono</div>
+            </div>
+        </a>
+    </div>
+    <!-- middle bar -->
+    <div class="nav__middle"></div>
+
+    <!-- Left hand side --Complecated -->
+    <div class="nav_profile">
+        <!-- Get help section -->
+        <div title="Get Help" class="MenuDropdown__menu_close">
+            <div class="IntercomLauncher__body">
+                    <span class=""
+                          style="display: inline-block; width: 32px; height: 32px; border-radius: 500px; background-color: #101e04;"></span>
+            </div>
+        </div>
+        <!-- Notification section -->
+        <div class="MenuDropdown__menu_close">
+            <div class="NotificationLink__root">
+                <span class="dqicon dqicon-alerts undefined" style="width: 32px height:32px"></span>
+            </div>
+        </div>
+        <!-- Connection Indicator -->
+        <div class="MenuDropdown__menu_close">
+            <div class="ConnectionIndicator__root" title="Connection Status Details">
+                <div class="ConnectionIndicator__good"
+                     style="display: inline-block; width: 32px; height: 32px; border-radius: 500px; background-color: #101e04;"></div>
+            </div>
+        </div>
+        <!-- User Profile Section -->
+        <div class="MenuDropdown__menu_close">
+            <div class="meta-light DqHeader__user_box">
+                <!-- User Image/Icon -->
+                <div class="sb-avatar" style="display: inline-block; width: 32px; height: 32px; border-radius: 500px;">
+                    <img width="32" height="32"
+                         src="https://secure.gravatar.com/avatar/34fdf268f6b275d475af750edcf1fcf4?s=32&amp;d=404"
+                         alt="Dennis" style="max-width: 100%; width: 32px; height: 32px; border-radius: 500px;">
+                </div>
+                <!-- name and drop down -->
+                <span class="user_name">Dennis <span class="dqicon dqicon-caret-down undefined"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="spacer">
+
+</div>
+<section id="content">
+    <div class="wrap">
+        <!--<div class="tabs">-->
+            <!--<a href="/before_yesterday/" class="tabs__link">23.06</a>-->
+            <!--<a href="/yesterday/" class="tabs__link">Yesterday</a>-->
+            <!--<a href="/" class="tabs__link tabs__link_active">Today</a>-->
+            <!--<a href="/tomorrow/" class="tabs__link">Tomorrow</a>-->
+            <!--<a href="/after_tomorrow/" class="tabs__link">27.06</a>-->
+
+        <!--</div>-->
+        <div class="forecasts-free">
+            <table class="forecasts-free__table">
+                <thead class="forecasts-free__table-head">
+                <tr class="forecasts-free__table-row">
+                    <th class="forecasts-free__table-cell">Date</th>
+                    <th class="forecasts-free__table-cell">Game</th>
+                    <th class="forecasts-free__table-cell">Odds</th>
+                    <th class="forecasts-free__table-cell">Tips</th>
+                    <th class="forecasts-free__table-cell">Result</th>
+                </tr>
+                </thead>
+                <tbody class="forecasts-free__table-body">
+                {% block content %}
+
+                {% endblock %}
+
+                </tbody>
+                <tfoot class="forecasts-free__table-foot">
+                <tr class="forecasts-free__table-row">
+                    <td colspan="6" class="forecasts-free__table-cell"><a href="/football/">ALL FOOTBALL PREDICTIONS</a>
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
