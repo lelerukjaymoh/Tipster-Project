@@ -6,7 +6,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = [
@@ -14,12 +13,14 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
+
             name='Prono',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('date', models.DateTimeField()),
-                ('time', models.DateTimeField()),
-                ('teams', models.CharField(max_length=800)),
+                ('date', models.CharField(max_length=40)),
+                ('match_date', models.CharField(max_length=40)),
+                ('time', models.CharField(max_length=40)),
+                ('teams', models.CharField(max_length=400)),
                 ('prob1', models.CharField(max_length=40)),
                 ('probX', models.CharField(max_length=40)),
                 ('prob2', models.CharField(max_length=40)),
@@ -27,7 +28,11 @@ class Migration(migrations.Migration):
                 ('odd1', models.CharField(max_length=40)),
                 ('oddX', models.CharField(max_length=40)),
                 ('odd2', models.CharField(max_length=40)),
-                ('result', models.CharField(max_length=40)),
-            ],
-        ),
+                ('win_odd', models.CharField(max_length=20)),
+                ('match_result', models.CharField(max_length=40)),
+                ('result_home', models.CharField(max_length=10)),
+                ('result_away', models.CharField(max_length=10)),
+                ('result_overall', models.CharField(max_length=20)),
+            ]
+        )
     ]
