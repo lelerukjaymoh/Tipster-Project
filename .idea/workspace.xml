@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2/_psycopg.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2/_psycopg.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/pip-selfcheck.json" afterDir="false" />
-    </list>
+    <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
