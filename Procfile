@@ -1,1 +1,1 @@
-web: gunicorn katambe.wsgi --log-file -
+web: gunicorn home.wsgi --log-file -
