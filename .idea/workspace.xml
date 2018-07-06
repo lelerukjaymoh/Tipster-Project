@@ -2,67 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/katambe/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/katambe/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/katambe/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/katambe/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0002_auto_20180621_1935.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0003_auto_20180622_2020.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0004_auto_20180626_1233.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0005_prono_result_overall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0006_prono_match_result.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0007_auto_20180630_0019.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0008_auto_20180630_0023.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0009_auto_20180630_0025.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0010_auto_20180630_0029.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0011_auto_20180630_0030.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0012_auto_20180630_0038.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0013_auto_20180630_0056.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0014_prono_match_date.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0015_auto_20180630_0312.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/0016_prono_win_odd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/overall_result.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/bg4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/bg5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/bg6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/bg8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/pexels-photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/x2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/x3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/x4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/x5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/x6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/x7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/assets/x8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/static/css/prono.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/mysite/base_html.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/templates/mysite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/activate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/activate.csh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/activate.fish" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/chardetect" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/chardetect" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/django-admin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/django-admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/easy_install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/pip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/pip3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/prono.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/prono.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/prono.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/prono.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/staticfiles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2/_psycopg.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2/_psycopg.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/pip-selfcheck.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,11 +32,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prono.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prono.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/static/css/prono.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+            <state relative-caret-position="500">
+              <caret line="253" column="1" selection-start-line="253" selection-start-column="1" selection-end-line="253" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0015_auto_20180630_0312.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/migrations/0015_auto_20180630_0312.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0016_prono_win_odd.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/migrations/0016_prono_win_odd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0014_prono_match_date.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/migrations/0014_prono_match_date.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0013_auto_20180630_0056.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/migrations/0013_auto_20180630_0056.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -109,7 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>background</find>
       <find>coefficient</find>
       <find>pin</find>
       <find>img</find>
@@ -139,6 +139,7 @@
       <find>forecasts-free__table-foot</find>
       <find>forecasts-free__table-row</find>
       <find>height</find>
+      <find>secret_</find>
     </findStrings>
     <replaceStrings>
       <replace>Prono</replace>
@@ -178,12 +179,12 @@
         <option value="$PROJECT_DIR$/prono_app/settings.py" />
         <option value="$PROJECT_DIR$/mysite/wsgi.py" />
         <option value="$PROJECT_DIR$/home/admin.py" />
-        <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/home/templates/mysite/index.html" />
         <option value="$PROJECT_DIR$/home/templates/mysite/base_html.html" />
         <option value="$PROJECT_DIR$/home/views.py" />
         <option value="$PROJECT_DIR$/home/static/css/prono.css" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
       </list>
     </option>
   </component>
@@ -208,26 +209,7 @@
             <path>
               <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
               <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,7 +311,7 @@
     <frame x="0" y="24" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3971684" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3971684" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014903" side_tool="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -400,22 +382,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/apps.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -464,27 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0015_auto_20180630_0312.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0014_prono_match_date.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0013_auto_20180630_0056.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/migrations/0006_prono_match_result.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -507,13 +454,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/migrations/0003_auto_20180622_2020.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0016_prono_win_odd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="10" column="41" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="41" />
@@ -591,8 +531,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/static/css/prono.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+        <state relative-caret-position="500">
+          <caret line="253" column="1" selection-start-line="253" selection-start-column="1" selection-end-line="253" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/migrations/0013_auto_20180630_0056.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/migrations/0014_prono_match_date.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/migrations/0016_prono_win_odd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/migrations/0015_auto_20180630_0312.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
         </state>
       </provider>
     </entry>
