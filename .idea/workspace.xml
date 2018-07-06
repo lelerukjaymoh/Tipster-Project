@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0002_auto_20180621_1935.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0003_auto_20180622_2020.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0004_auto_20180626_1233.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0005_prono_result_overall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0006_prono_match_result.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0007_auto_20180630_0019.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0008_auto_20180630_0023.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0009_auto_20180630_0025.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0010_auto_20180630_0029.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0011_auto_20180630_0030.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0012_auto_20180630_0038.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0013_auto_20180630_0056.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0014_prono_match_date.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0015_auto_20180630_0312.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0016_prono_win_odd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,27 +46,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
+            <state relative-caret-position="238">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0001_initial.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="0001_initial.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/migrations/0001_initial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="173">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/migrations/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -125,8 +104,8 @@
       <find>forecasts-free__table-cell_result</find>
       <find>forecasts-free__table-foot</find>
       <find>forecasts-free__table-row</find>
-      <find>height</find>
       <find>secret_</find>
+      <find>height</find>
     </findStrings>
     <replaceStrings>
       <replace>Prono</replace>
@@ -171,8 +150,8 @@
         <option value="$PROJECT_DIR$/home/templates/mysite/base_html.html" />
         <option value="$PROJECT_DIR$/home/views.py" />
         <option value="$PROJECT_DIR$/home/static/css/prono.css" />
-        <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/home/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
       </list>
     </option>
   </component>
@@ -546,9 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -559,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="23" column="83" selection-start-line="23" selection-start-column="83" selection-end-line="23" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -573,10 +542,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/home/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="173">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>
