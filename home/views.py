@@ -111,7 +111,8 @@ def parser(res, match_date):
 
                 def overall_result():
                     if result_home == 'no_result' or result_away == 'no_result':
-                        return 'no_results_yet'
+                        win_odd = game_info[0][11].split(":")[1]
+                        return ['no_results_yet', win_odd]
                     else:
                         if game_info[0][8] == 'X':
                             win_odd = game_info[0][11].split(":")[1]

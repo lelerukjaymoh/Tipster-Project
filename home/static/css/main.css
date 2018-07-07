@@ -261,10 +261,13 @@ a{
 .icon_success{
 	background-image:url(assets/icon-success.svg)
 }
-.icon_failure,.icon_success{
+.icon_pending,.icon_failure,.icon_success{
 	width:15px;height:15px;
 	border-radius:50%
 }
 .icon_failure{
-	background-image:url(assets/icon-failure.svg)
+	background-image:url(assets/icon-failure.svg);
+}
+.icon_pending{
+	background-image:url(assets/pending.svg)
 }
