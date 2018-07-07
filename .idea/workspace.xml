@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,11 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="188" column="88" selection-start-line="188" selection-start-column="88" selection-end-line="188" selection-end-column="88" />
+            <state relative-caret-position="202">
+              <caret line="178" column="42" lean-forward="true" selection-start-line="178" selection-start-column="42" selection-end-line="178" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -153,13 +162,13 @@
         <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/home/templates/mysite/base_html.html" />
         <option value="$PROJECT_DIR$/home/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/home/overall_result.py" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/home/static/css/prono.css" />
         <option value="$PROJECT_DIR$/home/static/css/main.css" />
         <option value="$PROJECT_DIR$/home/templates/mysite/index.html" />
         <option value="$PROJECT_DIR$/home/views.py" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
       </list>
     </option>
   </component>
@@ -180,37 +189,6 @@
             <path>
               <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
               <item name="prono" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
@@ -424,13 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -515,8 +486,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="188" column="88" selection-start-line="188" selection-start-column="88" selection-end-line="188" selection-end-column="88" />
+        <state relative-caret-position="202">
+          <caret line="178" column="42" lean-forward="true" selection-start-line="178" selection-start-column="42" selection-end-line="178" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
