@@ -1,58 +1,73 @@
-{% extends 'mysite/base_html.html' %}
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hustler Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900&amp;subset=cyrillic-ext"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="/assets/css/mobile/normalize.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body data-gr-c-s-loaded="true">
+<header class="header">
+    <a href="/" class="header__link">
+        <span class="header__text">BEST SPORT</span>
+        <div class="header__logo"></div>
+        <span class="header__text">PREDICTIONS</span>
+    </a>
+</header>
+<main class="home">
+    <div class="content">
+        <div class="tabs">
+            <a class="tabs__tab " href="/yesterday/">Yesterday</a>
+            <a class="tabs__tab tabs__tab_active" href="/">Today</a>
+            <a class="tabs__tab " href="/tomorrow/">Tomorrow</a>
+        </div>
+        <div class="forecasts  forecasts_top ">
+            <h2 class="forecasts__title">
+                <i class="icon icon_soccer"></i>
+                <span class="forecasts__sport">Football</span>
+                <span class="forecasts__day">Today</span>
+                <span class="forecasts__coefficient">Odds</span>
+            </h2>
+            <div class="forecasts__list">
+                {% for game in games %}
+                <a href="/football/brazil/brasileiro-serie-b/vila-nova-londrina-06-07-2018/" class="forecasts__item">
+                    <h4 class="forecasts__teams">{{ game.teams }}</h4>
+                    <span class="forecasts__league">
+							<span class="forecasts__date">
+								{{ game.time }}
+							</span>
+							Brazil - Brasileiro Serie B
+						</span>
+                    {% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' %}
+                    <i class="forecasts__result icon icon_success"></i>
+                    {% endif %}
+                    {% if game.result_overall == 'drawwin' %}
+                    <i class="forecasts__result icon icon_success"></i>
+                    {% endif %}
+                    {% if game.result_overall == 'drawlose' or game.result_overall == 'homelose' or game.result_overall == 'awaylose' or game.result_overall == '12lose' %}
 
-{% block content %}
-{% for game in games %}
-<tr class="forecasts-free__table-row forecasts-free__table-row_free">
-    <td class="forecasts-free__table-cell">
-        <span class="forecasts-free__table-cell-time">
-        <b> {{ game.date }} </b>
-        {{ game.time }}
-        </span>
-    </td>
-    <td class="forecasts-free__table-cell forecasts-free__table-cell_description">
-        <span class="forecasts-free__table-cell-links">
-            Australia - NPL, Victoria
-        </span>
-        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/"
-           class="forecasts-free__table-cell-match">
-            Match prediction
-            <span class="teams">{{ game.teams }} </span>
-        </a>
-    </td>
-    <td class="forecasts-free__table-cell forecasts-free__table-cell_coefficient">
-        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">
-            {{ game.win_odd }}
-        </a>
-    </td>
-    <td class="forecasts-free__table-cell forecasts-free__table-cell_tips">
-        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">
-            {{ game.chance }}
-        </a>
-    </td>
-    <td class="forecasts-free__table-cell forecasts-free__table-cell_tips">
-        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">
-            {{ game.match_result }}
-        </a>
-    </td>
+                    <i class="forecasts__result icon icon_failure"></i>
+                    {% endif %}
+                    {% if game.result_overall == 'no_results_yet' %}
+                    <i class="forecasts__result icon icon_failure"></i>
+                    {% endif %}
+                    <span
+                            class="forecasts__coeff forecasts__coeff_free">{{ game.win_odd }}</span>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
 
-    <td class="forecasts-free__table-cell forecasts-free__table-cell_result">
-        {% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' %}
-        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/" style="color:#08b204;">Win</a>
-        {% endif %}
-        {% if game.result_overall == 'drawwin' %}
-        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/" style="color: #08b204;">Draw</a>
-        {% endif %}
-        {% if game.result_overall == 'drawlose' or game.result_overall == 'homelose' or game.result_overall == 'awaylose' or game.result_overall == '12lose' %}
-        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/"
-           style="font-size: 13px;color: #c9c9c9; text-decoration: underline;">Lose</a>
-        {% endif %}
-        {% if game.result_overall == 'no_results_yet' %}
-        <a href="/football/australia/npl-victoria/avondale-p-melbourne-23-06-2018/">Pending</a>
-        {% endif %}
-    </td>
-</tr>
-{% endfor %}
-{% endblock %}
+    </div>
 
+</main>
 
-
+</body>
+</html>
