@@ -20,8 +20,8 @@
       <file leaf-file-name="prono.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home/static/css/prono.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+            <state relative-caret-position="334">
+              <caret line="147" column="34" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
       <file leaf-file-name="base_html.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/mysite/base_html.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+            <state relative-caret-position="1540">
+              <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -152,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,7 +187,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,12 +311,8 @@
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/runtime.txt" />
     <entry file="file://$PROJECT_DIR$/requirements.txt" />
-    <entry file="file://$PROJECT_DIR$/home/migrations/0007_auto_20180630_0019.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0008_auto_20180630_0023.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/home/migrations/0007_auto_20180630_0019.py" />
+    <entry file="file://$PROJECT_DIR$/home/migrations/0008_auto_20180630_0023.py" />
     <entry file="file://$PROJECT_DIR$/mysite/templates/mysite/gamecard.html" />
     <entry file="file://$USER_HOME$/get-pip.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -332,50 +328,14 @@
     <entry file="file://$PROJECT_DIR$/mysite/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0012_auto_20180630_0038.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0010_auto_20180630_0029.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0009_auto_20180630_0025.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0011_auto_20180630_0030.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0006_prono_match_result.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0005_prono_result_overall.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0004_auto_20180626_1233.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0003_auto_20180622_2020.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/home/migrations/0012_auto_20180630_0038.py" />
+    <entry file="file://$PROJECT_DIR$/home/migrations/0010_auto_20180630_0029.py" />
+    <entry file="file://$PROJECT_DIR$/home/migrations/0009_auto_20180630_0025.py" />
+    <entry file="file://$PROJECT_DIR$/home/migrations/0011_auto_20180630_0030.py" />
+    <entry file="file://$PROJECT_DIR$/home/migrations/0006_prono_match_result.py" />
+    <entry file="file://$PROJECT_DIR$/home/migrations/0005_prono_result_overall.py" />
+    <entry file="file://$PROJECT_DIR$/home/migrations/0004_auto_20180626_1233.py" />
+    <entry file="file://$PROJECT_DIR$/home/migrations/0003_auto_20180622_2020.py" />
     <entry file="file://$PROJECT_DIR$/home/static/css/assets/bg8.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -409,48 +369,15 @@
     <entry file="file://$PROJECT_DIR$/home/static/css/assets/pexels-photo.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0013_auto_20180630_0056.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0014_prono_match_date.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0016_prono_win_odd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0015_auto_20180630_0312.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/0002_auto_20180621_1935.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/home/migrations/0013_auto_20180630_0056.py" />
+    <entry file="file://$PROJECT_DIR$/home/migrations/0014_prono_match_date.py" />
+    <entry file="file://$PROJECT_DIR$/home/migrations/0016_prono_win_odd.py" />
+    <entry file="file://$PROJECT_DIR$/home/migrations/0015_auto_20180630_0312.py" />
+    <entry file="file://$PROJECT_DIR$/home/migrations/0002_auto_20180621_1935.py" />
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -475,9 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,9 +419,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/overall_result.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/home/overall_result.py" />
     <entry file="file://$PROJECT_DIR$/home/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -522,20 +444,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/undercode/home/static/css/prono.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="15" lean-forward="true" selection-end-line="429" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/undercode/home/static/css/prono.css" />
     <entry file="file://$PROJECT_DIR$/home/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="183" column="68" selection-start-line="183" selection-start-column="68" selection-end-line="183" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,15 +466,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/mysite/base_html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        <state relative-caret-position="1540">
+          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/static/css/prono.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        <state relative-caret-position="334">
+          <caret line="147" column="34" selection-start-line="147" selection-start-column="34" selection-end-line="147" selection-end-column="34" />
         </state>
       </provider>
     </entry>

@@ -80,10 +80,8 @@ body {
     font-size: 16px;
     color: #202020;
     font-family: Arial, sans-serif;
-    overflow: hidden;
+    
 }
-
-
 #content {
    margin: 0;
    padding: 0;
@@ -96,7 +94,7 @@ body {
 }
 
 #content .wrap {
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
     padding: 30px 0 0 10px;
 }
@@ -147,7 +145,7 @@ body {
     border-collapse:collapse;
     background-color:#f7f7f7;
     border-bottom:1px solid #ccc;
-    border-radius:0px 20px;
+    border-top-right-radius: 29px;
 }
 .forecasts-free__table-body tr:nth-child(odd){
 background:#ffffff;
@@ -161,7 +159,7 @@ background:#EFEFEF;
     border:1px solid #d5d5d5;
 }
 .forecasts-free__table-cell:first-child{
-    width:70px;
+        width:70px;
     border-left:none;
 }
 .forecasts-free__table-cell:nth-child(2){
