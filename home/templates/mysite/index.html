@@ -45,13 +45,15 @@
 							</span>
 							Brazil - Brasileiro Serie B
 						</span>
-                    {% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' %}
+                    {% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall ==
+                    '12win' %}
                     <i class="forecasts__result icon icon_success" title="won"></i>
                     {% endif %}
                     {% if game.result_overall == 'drawwin' %}
                     <i class="forecasts__result icon icon_success" title="won"></i>
                     {% endif %}
-                    {% if game.result_overall == 'drawlose' or game.result_overall == 'homelose' or game.result_overall == 'awaylose' or game.result_overall == '12lose' %}
+                    {% if game.result_overall == 'drawlose' or game.result_overall == 'homelose' or game.result_overall
+                    == 'awaylose' or game.result_overall == '12lose' %}
 
                     <i class="forecasts__result icon icon_failure" title="lost"></i>
                     {% endif %}
@@ -68,6 +70,25 @@
     </div>
 
 </main>
+<nav class="navigation">
+    <a href="/" class="navigation__link">
+        <i class="icon icon_free  "></i>
+        <span class="navigation__text">Free tips</span>
+    </a>
+    <a href="/premium/" class="navigation__link">
+        <i class="icon icon_premium  "></i>
+        <span class="navigation__text">Premium</span>
+    </a>
+    <a href="/guarantee/" class="navigation__link">
+        <i class="icon icon_guarantee  "></i>
+        <span class="navigation__text">Guarantee</span>
+    </a>
+    <a href="/user/register/" class="navigation__link">
+        <i class="icon icon_login  "></i>
+        <span class="navigation__text">Sign Up</span>
+    </a>
+
+</nav>
 
 </body>
 </html>
