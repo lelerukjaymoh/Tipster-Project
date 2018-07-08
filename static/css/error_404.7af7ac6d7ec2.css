@@ -7,8 +7,12 @@ body{
 	width: 100%;
 	font-family: Roboto,Arial,sans-serif;
 	background-color: #e5e5e5;
+	vertical-align: center;
 	text-align: center;
 	line-height: 40px;
+}
+h4{
+margin-top: 50px;
 }
 .bg1{
 	background: url("assets/bg11.2f79631aa9fd.jpeg") no-repeat 50% 50%;
