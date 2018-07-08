@@ -17,15 +17,7 @@ def topnavselector():
 def homepage_today(request):
     today = topnavselector()
     res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
-    match_date = today.day  # date when the match is played
-    games = parser(res, match_date)
-    return render(request, 'mysite/index.html', {"games": games})
-
-
-def before_yesterday(request):
-    today = topnavselector() - timedelta(days=2)
-    res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
-    match_date = today.day   # date when the match is played
+    match_date = today.strftime("%d-%m")  # date when the match is
     games = parser(res, match_date)
     return render(request, 'mysite/index.html', {"games": games})
 
@@ -33,7 +25,7 @@ def before_yesterday(request):
 def yesterday(request):
     today = topnavselector() - timedelta(days=1)
     res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
-    match_date = today.day  # date when the match is played
+    match_date = today.strftime("%d-%m")  # date when the match is played
     games = parser(res, match_date)
     return render(request, 'mysite/index.html', {"games": games})
 
@@ -41,16 +33,7 @@ def yesterday(request):
 def tomorrow(request):
     today = topnavselector() + timedelta(days=1)
     res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
-    match_date = today.day  # date when the match is played
-    games = parser(res, match_date)
-    return render(request, 'mysite/index.html', {"games": games})
-
-
-def after_tomorrow(request):
-    today = topnavselector() + timedelta(days=2)
-    res = requests.get(
-        'http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
-    match_date = today.day   # date when the match is played
+    match_date = today.strftime("%d-%m")  # date when the match is played
     games = parser(res, match_date)
     return render(request, 'mysite/index.html', {"games": games})
 
@@ -153,39 +136,14 @@ def parser(res, match_date):
 
                 result_home = str(result_home)
                 result_away = str(result_away)
-                try:
-                    prono = Prono.objects.get(date=game_info[0][0], match_date=match_date, time=formatted_date,
-                                              teams=game_info[0][2],
-                                              prob1=game_info[0][4], probX=game_info[0][5], prob2=game_info[0][6],
-                                              chance=game_info[0][8], odd1=game_info[0][10], oddX=game_info[0][11],
-                                              odd2=game_info[0][12], result_home=result_home,
-                                              result_away=result_away, match_result=game_info[0][14],
-                                              win_odd=overall_result()[1], result_overall=overall_result()[0])
-                    prono.date = game_info[0][0]
-                    match_date = match_date
-                    prono.time = formatted_date
-                    prono.teams = game_info[0][2]
-                    prono.probX = game_info[0][5]
-                    prono.prob2 = game_info[0][6]
-                    prono.chance = game_info[0][8]
-                    prono.odd1 = game_info[0][10]
-                    prono.oddX = game_info[0][11]
-                    prono.odd2 = game_info[0][12]
-                    prono.win_odd = overall_result()[1]
-                    prono.result_home = result_home
-                    prono.result_away = result_away
-                    prono.match_result = game_info[0][14]
-                    prono.result_overall = overall_result()[0]
-                    prono.save()
-                except Prono.DoesNotExist:
-                    prono = Prono(date=game_info[0][0], match_date=match_date, time=formatted_date,
-                                  teams=game_info[0][2],
-                                  prob1=game_info[0][4], probX=game_info[0][5], prob2=game_info[0][6],
-                                  chance=game_info[0][8], odd1=game_info[0][10], oddX=game_info[0][11],
-                                  odd2=game_info[0][12], win_odd=overall_result()[1], result_home=result_home,
-                                  result_away=result_away, match_result=game_info[0][14],
-                                  result_overall=overall_result()[0])
-                    prono.save()
 
-        games = Prono.objects.filter(match_date=match_date).order_by('id')[:games_number]
+                obj, created = Prono.objects.update_or_create(
+                    teams=game_info[0][2],
+                    defaults={'match_date': match_date, 'time': formatted_date,
+                              'teams': game_info[0][2], 'chance': game_info[0][8],
+                              'odd1': game_info[0][10], 'oddX': game_info[0][11],
+                              'odd2': game_info[0][12], 'win_odd': overall_result()[1],
+                              'match_result': game_info[0][14], 'result_overall': overall_result()[0]})
+
+        games = Prono.objects.filter(match_date=match_date).order_by('time', 'teams')[:games_number]
         return games
