@@ -147,3 +147,13 @@ def parser(res, match_date):
 
         games = Prono.objects.filter(match_date=match_date).order_by('time', 'teams')[:games_number]
         return games
+
+
+def error_404(request):
+    data = {}
+    return render(request, 'mysite/error_404.html', {'data': data})
+
+
+def error_500(request):
+    data = {}
+    return render(request, 'mysite/error_505.html', {'data': data})
