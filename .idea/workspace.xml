@@ -2,13 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/home/static/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/error_404.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/error_404.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/prono.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/prono.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/mysite/error_404.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mysite/error_404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/mysite/error_505.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mysite/error_505.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/error_404.35e88c7e8c42.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/error_404.35e88c7e8c42.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/error_404.85a82476cfe6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/mysite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mysite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/Screenshot-from-2017-04-04-09-48-34-1024x501.fa6ba0e60dac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/Screenshot-from-2017-04-04-09-48-34-1024x501.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg.7a702ffd2352.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg10.3dbb0fec195d.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg11.2f79631aa9fd.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg11.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg21.68319c8a11d7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg21.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg22.c2fe3d683590.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg22.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg4.b1d0897dcd57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg5.fcdc84803889.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg6.bec5b4c24a57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg8.afe63836db8a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.de8106553eea.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.de8106553eea.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.075235595746.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.075235595746.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.32eef96a8549.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.32eef96a8549.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.96a51dda8e18.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.96a51dda8e18.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/images (1).c2fe3d683590.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/images (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.638cca9370fa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.638cca9370fa.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/pexels-photo.7031fc805d80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/pexels-photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x2.a0707480a71e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x3.34e51c27119f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x4.280c6652f875.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x5.50f843a5ff0d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x6.f104d7985d6a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x7.72ca5f94a1bb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x8.91ee3c7a421f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/error_404.7af7ac6d7ec2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/error_404.a270e225e692.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/error_404.a270e225e692.css.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/error_404.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/error_404.css.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.11c948605b35.css" beforeDir="false" />
@@ -21,9 +82,7 @@
       <change beforePath="$PROJECT_DIR$/static/css/prono.82debeeb2589.css.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/prono.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/prono.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/redirect.1434c74609bd.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/redirect.939ea82e1f49.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/redirect.d05f49e23f3e.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/redirect.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/staticfiles.json" afterDir="false" />
     </list>
@@ -39,11 +98,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="prono.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home/static/css/prono.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/mysite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1464">
-              <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+            <state relative-caret-position="411">
+              <caret line="36" column="88" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="88" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,29 +128,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base_html.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/templates/mysite/base_html.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="11" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="17" />
+            <state relative-caret-position="500">
+              <caret line="338" column="1" selection-start-line="338" selection-start-column="1" selection-end-line="338" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error_404.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="error_404.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/static/css/error_404.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
+            <state relative-caret-position="398">
               <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_html.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/templates/mysite/base_html.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -93,14 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error_505.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/templates/mysite/error_505.html">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#h4#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="242">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -108,8 +176,8 @@
       <file leaf-file-name="error_404.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/mysite/error_404.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+            <state relative-caret-position="385">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -117,8 +185,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="286">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -135,18 +203,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tim</find>
-      <find>forecasts-free__title</find>
-      <find>forecasts-free</find>
-      <find>kat</find>
-      <find>time</find>
-      <find>forecasts-free__table</find>
-      <find>forecasts-free__table-head</find>
-      <find>forecasts-free__table-cell</find>
-      <find>forecasts-free__table-row_vip</find>
-      <find>.forecasts-free__table-row</find>
-      <find>forecasts-free__table-row_won</find>
-      <find>.forecasts-free__table-row_won</find>
       <find>forecasts-free__table-row_loss</find>
       <find>forecasts-free__flag-icon</find>
       <find>forecasts-free__table-cell-links</find>
@@ -165,6 +221,18 @@
       <find>match_da</find>
       <find>formatte</find>
       <find>prob</find>
+      <find>z-index</find>
+      <find>gsign</find>
+      <find>alert</find>
+      <find>profile</find>
+      <find>MenuDropdown__menu_close</find>
+      <find>position</find>
+      <find>sb-avatar</find>
+      <find>meta-light</find>
+      <find>DqHeader__user_box</find>
+      <find>user_name</find>
+      <find>dqicon</find>
+      <find>dqicon-caret-down''</find>
     </findStrings>
     <replaceStrings>
       <replace>Prono</replace>
@@ -205,19 +273,20 @@
         <option value="$PROJECT_DIR$/home/templates/mysite/base_html.html" />
         <option value="$PROJECT_DIR$/home/overall_result.py" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/home/static/css/prono.css" />
         <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/home/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/home/static/css/main.css" />
-        <option value="$PROJECT_DIR$/home/templates/mysite/index.html" />
         <option value="$PROJECT_DIR$/home/urls.py" />
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/home/views.py" />
-        <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/home/static/js/redirect.js" />
         <option value="$PROJECT_DIR$/home/static/css/error_404.css" />
         <option value="$PROJECT_DIR$/home/templates/mysite/error_505.html" />
         <option value="$PROJECT_DIR$/home/templates/mysite/error_404.html" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/home/static/js/main.js" />
+        <option value="$PROJECT_DIR$/home/templates/mysite/index.html" />
+        <option value="$PROJECT_DIR$/home/static/css/main.css" />
+        <option value="$PROJECT_DIR$/home/static/css/prono.css" />
       </list>
     </option>
   </component>
@@ -256,6 +325,13 @@
               <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prono" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
@@ -414,7 +490,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home/migrations/0009_auto_20180630_0025.py" />
     <entry file="file://$PROJECT_DIR$/home/migrations/0011_auto_20180630_0030.py" />
     <entry file="file://$PROJECT_DIR$/home/migrations/0006_prono_match_result.py" />
     <entry file="file://$PROJECT_DIR$/home/migrations/0005_prono_result_overall.py" />
@@ -511,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/css/prono.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="78" column="14" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/migrations/0003_remove_prono_date.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -565,41 +633,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/mysite/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1464">
-          <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/mysite/base_html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="11" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/staticfiles.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/views.py">
+    <entry file="file://$PROJECT_DIR$/home/templates/mysite/error_505.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3300">
-          <caret line="158" column="44" selection-start-line="158" selection-start-column="44" selection-end-line="158" selection-end-column="44" />
+        <state>
+          <caret column="15" selection-start-column="14" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/mysite/error_404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -610,27 +660,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/mysite/error_505.html">
+    <entry file="file://$PROJECT_DIR$/home/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="3300">
+          <caret line="158" column="44" selection-start-line="158" selection-start-column="44" selection-end-line="158" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/mysite/error_404.html">
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="286">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/static/css/error_404.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
+        <state relative-caret-position="398">
           <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/mysite/base_html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="338" column="1" selection-start-line="338" selection-start-column="1" selection-end-line="338" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/mysite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="36" column="88" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/css/prono.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
         </state>
       </provider>
     </entry>
