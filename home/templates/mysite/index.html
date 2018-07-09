@@ -61,7 +61,8 @@
 							<span class="forecasts__date">
 								{{ game.time }}
 							</span>
-                        Match Prediction <b style="font-size:12px;word-spacing: 4px;"> {{ game.chance }}</b>
+                        Match Prediction <b style="font-size:12px;word-spacing: 4px;"> {{ game.chance }} </b>
+                        <i>Result:</i> <b style="font-size:12px;word-spacing: 4px;">{{ game.match_result }}</b>
 						</span>
                     {% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' %}
                     <i class="forecasts__result icon icon_success" title="won"></i>
