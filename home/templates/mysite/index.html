@@ -11,8 +11,9 @@
           rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
     <link rel="stylesheet" type="text/css" href="/assets/css/mobile/normalize.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
-     <!-- google login platform -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+            <!-- google login platform -->
     <script src="https://apis.google.com/js/client:platform.js?onload=renderButton" async defer></script>
     <!--custom js-->
     <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
@@ -24,20 +25,6 @@
         <div class="header__logo"></div>
         <span class="header__text">PREDICTIONS</span>
     </a>
-    <!-- User Profile Section -->
-        <div class="MenuDropdown__menu_close">
-            <div class="meta-light DqHeader__user_box">
-                <!-- User Image/Icon -->
-                <div class="sb-avatar" style="display: inline-block; width: 32px; height: 32px; border-radius: 500px;">
-                    <img id="dummyimage" width="32" height="32"
-                         src=""
-                         alt="" style="max-width: 100%; width: 32px; height: 32px; border-radius: 500px;">
-                </div>
-                <!-- name and drop down -->
-                <span class="user_name"> <span class="dqicon dqicon-caret-down undefined"></span>
-                </span>
-            </div>
-        </div>
 </header>
 <main class="home">
     <div class="content">
@@ -61,8 +48,7 @@
 							<span class="forecasts__date">
 								{{ game.time }}
 							</span>
-                        Match Prediction <b style="font-size:12px;word-spacing: 4px;"> {{ game.chance }} </b>
-                        <i>Result:</i> <b style="font-size:12px;word-spacing: 4px;">{{ game.match_result }}</b>
+							Brazil - Brasileiro Serie B
 						</span>
                     {% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' %}
                     <i class="forecasts__result icon icon_success" title="won"></i>
@@ -99,25 +85,12 @@
         <i class="icon icon_guarantee  "></i>
         <span class="navigation__text">Guarantee</span>
     </a>
-    <a href="#" role="button" class="navigation__link login">
-        <i class="icon icon_login login"></i>
-        <span class="navigation__text login">Log In</span>
+    <a href="/user/register/" class="navigation__link">
+        <i class="icon icon_login  "></i>
+        <span class="navigation__text">Log In</span>
     </a>
 
 </nav>
-<div id="resize">
- <!-- HTML for render Google Sign-In button -->
-<div id="gSignIn"></div>
-<!-- HTML for displaying user details -->
-<div class="userContent">
 
-</div>
-</div>
-<script>
-    $('.login').click(function() {
-			$(this).toggleClass('on');
-			$('#resize').toggleClass("active");
-		});
-</script>
 </body>
 </html>
