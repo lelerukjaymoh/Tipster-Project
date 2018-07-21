@@ -17,9 +17,10 @@ def topnavselector():
 def homepage_today(request):
     today = topnavselector()
     res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
-    match_date = today.strftime("%d-%m")  # date when the match is
+    match_date = today.strftime("%d-%m")  # date when the match is played
     games = parser(res, match_date)
-    return render(request, 'mysite/index.html', {"games": games})
+    request_from = "tod"
+    return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from})
 
 
 def yesterday(request):
@@ -27,7 +28,8 @@ def yesterday(request):
     res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
     match_date = today.strftime("%d-%m")  # date when the match is played
     games = parser(res, match_date)
-    return render(request, 'mysite/index.html', {"games": games})
+    request_from = "yest"
+    return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from})
 
 
 def tomorrow(request):
@@ -35,7 +37,8 @@ def tomorrow(request):
     res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
     match_date = today.strftime("%d-%m")  # date when the match is played
     games = parser(res, match_date)
-    return render(request, 'mysite/index.html', {"games": games})
+    request_from = "tom"
+    return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from})
 
 
 def parser(res, match_date):
@@ -157,3 +160,12 @@ def error_404(request):
 def error_500(request):
     data = {}
     return render(request, 'mysite/error_505.html', {'data': data})
+
+
+def featured(request):
+    today = topnavselector()
+    res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
+    match_date = today.strftime("%d-%m")  # date when the match is played
+    games = parser(res, match_date)
+    request_from = "tod"
+    return render(request, 'mysite/featured.html', {"games": games[:7], "request_tom": request_from})

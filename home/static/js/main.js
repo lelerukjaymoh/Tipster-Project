@@ -37,3 +37,14 @@ function signOut() {
         $('#gSignIn').slideDown('slow');
     });
 }
+$(document).ready(function() {
+$(".tabs__tab").each(function(){
+$(this).on("click", function(){
+   var clicked_tab = $(this);
+                $(".tabs__tab").not(clicked_tab).each(function(){
+                $(this).removeClass("tabs__tab_active");
+                });
+                $(this).addClass("tabs__tab_active");
+			});
+		});
+});

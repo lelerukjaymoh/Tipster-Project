@@ -2,9 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/home/templates/mysite/base_html.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mysite/base_html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/mysite/error_505.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mysite/error_505.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/mysite/featured.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/mysite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mysite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/Screenshot-from-2017-04-04-09-48-34-1024x501.fa6ba0e60dac.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/Screenshot-from-2017-04-04-09-48-34-1024x501.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/_linkedlist (2).40cb3504d008.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/_linkedlist (2).40cb3504d008.docx.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/_linkedlist (2).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/_linkedlist (2).docx.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg.7a702ffd2352.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg10.3dbb0fec195d.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg11.2f79631aa9fd.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg11.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg21.68319c8a11d7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg21.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg22.c2fe3d683590.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg22.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg4.b1d0897dcd57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg5.fcdc84803889.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg6.bec5b4c24a57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg8.afe63836db8a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/bg8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.de8106553eea.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.de8106553eea.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.075235595746.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.075235595746.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.32eef96a8549.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.32eef96a8549.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.96a51dda8e18.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.96a51dda8e18.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/images (1).c2fe3d683590.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/images (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.638cca9370fa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.638cca9370fa.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/pexels-photo.7031fc805d80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/pexels-photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x2.a0707480a71e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x3.34e51c27119f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x4.280c6652f875.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x5.50f843a5ff0d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x6.f104d7985d6a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x7.72ca5f94a1bb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x8.91ee3c7a421f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/assets/x8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/error_404.7af7ac6d7ec2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/error_404.a270e225e692.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/error_404.a270e225e692.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/error_404.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/error_404.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.145b93fb4133.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.200a8a7f32d3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.3b7ab6d4783c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.3d413a8183c8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.49ff174d405a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.658dff31cbed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.658dff31cbed.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.6a94a0c85e97.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.6a94a0c85e97.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.7dc654261cbc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.7dc654261cbc.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.8e22f5fdd3ab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.8e22f5fdd3ab.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.b5a27755d901.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.c9fea0f23f45.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.c9fea0f23f45.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.e66cc95971d9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.e66cc95971d9.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/prono.4bf7da47fa8e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/prono.82debeeb2589.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/prono.82debeeb2589.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/prono.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/prono.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/prono.e5823bec20d2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/prono.ed7ec9461769.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/prono.ed7ec9461769.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.115bacfeac47.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.115bacfeac47.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.f9d323280dba.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.f9d323280dba.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/redirect.939ea82e1f49.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/redirect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/staticfiles.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,43 +126,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
-              <caret line="106" column="19" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/mysite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="89" column="45" lean-forward="true" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+            <state relative-caret-position="375">
+              <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="os" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/os">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="5" selection-end-column="13" />
+            <state relative-caret-position="1782">
+              <caret line="81" column="17" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3300">
-              <caret line="158" column="44" selection-start-line="158" selection-start-column="44" selection-end-line="158" selection-end-column="44" />
+            <state relative-caret-position="389">
+              <caret line="170" column="43" selection-start-line="170" selection-start-column="43" selection-end-line="170" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/static/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prono.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/templates/mysite/prono.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,8 +186,8 @@
       <file leaf-file-name="error_404.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/mysite/error_404.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="34" selection-start-line="5" selection-start-column="32" selection-end-line="6" selection-end-column="34" />
+            <state relative-caret-position="220">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -72,25 +196,7 @@
         <entry file="file://$PROJECT_DIR$/home/templates/mysite/error_505.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_html.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/templates/mysite/base_html.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-365">
-              <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="13" selection-end-column="17" />
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -116,9 +222,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>secret_</find>
-      <find>height</find>
-      <find>background</find>
       <find>no</find>
       <find>result_home</find>
       <find>match_date</find>
@@ -146,6 +249,9 @@
       <find>HeroBlock__upgrade_backing</find>
       <find>HeroBlock__login_backing</find>
       <find>LoginOrSignup__root</find>
+      <find>tabs__tab_active</find>
+      <find>featured</find>
+      <find>tabs__tab</find>
     </findStrings>
     <replaceStrings>
       <replace>Prono</replace>
@@ -187,27 +293,28 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/home/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/home/urls.py" />
         <option value="$PROJECT_DIR$/mysite/urls.py" />
-        <option value="$PROJECT_DIR$/home/views.py" />
         <option value="$PROJECT_DIR$/home/static/js/redirect.js" />
         <option value="$PROJECT_DIR$/home/static/css/error_404.css" />
         <option value="$PROJECT_DIR$/home/templates/mysite/error_404.html" />
-        <option value="$PROJECT_DIR$/home/static/js/main.js" />
         <option value="$PROJECT_DIR$/home/static/css/prono.css" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/home/static/css/main.css" />
         <option value="$PROJECT_DIR$/home/templates/mysite/base_html.html" />
         <option value="$PROJECT_DIR$/home/templates/mysite/error_505.html" />
+        <option value="$PROJECT_DIR$/home/urls.py" />
+        <option value="$PROJECT_DIR$/home/templates/mysite/featured.html" />
+        <option value="$PROJECT_DIR$/home/static/js/main.js" />
         <option value="$PROJECT_DIR$/home/templates/mysite/index.html" />
+        <option value="$PROJECT_DIR$/home/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="511" />
-    <option name="y" value="61" />
-    <option name="width" value="894" />
-    <option name="height" value="705" />
+    <option name="x" value="311" />
+    <option name="y" value="53" />
+    <option name="width" value="884" />
+    <option name="height" value="699" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -224,20 +331,24 @@
             <path>
               <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
               <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prono" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prono" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prono" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,12 +451,12 @@
     <frame x="0" y="28" width="1366" height="739" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1318927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014903" side_tool="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49850968" weight="0.9270315" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.81260365" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8121911" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962743" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3283582" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32935917" />
@@ -358,6 +469,25 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.81260365" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1318927" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24962743" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49850968" weight="0.9270315" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3283582" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014903" side_tool="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32935917" />
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="Pipfile" />
@@ -366,8 +496,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home/migrations/0004_auto_20180626_1233.py" />
-    <entry file="file://$PROJECT_DIR$/home/migrations/0003_auto_20180622_2020.py" />
     <entry file="file://$PROJECT_DIR$/home/static/css/assets/bg8.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -461,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -499,31 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="339" column="1" selection-start-line="339" selection-start-column="1" selection-end-line="339" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/static/css/error_404.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
           <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/mysite/prono.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -544,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -558,38 +651,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/views.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3300">
-          <caret line="158" column="44" selection-start-line="158" selection-start-column="44" selection-end-line="158" selection-end-column="44" />
+        <state relative-caret-position="154">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/mysite/base_html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-365">
-          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        <state relative-caret-position="-351">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/mysite/error_505.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/mysite/error_404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="34" selection-start-line="5" selection-start-column="32" selection-end-line="6" selection-end-column="34" />
+        <state relative-caret-position="220">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/mysite/featured.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/prono.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/mysite/prono.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="81" column="17" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/mysite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="89" column="45" lean-forward="true" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
+        <state relative-caret-position="375">
+          <caret line="116" column="7" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="116" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="170" column="43" selection-start-line="170" selection-start-column="43" selection-end-line="170" selection-end-column="43" />
         </state>
       </provider>
     </entry>

@@ -29,15 +29,36 @@
 <main class="home">
     <div class="content">
         <div class="tabs">
+            {% if request_tom == "yest" %}
+            <a class="tabs__tab tabs__tab_active" href="/yesterday/">Yesterday</a>
+            <a class="tabs__tab " href="/">Today</a>
+            <a class="tabs__tab " href="/tomorrow/">Tomorrow</a>
+            {% endif %}
+             {% if request_tom == "tod" %}
             <a class="tabs__tab " href="/yesterday/">Yesterday</a>
             <a class="tabs__tab tabs__tab_active" href="/">Today</a>
             <a class="tabs__tab " href="/tomorrow/">Tomorrow</a>
+            {% endif %}
+             {% if request_tom == "tom" %}
+            <a class="tabs__tab " href="/yesterday/">Yesterday</a>
+            <a class="tabs__tab " href="/">Today</a>
+            <a class="tabs__tab tabs__tab_active" href="/tomorrow/">Tomorrow</a>
+            {% endif %}
         </div>
         <div class="forecasts  forecasts_top ">
             <h2 class="forecasts__title">
                 <i class="icon icon_soccer"></i>
                 <span class="forecasts__sport">Football</span>
-                <span class="forecasts__day">Today</span>
+
+                {% if request_tom == "yest" %}
+            <span class="forecasts__day">Yesterday</span>
+            {% endif %}
+             {% if request_tom == "tod" %}
+            <span class="forecasts__day">Today</span>
+            {% endif %}
+             {% if request_tom == "tom" %}
+            <span class="forecasts__day">Tomorrow</span>
+            {% endif %}
                 <span class="forecasts__coefficient">Odds</span>
             </h2>
             <div class="forecasts__list">
@@ -73,7 +94,7 @@
 
 </main>
 <nav class="navigation">
-    <a href="/" class="navigation__link">
+    <a href="/featured/" class="navigation__link">
         <i class="icon icon_free  "></i>
         <span class="navigation__text">Featured</span>
     </a>
