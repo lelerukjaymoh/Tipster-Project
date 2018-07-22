@@ -12,7 +12,8 @@
 	height: 100%;
 	visibility: hidden;
 	opacity: 0;
-	transition: all 1s ease-out;
+  overflow: hidden;
+	transition: all 0.3s ease-out;
 	display: table;
 }
 #resize.active {
@@ -20,8 +21,9 @@
 	opacity: 0.99;
 }
 form#login-form {
-  background: #fff;
-  margin: 2em auto;
+  background: #e1e1e1;
+  margin: 4em auto;
+  padding-bottom:10px;
   overflow: hidden;
   position: relative;
   -moz-border-radius: 0.3em;
@@ -32,12 +34,15 @@ form#login-form {
   box-shadow: 0 0 0.2em #000;
 }
 form#login-form .form-row div.heading {
-  background: linear-gradient(180deg,#262d37 -9.09%,#1c1f24);
+  background: #212529;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1.5em;
+  padding: 0.8em;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border:1.4px solid #8c8c8c;
 } 
 form#login-form .form-row div.bottom{
   color: #000;
@@ -55,7 +60,7 @@ cursor:pointer;
 form#login-form .form-row div.left {
   width: 50%;
   float: left;
-  padding: 1.7em 1.5em 2.5em 1.5em;
+  padding: 1em 1.5em 2em 1em;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;

@@ -3,69 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/mysite/error_404.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mysite/error_404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/mysite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mysite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/Screenshot-from-2017-04-04-09-48-34-1024x501.fa6ba0e60dac.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/Screenshot-from-2017-04-04-09-48-34-1024x501.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg.7a702ffd2352.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg10.3dbb0fec195d.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg11.2f79631aa9fd.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg11.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg21.68319c8a11d7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg21.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg22.c2fe3d683590.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg22.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg4.b1d0897dcd57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg5.fcdc84803889.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg6.bec5b4c24a57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg8.afe63836db8a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.de8106553eea.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.de8106553eea.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.075235595746.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.075235595746.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.32eef96a8549.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.32eef96a8549.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.96a51dda8e18.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.96a51dda8e18.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/images (1).c2fe3d683590.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/images (1).jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.638cca9370fa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.638cca9370fa.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/pexels-photo.7031fc805d80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/pexels-photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x2.a0707480a71e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x3.34e51c27119f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x4.280c6652f875.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x5.50f843a5ff0d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x6.f104d7985d6a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x7.72ca5f94a1bb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x8.91ee3c7a421f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/staticfiles.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,7 +19,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/mysite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-73">
+            <state relative-caret-position="2552">
               <caret line="116" column="24" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
             </state>
           </provider>
@@ -109,7 +46,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="22">
               <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
@@ -127,7 +64,7 @@
       <file leaf-file-name="prono.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/mysite/prono.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="1276">
               <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
@@ -431,21 +368,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1318927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962743" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.81260365" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49850968" weight="0.9270315" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014903" side_tool="true" weight="0.3283582" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32935917" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49850968" weight="0.9270315" />
     </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
@@ -635,7 +572,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/mysite/prono.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="1276">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
@@ -661,7 +598,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/mysite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
+        <state relative-caret-position="2552">
           <caret line="116" column="24" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
         </state>
       </provider>
@@ -682,7 +619,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="22">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>

@@ -6,34 +6,34 @@
 body{
 	font-family:Roboto,Arial,sans-serif;
 }
+body.overflow_y{
+	overflow-y:hidden;
+}
 a,a:visited, a:hover, a:active{
 	text-decoration: none;
 	color:inherit;
 
 }
-
 .header{
 	width:100%;
-	height:55px;
-	padding-left:15px;
-	padding-right:15px;
+	height:65px;
+	z-index: 3;
+	position: fixed;
+	padding-left:10px;
+	padding-right:10px;
 	box-sizing:border-box;
-	display:-webkit-box;
-	display:-ms-flexbox;
-	display:flex;
-	-webkit-box-align:center;
-	-ms-flex-align:center;
-	align-items:center;
-	-webkit-box-pack:center;
-	-ms-flex-pack:center;
-	justify-content:center;
 	background:linear-gradient(180deg,#262d37 -9.09%,#1c1f24)
+}
+.spacer{	
+	width:100%;
+	height:65px;
 }
 .header__text{
 	font-size:10px;
 	font-weight:700;
+	margin-top: 25px;
 	text-transform:uppercase;
-	color:#ffd739
+	color:#ffd739;
 }
 .header__logo{
 	margin:0 10px;
@@ -47,14 +47,14 @@ a,a:visited, a:hover, a:active{
 	display:flex;-webkit-box-align:center;
 	-ms-flex-align:center;align-items:center;
 	-webkit-box-pack:center;-ms-flex-pack:center;
-	justify-content:center;text-decoration:none
+	justify-content:center;text-decoration:none;
 }
 .home{
 	background-color:#e5e5e5
 }
 .content{
 	background-color:#17181c;
-	padding:15px;
+	padding:10px;
 	border-bottom-left-radius:5px;
 	border-bottom-right-radius:5px
 }
@@ -72,15 +72,18 @@ a,a:visited, a:hover, a:active{
 	display:-ms-flexbox;display:flex;
 	overflow:hidden
 }
+.tabs a{
+	color:#fff;
+}
 .tabs__tab{
 	-ms-flex-preferred-size:100%;
 	flex-basis:100%;
 	font-size:13px;
 	line-height:33px;
 	text-align:center;
-	text-decoration:none;
-	color:#8c8c8c
+	text-decoration:none;	
 }
+
 .tabs__tab_active{
 	border-top-left-radius:5px;
 	border-top-right-radius:5px;
@@ -256,68 +259,65 @@ a,a:visited, a:hover, a:active{
 }
 
 .navigation {
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 3;
-    background-color: #fff;
-    border-top: 1px solid rgba(19,21,58,.15);
+	width: 100%;
+	height: 52px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 3;
+	background-color: #fff;
+	border-top: 1px solid rgba(19,21,58,.15);
 }
 .navigation__link {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    padding-bottom: 4px;
-    text-align: center;
-    text-decoration: none;
-    position: relative;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	padding-bottom: 4px;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
 }
 .navigation, .navigation__link {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
 }
 .navigation__text {
-    margin-top: 5px;
-    font-size: 9px;
-    letter-spacing: .012em;
-    color: rgba(0,0,0,.45);
+	margin-top: 2px;
+	font-size: 12px;
+	letter-spacing: .012em;
+	color: rgba(0,0,0,.6);
 }
 
 .profile{
-    border: 3px solid #B7B7B7;
-    padding: 10px;
-    margin-top: 10px;
-    width: 350px;
-    background-color: #F7F7F7;
-    height: 160px;
+	top: 0;
+	right:0; 
+	position:absolute;
+	text-align: center;
 }
-.profile p{
-margin: 0px 0px 10px 0px;
+.profile span{
+	color: #fff;
 }
-.head{margin-bottom: 10px;}
-.head a{float: right;}
-.profile img{width: 100px;float: left;margin: 0px 10px 10px 0px;}
+.profile:hover, .profile__menu_open, .profile__menu_open:hover {
+	background-color: inherit;
+}
+.user_box{
+	margin: 0.5em 0.5em;	
+	box-sizing: border-box;
+	cursor: pointer;
+}
 
-.MenuDropdown__menu_close{
-    display: inline-block;
-    padding: 8px 0;
-}
-span.user_name{
-    font-size: 18px;
-}
+
 .icon{
 	display:inline-block;
 	background-size:cover;
@@ -340,12 +340,12 @@ span.user_name{
 	background-image:url(assets/pending.svg)
 }
 .icon_login {
-    width: 22px;
-    height: 23px;
-    background-image: url(assets/icon-login.svg);
+	width: 22px;
+	height: 23px;
+	background-image: url(assets/icon-login.svg);
 }
 .icon_free {
-    width: 18px;
-    height: 23px;
-    background-image: url(assets/icon-free.svg);
+	width: 18px;
+	height: 23px;
+	background-image: url(assets/icon-free.svg);
 }

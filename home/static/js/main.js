@@ -38,6 +38,7 @@ function signOut() {
 $('#signin').click(function() {
 			$(this).toggleClass('on');
 			$('#resize').toggleClass("active");
+            $('body').toggleClass("overflow_y");
 });
 //for tabs in navigation bar
 $(document).ready(function() {
@@ -48,6 +49,7 @@ $(this).on("click", function(){
                 $(this).removeClass("tabs__tab_active");
                 });
                 $(this).addClass("tabs__tab_active");
+                $(this).css("color",'#000');
 			});
 		});
 });

@@ -26,24 +26,38 @@
         <div class="header__logo"></div>
         <span class="header__text">PREDICTIONS</span>
     </a>
+    <a class="profile">
+    	<div class="user_box">
+    		<!-- for user icon -->
+		<div class="sb-avatar" style="display: inline-block; width: 32px; height: 32px; border-radius: 500px;margin-bottom: 5px;">
+			<img width="32" height="32" src="https://secure.gravatar.com/avatar/34fdf268f6b275d475af750edcf1fcf4?s=32&amp;d=404" alt="Dennis" 
+			style="max-width: 100%; width: 38px; height: 38px; border-radius: 500px;">
+		</div><br>
+		<span>Dennis
+		 <span class="dqicon dqicon-caret-down undefined">			
+		</span>
+	    </span>
+        </div>
+    </a>
 </header>
+<div class="spacer"></div>
 <main class="home">
     <div class="content">
         <div class="tabs">
             {% if request_tom == "yest" %}
-            <a class="tabs__tab tabs__tab_active" href="/yesterday/">Yesterday</a>
+            <a class="tabs__tab tabs__tab_active" href="/yesterday/" style="color: #000">Yesterday</a>
             <a class="tabs__tab " href="/">Today</a>
             <a class="tabs__tab " href="/tomorrow/">Tomorrow</a>
             {% endif %}
             {% if request_tom == "tod" %}
             <a class="tabs__tab " href="/yesterday/">Yesterday</a>
-            <a class="tabs__tab tabs__tab_active" href="/">Today</a>
+            <a class="tabs__tab tabs__tab_active" href="/" style="color: #000">Today</a>
             <a class="tabs__tab " href="/tomorrow/">Tomorrow</a>
             {% endif %}
             {% if request_tom == "tom" %}
-            <a class="tabs__tab " href="/yesterday/">Yesterday</a>
+            <a class="tabs__tab " href="/yesterday/" >Yesterday</a>
             <a class="tabs__tab " href="/">Today</a>
-            <a class="tabs__tab tabs__tab_active" href="/tomorrow/">Tomorrow</a>
+            <a class="tabs__tab tabs__tab_active" href="/tomorrow/" style="color: #000" >Tomorrow</a>
             {% endif %}
         </div>
         <div class="forecasts  forecasts_top ">
@@ -108,7 +122,7 @@
         <span class="navigation__text">Guarantee</span>
     </a>
     <a href="#" role="button" class="navigation__link g-sign2" id="signin">
-        <i class="icon icon_login  "></i>
+        <i class="icon icon_login"></i>
         <span class="navigation__text">Log In</span>
     </a>
 
@@ -116,38 +130,38 @@
 <div id="resize">
     <form id="login-form">
         <div class="form-row">        	
-            <div class="heading form-group col-md-12">Login to Hustler.com</div>
-            <div class="left col-md-6">
-            <div class="form-group col-md-12">
+            <div class="heading form-group col-md-12 col-xs-12">Login to Hustler</div>
+            <div class="left col-md-6 col-xs-12">
+            <div class="form-group col-md-12 col-xs-12">
                 <label for="email">Email</label> <br/>
                 <input type="email" name="email" class="form-control" id="email" placeholder="Email"/> 
             </div>
-            <div class="form-group col-md-12">
+            <div class="form-group col-md-12 col-xs-12">
                 <label for="password4">Password</label> <br/>
                 <input type="password" name="password" class="form-control" id="password4" placeholder="Password"/>
             </div>
             <div>
-           <div class="form-group col-md-12">
+           <div class="form-group col-md-12 col-xs-12">
              <button type="submit" class="btn btn-outline-success">Login</button>
         </div>
     </div>
             </div>
-            <div class="right col-md-6">
-                <div class="connect form-group col-md-12">Connect with</div>
-                <a href="" class="facebook form-group col-md-12">
+            <div class="right col-md-6 col-xs-12">
+                <div class="connect form-group col-md-12 col-xs-12">Connect with</div>
+                <a href="" class="facebook form-group col-md-12 col-xs-12">
                     <!--       <span class="fontawesome-facebook"></span> -->
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a> 
-                <a href="" class="twitter form-group col-md-12">
+                <a href="" class="twitter form-group col-md-12 col-xs-12">
                     <!--       <span class="fontawesome-twitter"></span> -->
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a> 
-                <a href="#" class="google-plus form-group col-md-12" data-onsuccess="onSignIn">
+                <a href="#" class="google-plus form-group col-md-12 col-xs-12" data-onsuccess="onSignIn">
                     <!--       <span class="fontawesome-google-plus"></span> -->
                     <i class="fa fa-google-plus" aria-hidden="true"></i>
                 </a>
         </div>
-        <div class="bottom form-group col-md-12">New Here ?<a> Join Us</a></div>
+        <div class="bottom form-group col-md-12 col-xs-12">New Here ?<a> Join Us</a></div>
         </div>
     </form>
 </div>
