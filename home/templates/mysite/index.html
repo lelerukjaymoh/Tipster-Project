@@ -9,14 +9,15 @@
     <title>Hustler Website</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900&amp;subset=cyrillic-ext"
           rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
-    <link rel="stylesheet" type="text/css" href="/assets/css/mobile/normalize.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-            <!-- google login platform -->
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- google login platform -->
     <script src="https://apis.google.com/js/client:platform.js?onload=renderButton" async defer></script>
-    <!--custom js-->
-    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+    <!--custom css-->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">    
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 </head>
 <body data-gr-c-s-loaded="true">
 <header class="header">
@@ -34,12 +35,12 @@
             <a class="tabs__tab " href="/">Today</a>
             <a class="tabs__tab " href="/tomorrow/">Tomorrow</a>
             {% endif %}
-             {% if request_tom == "tod" %}
+            {% if request_tom == "tod" %}
             <a class="tabs__tab " href="/yesterday/">Yesterday</a>
             <a class="tabs__tab tabs__tab_active" href="/">Today</a>
             <a class="tabs__tab " href="/tomorrow/">Tomorrow</a>
             {% endif %}
-             {% if request_tom == "tom" %}
+            {% if request_tom == "tom" %}
             <a class="tabs__tab " href="/yesterday/">Yesterday</a>
             <a class="tabs__tab " href="/">Today</a>
             <a class="tabs__tab tabs__tab_active" href="/tomorrow/">Tomorrow</a>
@@ -51,14 +52,14 @@
                 <span class="forecasts__sport">Football</span>
 
                 {% if request_tom == "yest" %}
-            <span class="forecasts__day">Yesterday</span>
-            {% endif %}
-             {% if request_tom == "tod" %}
-            <span class="forecasts__day">Today</span>
-            {% endif %}
-             {% if request_tom == "tom" %}
-            <span class="forecasts__day">Tomorrow</span>
-            {% endif %}
+                <span class="forecasts__day">Yesterday</span>
+                {% endif %}
+                {% if request_tom == "tod" %}
+                <span class="forecasts__day">Today</span>
+                {% endif %}
+                {% if request_tom == "tom" %}
+                <span class="forecasts__day">Tomorrow</span>
+                {% endif %}
                 <span class="forecasts__coefficient">Odds</span>
             </h2>
             <div class="forecasts__list">
@@ -71,13 +72,13 @@
 							</span>
 							Brazil - Brasileiro Serie B
 						</span>
-                    {% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' %}
+{% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' %}
                     <i class="forecasts__result icon icon_success" title="won"></i>
                     {% endif %}
                     {% if game.result_overall == 'drawwin' %}
                     <i class="forecasts__result icon icon_success" title="won"></i>
                     {% endif %}
-                    {% if game.result_overall == 'drawlose' or game.result_overall == 'homelose' or game.result_overall == 'awaylose' or game.result_overall == '12lose' %}
+{% if game.result_overall == 'drawlose' or game.result_overall == 'homelose' or game.result_overall == 'awaylose' or game.result_overall == '12lose' %}
                     <i class="forecasts__result icon icon_failure" title="lost"></i>
                     {% endif %}
                     {% if game.result_overall == 'no_results_yet' %}
@@ -106,12 +107,52 @@
         <i class="icon icon_guarantee  "></i>
         <span class="navigation__text">Guarantee</span>
     </a>
-    <a href="/user/register/" class="navigation__link">
+    <a href="#" role="button" class="navigation__link g-sign2" id="signin">
         <i class="icon icon_login  "></i>
         <span class="navigation__text">Log In</span>
     </a>
 
 </nav>
-
+<div id="resize">
+    <form id="login-form">
+        <div class="form-row">        	
+            <div class="heading form-group col-md-12">Login to Hustler.com</div>
+            <div class="left col-md-6">
+            <div class="form-group col-md-12">
+                <label for="email">Email</label> <br/>
+                <input type="email" name="email" class="form-control" id="email" placeholder="Email"/> 
+            </div>
+            <div class="form-group col-md-12">
+                <label for="password4">Password</label> <br/>
+                <input type="password" name="password" class="form-control" id="password4" placeholder="Password"/>
+            </div>
+            <div>
+           <div class="form-group col-md-12">
+             <button type="submit" class="btn btn-outline-success">Login</button>
+        </div>
+    </div>
+            </div>
+            <div class="right col-md-6">
+                <div class="connect form-group col-md-12">Connect with</div>
+                <a href="" class="facebook form-group col-md-12">
+                    <!--       <span class="fontawesome-facebook"></span> -->
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a> 
+                <a href="" class="twitter form-group col-md-12">
+                    <!--       <span class="fontawesome-twitter"></span> -->
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a> 
+                <a href="#" class="google-plus form-group col-md-12" data-onsuccess="onSignIn">
+                    <!--       <span class="fontawesome-google-plus"></span> -->
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                </a>
+        </div>
+        <div class="bottom form-group col-md-12">New Here ?<a> Join Us</a></div>
+        </div>
+    </form>
+</div>
+<!--custom js-->
+<script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/index.js' %}"></script>
 </body>
 </html>
