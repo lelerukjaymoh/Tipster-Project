@@ -56,7 +56,7 @@ $(document).ready(function() {
 
 $('#account').click(function() {
     $('.sidenav_wrap').toggleClass('active2');
-    // $('body').addClass("overflow_y");
+    $('body').toggleClass("overflow_y");
 });
 
 $(function(){
@@ -66,9 +66,10 @@ $(function(){
          swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
           if(direction =="left"){
             $('.sidenav_wrap').removeClass('active2');
+            $('body').removeClass("overflow_y");
         }else if(direction =="right"){
             $('.sidenav_wrap').addClass('active2');    
-            // $('body').addClass("overflow_y");
+             $('body').addClass("overflow_y");
         }  
     },
         //
