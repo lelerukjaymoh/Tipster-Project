@@ -67,7 +67,8 @@ $(function(){
           if(direction =="left"){
             $('.sidenav_wrap').removeClass('active2');
         }else{
-            $('.sidenav_wrap').addClass('active2');
+            $('.sidenav_wrap').addClass('active2');    
+            $('body').toggleClass("overflow_y");
         }  
     },
         //
