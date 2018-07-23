@@ -69,9 +69,9 @@ $(function(){
             $('body').removeClass("overflow_y");
         }else if(direction =="right"){            
           $("html, body").animate({ scrollTop: 0 }, "slow");
-          return false;
           $('.sidenav_wrap').addClass('active2');    
-          $('body').addClass("overflow_y");
+          $('body').addClass("overflow_y");          
+          return false;
       }  
   },
         //
