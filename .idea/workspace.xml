@@ -2,181 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/mysite/error_404.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mysite/error_404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/mysite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mysite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/Screenshot-from-2017-04-04-09-48-34-1024x501.fa6ba0e60dac.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/Screenshot-from-2017-04-04-09-48-34-1024x501.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg.7a702ffd2352.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg10.3dbb0fec195d.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg11.2f79631aa9fd.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg11.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg21.68319c8a11d7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg21.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg22.c2fe3d683590.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg22.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg4.b1d0897dcd57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg5.fcdc84803889.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg6.bec5b4c24a57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg8.afe63836db8a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/bg8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.de8106553eea.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.de8106553eea.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-failure.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.075235595746.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.075235595746.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-free.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.32eef96a8549.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.32eef96a8549.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-login.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.96a51dda8e18.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.96a51dda8e18.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/icon-success.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/images (1).c2fe3d683590.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/images (1).jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.638cca9370fa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.638cca9370fa.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/pending.svg.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/pexels-photo.7031fc805d80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/pexels-photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x2.a0707480a71e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x3.34e51c27119f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x4.280c6652f875.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x5.50f843a5ff0d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x6.f104d7985d6a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x7.72ca5f94a1bb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x8.91ee3c7a421f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/assets/x8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/error_404.7af7ac6d7ec2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/error_404.a270e225e692.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/error_404.a270e225e692.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/error_404.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/error_404.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.25b8a6145429.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.c8d02b9da531.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.c8d02b9da531.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.d06fefce1853.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.e4033257b6ce.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.e4033257b6ce.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/prono.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/prono.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/prono.e5823bec20d2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/prono.ed7ec9461769.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/prono.ed7ec9461769.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.12d96d3a88b1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.12d96d3a88b1.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.1474a700d019.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.1474a700d019.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.4b20daf650bc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.4b20daf650bc.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.50fbcfb759db.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.50fbcfb759db.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.54d511bb3497.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.54d511bb3497.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.5fdeaae4f389.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.5fdeaae4f389.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.629df5df053b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.629df5df053b.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.6b34c730eff6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.6b34c730eff6.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.725a6eecda76.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.725a6eecda76.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.762aa5e7703f.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.762aa5e7703f.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.820ee0b6c20d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.820ee0b6c20d.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.8901fed30441.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.8901fed30441.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.97fafe2f80a9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.97fafe2f80a9.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.9c142aaec883.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.9c142aaec883.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.a67501380c94.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.a67501380c94.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.a9e089d1a2d0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.a9e089d1a2d0.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.e2f48afb7ddd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.e2f48afb7ddd.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.e4ddcf8d0e12.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.e4ddcf8d0e12.css.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/index.d41d8cd98f00.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.04ab6a5d8c61.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.04ab6a5d8c61.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.1c508b4b2ceb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.1c508b4b2ceb.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.22c9052d9165.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.22c9052d9165.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.3f12e8b83a3f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.3f12e8b83a3f.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.405ef7843afd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.405ef7843afd.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.41b0dcc15d80.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.41b0dcc15d80.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.484b38d49768.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.484b38d49768.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.4e07b01b76cd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.4e07b01b76cd.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.6809bc8379fc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.6809bc8379fc.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.6b89e35a7326.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.6b89e35a7326.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.7b189109a932.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.7b189109a932.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.89109f0bb07d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.89109f0bb07d.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.948dca444da4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.948dca444da4.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.95ecef6a6c1f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.95ecef6a6c1f.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.a73ea952ba73.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.a73ea952ba73.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.b11b2f02b460.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.b11b2f02b460.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.bee8e42e2f86.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.bee8e42e2f86.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.cd0a7fa98a3e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.cd0a7fa98a3e.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.cfcf8f311564.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.cfcf8f311564.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.d34f0c7b91ab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.d34f0c7b91ab.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.ded6b569a917.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.ded6b569a917.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.e2e7286d7d7a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.e2e7286d7d7a.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.e827f54dd950.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.e827f54dd950.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.fb232a4ecf7e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.fb232a4ecf7e.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.fbe81977c943.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.fbe81977c943.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/redirect.939ea82e1f49.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/redirect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/staticfiles.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -194,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/home/templates/mysite/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
-              <caret line="155" column="57" selection-start-line="155" selection-start-column="57" selection-end-line="155" selection-end-column="57" />
+              <caret line="107" column="28" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#p#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -376,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="311" />
     <option name="y" value="53" />
     <option name="width" value="864" />
@@ -801,7 +627,7 @@
     <entry file="file://$PROJECT_DIR$/home/templates/mysite/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
-          <caret line="155" column="57" selection-start-line="155" selection-start-column="57" selection-end-line="155" selection-end-column="57" />
+          <caret line="107" column="28" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#p#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
