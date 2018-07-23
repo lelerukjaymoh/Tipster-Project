@@ -58,11 +58,11 @@ $('#account').click(function() {
     $('.sidenav_wrap').toggleClass('active2');
     $('body').toggleClass("overflow_y");
 });
-$( '.sidenav_wrap').on( "swipeleft", function( event ) 
+$('.sidenav_wrap').on( "swipeleft", function( event ) 
   {
     $(this).removeClass('active2');
   } );
-$('#cover').on( "swiperight", function( event ) 
+$('#content').on( "swiperight", function( event ) 
 {
-   $(this).addClass('active2');
+ $(this).addClass('active2');
 } );
