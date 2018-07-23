@@ -62,7 +62,3 @@ $('.sidenav_wrap').on( "swipeleft", function( event )
   {
     $(this).removeClass('active2');
   } );
-$('#content').on( "swiperight", function( event ) 
-{
- $(this).addClass('active2');
-} );
