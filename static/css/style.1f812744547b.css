@@ -172,8 +172,8 @@ div.right a.google-plus:hover {
   z-index: 6;
   left: -100%;
   position: absolute;
-  transition: 0.1s;
-  background: rgba(0,0,0,0.99);
+  transition: 0.4s;
+  background: rgba(0,0,0,0.9);
 }
 .sidenav_wrap.active2{
   left: 0;
