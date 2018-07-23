@@ -172,8 +172,8 @@ div.right a.google-plus:hover {
   z-index: 6;
   left: -100%;
   position: absolute;
-  transition: 0.4s;
-  background: rgba(0,0,0,0.9);
+  transition: 0.1s;
+  background: rgba(0,0,0,0.99);
 }
 .sidenav_wrap.active2{
   left: 0;
@@ -184,6 +184,9 @@ color: #1c1c1c;
 font-size: 20px;
 margin-left: 15px;
 padding: 15px;
+}
+#sidenav ul li a .fa {
+  margin-right: 10px;
 }
 .DHuser_box{
   background: #1c1c1c;

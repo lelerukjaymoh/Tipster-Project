@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
 .error-container {
   text-align: center;
-  font-size: 180px;
+  font-size: 85px;
   font-family: 'Catamaran', sans-serif;
   font-weight: 800;
   margin: 20px 15px;
@@ -26,7 +26,7 @@
 .error-container > span:nth-of-type(1) > span {
   transform-origin: 50% 100% 0px;
   transform: rotateX(0);
-  animation: easyoutelastic 8s infinite;
+  animation: easyoutelastic 6s infinite;
 }
 
 .error-container > span:nth-of-type(3) {
@@ -37,7 +37,7 @@
 .error-container > span:nth-of-type(3) > span {
   transform-origin: 100% 100% 0px;
   transform: rotate(0deg);
-  animation: rotatedrop 8s infinite;
+  animation: rotatedrop 6s infinite;
 }
 @keyframes easyoutelastic {
   0% {
