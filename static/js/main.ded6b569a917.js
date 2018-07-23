@@ -9,9 +9,9 @@ function onSignIn(googleUser) {
         request.execute(function (resp) {
             var profileHTML = '<div class="profile"><div class="head">Welcome '+resp.name.givenName +
             '! <a href="javascript:void(0);" onclick="signOut();">Sign out</a></div>';
-            $("#dummyimage").attr("src",resp.image.url);
-            document.getElementByClass('user_name').innerHTML = resp.displayName;
-            $("#dummyimage").attr("alt",resp.displayName);
+             $("#dummyimage").attr("src",resp.image.url);
+             document.getElementByClass('user_name').innerHTML = resp.displayName;
+             $("#dummyimage").attr("alt",resp.displayName);
         });
     });
 }
@@ -37,39 +37,42 @@ function signOut() {
 }
 
 $('#signin').click(function() {
- $(this).toggleClass('on');
- $('#resize').toggleClass("active");
+			$(this).toggleClass('on');
+			$('#resize').toggleClass("active");
 });
 //for tabs in navigation bar
 $(document).ready(function() {
-    $(".tabs__tab").each(function(){
-        $(this).on("click", function(){
-         var clicked_tab = $(this);
-         $(".tabs__tab").not(clicked_tab).each(function(){
-            $(this).removeClass("tabs__tab_active");
-        });
-         $(this).addClass("tabs__tab_active");
-         $(this).css("color",'#000');
-     });
-    });
+$(".tabs__tab").each(function(){
+$(this).on("click", function(){
+   var clicked_tab = $(this);
+                $(".tabs__tab").not(clicked_tab).each(function(){
+                $(this).removeClass("tabs__tab_active");
+                });
+                $(this).addClass("tabs__tab_active");
+                $(this).css("color",'#000');
+			});
+		});
 });
 
 $('#account').click(function() {
     $('.sidenav_wrap').toggleClass('active2');
     $('body').toggleClass("overflow_y");
 });
-
-$(function(){
-   $('body').swipe( {
+/*
+$('.sidenav_wrap').on( "swipeleft", function( event ) 
+  {
+    $(this).removeClass('active2');
+  } );
+  */
+  $(function(){
+ $('.sidenav_wrap').swipe( {
         //Single swipe handler for left swipes
          //Generic swipe handler for all directions
-         swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
           if(direction =="left"){
-            $('.sidenav_wrap').removeClass('active2');
-        }else{
-            $('.sidenav_wrap').addClass('active2');
-        }  
-    },
+            $(this).removeClass('active2');
+          }  
+        },
         //
         //Default is 75px, set to 0 for demo so any distance triggers swipe
         threshold: 0

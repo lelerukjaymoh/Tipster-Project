@@ -67,11 +67,11 @@ $(function(){
           if(direction =="left"){
             $('.sidenav_wrap').removeClass('active2');
         }else{
-            $('.sidenav_wrap').addClass('active2');
+            $(this).addClass('active2');
         }  
     },
         //
         //Default is 75px, set to 0 for demo so any distance triggers swipe
-        threshold: 0
+        threshold: 45
     });
 });
