@@ -1,0 +1,46 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	font-family: Roboto,Arial,sans-serif;
+	background-color: #e5e5e5;
+	vertical-align: center;
+	text-align: center;
+	line-height: 40px;
+}
+h4{
+margin-top: 50px;
+}
+.bg1{
+	background: url(assets/bg11.jpeg) no-repeat 50% 50%;
+	height: 250px;
+	display: inline-block;
+	background-size: contain;
+
+
+}
+.bg2{
+	background: url(assets/bg10.jpeg) no-repeat 50% 50%;
+	height: 250px;
+	display: inline-block;
+	background-size: contain;
+
+}
+.bg3{
+	background: url(assets/bg22.jpeg) no-repeat 50% 50%;
+	height: 250px;
+	display: inline-block;
+	background-size: contain;
+
+
+}
+.bg4{
+	background: url(assets/bg21.jpeg) no-repeat 50% 50%;
+	height: 250px;
+	display: inline-block;
+	background-size: contain;
+
+}

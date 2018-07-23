@@ -35,11 +35,12 @@ function signOut() {
         console.log('User signed out.');
     });
 }
-
+/*
 $('#signin').click(function() {
 			$(this).toggleClass('on');
 			$('#resize').toggleClass("active");
-});
+            $('body').toggleClass("overflow_y");
+});*/
 //for tabs in navigation bar
 $(document).ready(function() {
 $(".tabs__tab").each(function(){
@@ -54,15 +55,6 @@ $(this).on("click", function(){
 		});
 });
 
-$('#account').click(function() {
-    $('.sidenav_wrap').toggleClass('active2');
-    $('body').toggleClass("overflow_y");
-});
-$( '.sidenav_wrap').on( "swipeleft", function( event ) 
-  {
-    $(this).removeClass('active2');
-  } );
-$('.sidenav_wrap').on( "swiperight", function( event ) 
-{
-   $(this).addClass('active2');
-} );
+function show() {
+    document.getElementById('sidebar').toggleClass('active2');
+}

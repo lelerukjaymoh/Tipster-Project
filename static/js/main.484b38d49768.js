@@ -39,6 +39,7 @@ function signOut() {
 $('#signin').click(function() {
 			$(this).toggleClass('on');
 			$('#resize').toggleClass("active");
+            $('body').toggleClass("overflow_y");
 });
 //for tabs in navigation bar
 $(document).ready(function() {
@@ -55,14 +56,5 @@ $(this).on("click", function(){
 });
 
 $('#account').click(function() {
-    $('.sidenav_wrap').toggleClass('active2');
-    $('body').toggleClass("overflow_y");
+    $('#sidenav').toggleClass('active2');
 });
-$( '.sidenav_wrap').on( "swipeleft", function( event ) 
-  {
-    $(this).removeClass('active2');
-  } );
-$('.sidenav_wrap').on( "swiperight", function( event ) 
-{
-   $(this).addClass('active2');
-} );

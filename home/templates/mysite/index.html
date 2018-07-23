@@ -20,6 +20,23 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 </head>
 <body data-gr-c-s-loaded="true">
+	   	<!-- navbar -->
+	   	<div class="sidenav_wrap">
+<div id='sidenav'>
+	<div class="DHuser_box">
+		
+	</div>
+	<ul class="menu">
+		<li><a href="/today/">Games</a>
+		<li><a href="#">Favorites</a>
+		<li><a href="#">Bet Slip</a>
+		<li><a href="#">Wallet</a>
+		<li><a href="#">Settings</a>
+		<li><a href="#" id="signin">Sign in</a>
+	</ul>
+	
+</div>
+</div>
 <header class="header">
     <a href="/" class="header__link">
         <span class="header__text">BEST SPORT</span>
@@ -41,9 +58,10 @@
     </a>
 </header>
 <div class="spacer"></div>
+
 <main class="home">
     <div class="content">
-        <div class="tabs">
+         <div class="tabs">
             {% if request_tom == "yest" %}
             <a class="tabs__tab tabs__tab_active" href="/yesterday/" style="color: #000">Yesterday</a>
             <a class="tabs__tab " href="/">Today</a>
@@ -108,6 +126,7 @@
     </div>
 
 </main>
+
 <nav class="navigation">
     <a href="/featured/" class="navigation__link">
         <i class="icon icon_free  "></i>
@@ -121,12 +140,14 @@
         <i class="icon icon_guarantee  "></i>
         <span class="navigation__text">Guarantee</span>
     </a>
-    <a href="#" role="button" class="navigation__link g-sign2" id="signin">
+    <a href="#" role="button" class="navigation__link g-sign2" id="account">
         <i class="icon icon_login"></i>
-        <span class="navigation__text">Log In</span>
+        <span class="navigation__text">Account</span>
     </a>
 
 </nav>
+<div class="nav_spacer"></div>
+
 <div id="resize">
     <form id="login-form">
         <div class="form-row">        	
