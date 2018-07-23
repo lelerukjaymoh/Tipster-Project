@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
 .error-container {
   text-align: center;
-  font-size: 85px;
+  font-size: 180px;
   font-family: 'Catamaran', sans-serif;
   font-weight: 800;
   margin: 20px 15px;
@@ -103,6 +103,13 @@
 body {
   background-color: #f4f4f4;
   margin-bottom: 50px;
+}
+.wrapper{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
 }
 html, button, input, select, textarea {
     font-family: 'Montserrat', Helvetica, sans-serif;
