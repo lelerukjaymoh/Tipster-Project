@@ -30,12 +30,12 @@
 		
 	</div>
 	<ul class="menu">
-		<li><a href="/today/">Games</a>
-		<li><a href="#">Favorites</a>
-		<li><a href="#">Bet Slip</a>
-		<li><a href="#">Wallet</a>
-		<li><a href="#">Settings</a>
-		<li><a href="#" id="signin">Sign in</a>
+        <li><a href="/today/"><span class="fa fa-account">Games</span></a>
+        <li><a href="#"><span class="fa fa-account"></span>Favorites</a>
+		<li><a href="#"><span class="fa fa-account"></span>Bet Slip</a>
+        <li><a href="#" id="signin"><span class="fa fa-account"></span>Sign in</a>
+        <br><br>
+        <p style="font-size: 12px; font-family: inherit;"> Don't have an account? <a href="#" style="color: orange;">Register</a> for free </p>
 	</ul>
 	
 </div>
@@ -103,9 +103,10 @@
                     <h4 class="forecasts__teams">{{ game.teams }}</h4>
                     <span class="forecasts__league">
 							<span class="forecasts__date">
-								{{ game.time }}
+                                <b>{{ game.time }}</b>
 							</span>
-							Brazil - Brasileiro Serie B
+                        Match Prediction <b style="font-size: 11px;">{{ game.chance }}</b>
+                        <i>Result</i> <b style="font-size: 12px;">{{ game.match_result }}</b>
 						</span>
 {% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' %}
                     <i class="forecasts__result icon icon_success" title="won"></i>
@@ -152,7 +153,7 @@
 <div class="nav_spacer"></div>
 
 <div id="resize">
-    <form id="login-form">
+    <form id="login-form" autocomplete="off" method="post">
         <div class="form-row">        	
             <div class="heading form-group col-md-12 col-xs-12">Login to Hustler</div>
             <div class="left col-md-6 col-xs-12">

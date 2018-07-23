@@ -54,7 +54,7 @@ a,a:visited, a:hover, a:active{
 }
 .content{
 	background-color:#17181c;
-	padding:10px;
+	padding: 5px;
 	border-bottom-left-radius:5px;
 	border-bottom-right-radius:5px
 }
@@ -148,14 +148,21 @@ a,a:visited, a:hover, a:active{
 }
 .forecasts__league,.forecasts__teams{
 	width:calc(100% - 70px - 45px);
-	white-space:nowrap;text-overflow:ellipsis;overflow:hidden
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
 }
 .forecasts__league{
-	font-size:9px;color:#1b3c5e;text-transform:uppercase;
-
-}
+	font-size:9px;
+	color:#1b3c5e;
+	text-transform:uppercase;
+	letter-spacing: 2px;
+	}
 .forecasts__date{
-	font-weight:700;line-height:normal;font-size:9px;color:#1b3c5e
+	font-weight:700;
+	line-height:normal;
+	font-size:10px;
+	color:#1b3c5e;
 }
 .forecasts__coeff{
 	width:70px;background-color:#e5e5e5;
