@@ -98,7 +98,7 @@
             </h2>
             <div class="forecasts__list">
                 {% for game in games %}
-                <a href="/football/brazil/brasileiro-serie-b/vila-nova-londrina-06-07-2018/" class="forecasts__item">
+                <a href="{% url 'game_details' pk=game.pk%}" class="forecasts__item">
                     <h4 class="forecasts__teams">{{ game.teams }}</h4>
                     <span class="forecasts__league">
 							<span class="forecasts__date">
@@ -120,7 +120,8 @@
                     <i class="forecasts__result icon icon_pending" title="waiting"></i>
                     {% endif %}
                     <span
-                            class="forecasts__coeff forecasts__coeff_free">{{ game.win_odd }}</span>
+                            class="forecasts__coeff forecasts__coeff_free">{{ game.win_odd }}
+                    </span>
                 </a>
                 {% endfor %}
             </div>

@@ -4,7 +4,7 @@ from datetime import timedelta
 
 import bs4
 import requests
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 
 from .models import Prono
 
@@ -169,3 +169,8 @@ def featured(request):
     games = parser(res, match_date)
     request_from = "tod"
     return render(request, 'mysite/featured.html', {"games": games[:7], "request_tom": request_from})
+
+
+def game_details(request, pk):
+    games_detail = get_object_or_404(Prono, pk=pk)
+    return render(request, 'mysite/game_details.html', {'game': games_detail})

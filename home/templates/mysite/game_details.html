@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Match Details</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/game_details.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+</head>
+<body>
+   
+    <div class="vip">
+        <div class="vip__teams">
+           <span class="vip__about">
+               FOOTBALL  &gt; Brazil &gt;  Brasileiro Serie B
+           </span>
+           <div class="vip__vs">
+            <div class="vip__vs-logo">
+                <img src="/i/partaker/orig_url_317.png" alt="">
+            </div>
+            <div class="vip__vs-count"><img src="assets/vs.png" alt=""></div>
+            <div class="vip__vs-logo">
+                <img src="/i/partaker/orig_url_90.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="vip__info">
+        <h2 class="vip__title">THE MATCH PREDICTION</h2>
+        <h1 class="vip__title vip__title_teams">{{ game.teams }}</h1>
+        <span class="vip__time"> <b>{{ game.match_date }} {{ game.time }}</b></span>
+    </div> 
+    <div class="vip__event vip__event_forecast">
+        <i class="icon icon_target"></i>
+        <p class="btn btn-success">Pick <b>{{ game.chance }}</b><span>ODD {{ game.win_odd }}</span></p> 
+    </div>
+
+</div>
+</body>
+</html>
