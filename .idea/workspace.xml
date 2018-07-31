@@ -2,28 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b980f8-3bf0-4330-a832-f4e080ff5771" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/home/static/css/game_details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/mysite/game_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Katambe Limited.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Katambe Limited.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0002_auto_20180708_1410.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/assets/Screenshot-from-2017-04-04-09-48-34-1024x501.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/assets/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/assets/bg10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/assets/bg11.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/assets/bg21.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/assets/bg22.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/assets/images (1).jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/assets/pexels-photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/error404.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/error404.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/mysite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/mysite/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/error404.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/error404.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/error404.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/error404.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/activate.csh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/activate.fish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/chardetect" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/chardetect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/django-admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/django-admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/easy_install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/easy_install-3.6" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/easy_install-3.6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/bin/pip3.6" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/bin/pip3.6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/Django-1.11.13.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/Django-1.11.13.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/beautifulsoup4-4.6.0.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/beautifulsoup4-4.6.0.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/certifi-2018.4.16.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/certifi-2018.4.16.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/chardet-3.0.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/chardet-3.0.4.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/idna-2.7.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/idna-2.7.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/pip-10.0.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/pip-10.0.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2-2.7.5.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2-2.7.5.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2/_psycopg.cpython-36m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/psycopg2/_psycopg.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/pytz-2018.4.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/pytz-2018.4.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests-2.19.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/requests-2.19.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/METADATA" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/METADATA" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools-39.0.1.dist-info/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/easy_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/command/easy_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/dist.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/dist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/monkey.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/monkey.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/package_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/package_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/pep425tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/pep425tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/setuptools/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/urllib3-1.23.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/lib/python3.6/site-packages/urllib3-1.23.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/CacheControl-0.11.7-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/appdirs-1.4.3-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/certifi-2018.1.18-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/chardet-3.0.4-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/colorama-0.3.7-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/distlib-0.2.7-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/distro-1.0.1-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/html5lib-0.999999999-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/idna-2.6-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/ipaddress-0.0.0-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/lockfile-0.12.2-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/packaging-17.1-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/pip-9.0.1-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/pkg_resources-0.0.0-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/progress-1.2-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/pyparsing-2.2.0-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/requests-2.18.4-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/retrying-1.3.3-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/setuptools-39.0.1-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/six-1.11.0-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/urllib3-1.22-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/webencodings-0.5-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myvenv/share/python-wheels/wheel-0.30.0-py2.py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/css/forms.77b3f8a70811.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/forms.77b3f8a70811.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/staticfiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/staticfiles.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +86,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/mysite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="109" column="34" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="34" />
+            <state relative-caret-position="226">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#p#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -53,10 +98,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="game_details.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/static/css/game_details.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-415">
+            <state relative-caret-position="2445">
               <caret line="163" column="1" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
             </state>
           </provider>
@@ -65,7 +122,7 @@
       <file leaf-file-name="error404.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/static/css/error404.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="1365">
               <caret line="91" selection-start-line="91" selection-end-line="91" />
             </state>
           </provider>
@@ -74,17 +131,17 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
+            <state relative-caret-position="5175">
               <caret line="345" column="25" selection-start-line="345" selection-start-column="25" selection-end-line="345" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="173" column="30" selection-start-line="173" selection-start-column="30" selection-end-line="173" selection-end-column="30" />
+            <state relative-caret-position="500">
+              <caret line="178" column="6" selection-start-line="178" selection-start-column="6" selection-end-line="178" selection-end-column="6" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -92,10 +149,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home/static/css/login.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home/templates/mysite/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="300">
               <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
             </state>
           </provider>
@@ -113,7 +184,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tabs__tab</find>
       <find>resiz</find>
       <find>script</find>
       <find>g</find>
@@ -143,6 +213,7 @@
       <find>background</find>
       <find>time</find>
       <find>home</find>
+      <find>games</find>
     </findStrings>
     <replaceStrings>
       <replace>Prono</replace>
@@ -196,12 +267,13 @@
         <option value="$PROJECT_DIR$/home/templates/mysite/error_505.html" />
         <option value="$PROJECT_DIR$/home/templates/mysite/error_404.html" />
         <option value="$PROJECT_DIR$/home/templates/mysite/game_details.html" />
-        <option value="$PROJECT_DIR$/home/urls.py" />
         <option value="$PROJECT_DIR$/home/static/css/error404.css" />
         <option value="$PROJECT_DIR$/home/static/css/game_details.css" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
-        <option value="$PROJECT_DIR$/home/views.py" />
+        <option value="$PROJECT_DIR$/home/templates/mysite/login.html" />
         <option value="$PROJECT_DIR$/home/templates/mysite/index.html" />
+        <option value="$PROJECT_DIR$/home/urls.py" />
+        <option value="$PROJECT_DIR$/home/views.py" />
       </list>
     </option>
   </component>
@@ -221,28 +293,38 @@
           <expand>
             <path>
               <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
+              <item name="hustler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
+              <item name="hustler" type="462c0819:PsiDirectoryNode" />
               <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
+              <item name="hustler" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prono" type="462c0819:PsiDirectoryNode" />
+              <item name="hustler" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hustler" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Katambe Limited" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hustler" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,7 +336,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2625118" />
   </component>
   <component name="RecentsManager">
@@ -346,16 +428,16 @@
     <frame x="0" y="28" width="1366" height="739" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21311475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21303074" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014903" side_tool="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8121911" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49850968" weight="0.9270315" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8121911" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962743" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3283582" />
-      <window_info id="Favorites" order="2" side_tool="true" weight="0.32935917" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32935917" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -367,21 +449,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20938897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962743" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.8121911" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49850968" weight="0.9270315" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014903" side_tool="true" weight="0.3283582" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32935917" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49850968" weight="0.9270315" />
     </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
@@ -391,6 +473,57 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/home/templates/mysite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="109" column="34" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#span#0;n#a#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#1;n#span#0;n#a#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/css/game_details.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2445">
+          <caret line="163" column="1" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/css/error404.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5175">
+          <caret line="345" column="25" selection-start-line="345" selection-start-column="25" selection-end-line="345" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2595">
+          <caret line="173" column="30" selection-start-line="173" selection-start-column="30" selection-end-line="173" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/migrations/0013_auto_20180630_0056.py" />
     <entry file="file://$PROJECT_DIR$/home/migrations/0014_prono_match_date.py" />
     <entry file="file://$PROJECT_DIR$/home/migrations/0016_prono_win_odd.py" />
@@ -407,9 +540,6 @@
     <entry file="file://$PROJECT_DIR$/undercode/home/static/css/prono.css" />
     <entry file="file://$PROJECT_DIR$/home/migrations/0003_remove_prono_date.py" />
     <entry file="file://$PROJECT_DIR$/home/migrations/0002_auto_20180708_1147.py" />
-    <entry file="file://$PROJECT_DIR$/static/staticfiles.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/static/js/redirect.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -418,9 +548,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/static/css/prono.css" />
-    <entry file="file://$PROJECT_DIR$/os">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -450,12 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/error404.610c614f5cf6.css" />
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -474,21 +595,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/mysite/base_html.html" />
     <entry file="file://$PROJECT_DIR$/home/templates/mysite/prono.html" />
-    <entry file="file://$PROJECT_DIR$/static/css/assets/bg.7a702ffd2352.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/assets/bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/assets/bg4.b1d0897dcd57.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/assets/bg4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/assets/bg5.fcdc84803889.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/mysite/error_505.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -509,12 +615,6 @@
           <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/home/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -545,9 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -555,48 +652,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/static/css/game_details.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415">
+        <state relative-caret-position="2445">
           <caret line="163" column="1" selection-start-line="163" selection-start-column="1" selection-end-line="163" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="5175">
           <caret line="345" column="25" selection-start-line="345" selection-start-column="25" selection-end-line="345" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/static/css/error404.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="1365">
           <caret line="91" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="300">
           <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/home/static/css/login.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/mysite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="109" column="34" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="34" />
+        <state relative-caret-position="226">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#p#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -608,11 +698,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="173" column="30" selection-start-line="173" selection-start-column="30" selection-end-line="173" selection-end-column="30" />
+        <state relative-caret-position="500">
+          <caret line="178" column="6" selection-start-line="178" selection-start-column="6" selection-end-line="178" selection-end-column="6" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/mysite/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
         </state>
       </provider>
     </entry>

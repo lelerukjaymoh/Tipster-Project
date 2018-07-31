@@ -174,3 +174,7 @@ def featured(request):
 def game_details(request, pk):
     games_detail = get_object_or_404(Prono, pk=pk)
     return render(request, 'mysite/game_details.html', {'game': games_detail})
+
+
+def login(request):
+    return render(request, 'mysite/login.html')
