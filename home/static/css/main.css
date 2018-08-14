@@ -327,6 +327,7 @@ width: 100%;
 	box-sizing: border-box;
 	cursor: pointer;
 }
+
 .icon{
 	display:inline-block;
 	background-size:cover;

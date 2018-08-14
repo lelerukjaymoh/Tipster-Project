@@ -18,7 +18,7 @@
             <div class="vip__vs-logo">
                 <img src="/i/partaker/orig_url_317.png" alt="">
             </div>
-            <div class="vip__vs-count"><img src="assets/vs.png" alt=""></div>
+            <div class="vip__vs-count"><img src="{% static 'css/assets/vs.png' %}" alt=""></div>
             <div class="vip__vs-logo">
                 <img src="/i/partaker/orig_url_90.png" alt="">
             </div>
@@ -31,8 +31,7 @@
         <span class="vip__time"> <b>{{ game.match_date }} {{ game.time }}</b></span>
     </div> 
     <div class="vip__event vip__event_forecast">
-        <i class="icon icon_target"></i>
-        <p class="btn btn-success">Pick <b>{{ game.chance }}</b><span>ODD {{ game.win_odd }}</span></p> 
+        <p>Pick <b>{{ game.chance }}</b><span>ODD {{ game.win_odd }}</span></p> 
     </div>
 
 </div>
