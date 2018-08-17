@@ -24,14 +24,5 @@ class Migration(migrations.Migration):
                 ('counter_lose', models.CharField(max_length=20)),
                 ('counter_win', models.CharField(max_length=20)),
             ],
-        ),
-        migrations.RemoveField(
-            model_name='prono',
-            name='id',
-        ),
-        migrations.AlterField(
-            model_name='prono',
-            name='teams',
-            field=models.CharField(max_length=400, primary_key=True, serialize=False),
-        ),
+        )
     ]
