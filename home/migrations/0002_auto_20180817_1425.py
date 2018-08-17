@@ -23,6 +23,6 @@ class Migration(migrations.Migration):
                 ('counter_won_odd', models.CharField(max_length=20)),
                 ('counter_lose', models.CharField(max_length=20)),
                 ('counter_win', models.CharField(max_length=20)),
-            ],
+            ]
         )
     ]
