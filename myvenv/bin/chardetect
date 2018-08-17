@@ -1,5 +1,6 @@
-#!/home/brookes/Downloads/hustler/myvenv/bin/python3.6
-
+#!/bin/sh
+'''exec' "/home/peterson/Downloads/prono/myvenv/bin/python" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -6,7 +6,7 @@ import bs4
 import requests
 from django.shortcuts import render, get_object_or_404
 
-from .models import Prono
+from .models import Prono, Progress
 
 
 def topnavselector():
@@ -18,30 +18,38 @@ def homepage_today(request):
     today = topnavselector()
     res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
     match_date = today.strftime("%d-%m")  # date when the match is played
-    games = parser(res, match_date)
+    games = parser(res, match_date)[0]
+    progress_details = parser(res, match_date)[1]
     request_from = "tod"
-    return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from})
+    return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from, "progress": progress_details})
 
 
 def yesterday(request):
     today = topnavselector() - timedelta(days=1)
     res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
     match_date = today.strftime("%d-%m")  # date when the match is played
-    games = parser(res, match_date)
+    games = parser(res, match_date)[0]
+    progress_details = parser(res, match_date)[1]
     request_from = "yest"
-    return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from})
+    return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from, "progress": progress_details})
 
 
 def tomorrow(request):
     today = topnavselector() + timedelta(days=1)
     res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
     match_date = today.strftime("%d-%m")  # date when the match is played
-    games = parser(res, match_date)
+    games = parser(res, match_date)[0]
+    progress_details = parser(res, match_date)[1]
     request_from = "tom"
-    return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from})
+    return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from,
+                                                 "progress": progress_details})
 
 
 def parser(res, match_date):
+    counter_lost_odd = 0.0
+    counter_won_odd = 0.0
+    counter_win = 0
+    counter_lose = 0
     try:
         res.raise_for_status()
 
@@ -140,6 +148,25 @@ def parser(res, match_date):
                 result_home = str(result_home)
                 result_away = str(result_away)
 
+                if overall_result()[0] == 'homewin' or overall_result()[0] == 'awaywin' or overall_result()[0] == '12win':
+                    counter_win += 1
+                    counter_won_odd += float(overall_result()[1])
+                elif overall_result()[0] == 'drawwin':
+                    counter_win += 1
+                    counter_won_odd += float(overall_result()[1])
+                elif overall_result()[0] == 'drawlose' or overall_result()[0] == 'homelose' or overall_result()[
+                    0] == 'awaylose' or overall_result()[0] == '12lose':
+                    counter_lose += 1
+                    counter_lost_odd += float(overall_result()[1])
+                elif overall_result()[0] == 'no_results_yet':
+                    pass
+                obj0, created0 = Progress.objects.update_or_create(
+                    defaults={
+                        "counter_lost_odd": counter_lost_odd, "counter_won_odd": counter_won_odd,
+                        "counter_lose": counter_lose, "counter_win": counter_win
+                    }
+                )
+
                 obj, created = Prono.objects.update_or_create(
                     teams=game_info[0][2],
                     defaults={'match_date': match_date, 'time': formatted_date,
@@ -149,7 +176,8 @@ def parser(res, match_date):
                               'match_result': game_info[0][14], 'result_overall': overall_result()[0]})
 
         games = Prono.objects.filter(match_date=match_date).order_by('time', 'teams')[:games_number]
-        return games
+        progress = Progress.objects.all()
+        return [games, progress]
 
 
 def error_404(request):
@@ -166,7 +194,7 @@ def featured(request):
     today = topnavselector()
     res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
     match_date = today.strftime("%d-%m")  # date when the match is played
-    games = parser(res, match_date)
+    games = parser(res, match_date)[0]
     request_from = "tod"
     return render(request, 'mysite/featured.html', {"games": games[:7], "request_tom": request_from})
 

@@ -335,9 +335,13 @@ width: 100%;
 	background-position:50%;
 	-webkit-font-smoothing:antialiased
 }
-
+.icon_soccer {
+    width: 16px;
+    height: 17px;
+    background-image: url(assets/icon-sport-football.svg);
+}
 .icon_success{
-	background-image:url(assets/icon-success.svg)
+	background-image:url(assets/icon-success.svg);
 }
 .icon_pending,.icon_failure,.icon_success{
 	width:15px;height:15px;
@@ -358,4 +362,7 @@ width: 100%;
 	width: 18px;
 	height: 23px;
 	background-image: url(assets/icon-free.svg);
+}
+.user_wallet2{
+color:#000;
 }

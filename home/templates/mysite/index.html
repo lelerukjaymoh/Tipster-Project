@@ -32,8 +32,9 @@
         <li class="login_before"><a href="/today/"><i class="fa fa-gamepad"></i>Games</a>
         <li class="login_before"><a href="#"><i class="fa fa-star"></i>Favorites</a>
 		<li class="login_before"><a href="#"><i class="fa fa-paper-plane"></i>Bet Slip</a>
-        <li class="login_before"><a href="#" id="signin"><i class="fa fa-sign-in"></i>Sign in</a>
+        <li class="login_before"><a href="/login/" id="signin"><i class="fa fa-sign-in"></i>Sign in</a>
         <p class="login_before" style="font-size: 12px; font-family: inherit;">
+            <br><br>
          Don't have an account?
             <a href="#" style="color: orange;">Register</a> for free
         </p>
@@ -161,6 +162,18 @@
     </a>
 
 </nav>
+        <!-- wallet -->
+        <div class="user_wallet2">
+            <ul>
+                <li><a href="#">From</a></li>
+                <li><a href="#">To</a></li>
+                <li><a href="#">Show</a></li>
+            </ul>
+                {% for each in progress %}
+                <div>Won: {{ each.counter_win }}<br>Won Total Odds : {{ each.counter_won_odd }} </div>
+                <div>Lost: {{ each.counter_lose }}<br>Lost Total Odds : {{ each.counter_lost_odd }}</div>
+                 {% endfor %}
+        </div>
 <div class="nav_spacer"></div>
 
 <!--custom js-->
