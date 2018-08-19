@@ -43,7 +43,7 @@
         <li class="login_after"><a href="#"><i class="fa fa-copy"></i>Bet slip</a></li>
         <li class="login_after "><a href="#"><i class="fa fa-history"></i>My Bets</a></li>
         <li class="login_after drop_more"><a href="#"><i class="fa fa-user-circle"></i>Account</a></li>
-        <li class="login_after"><a href="#"><i class="fa fa-university"></i>Wallet</a></li>
+        <li class="login_after"><a href="wallet/" target="_self"><i class="fa fa-university"></i>Wallet</a></li>
         <li class="login_after"><a href="#"><i class="fa fa-cog"></i>Settings</a></li>
         <li class="login_after"><a href="#"><i class="fa fa-sign-out"></i>Sign Out</a></li>
 
@@ -162,18 +162,7 @@
     </a>
 
 </nav>
-        <!-- wallet -->
-        <div class="user_wallet2">
-            <ul>
-                <li><a href="#">From</a></li>
-                <li><a href="#">To</a></li>
-                <li><a href="#">Show</a></li>
-            </ul>
-                {% for each in progress %}
-                <div>Won: {{ each.counter_win }}<br>Won Total Odds : {{ each.counter_won_odd }} </div>
-                <div>Lost: {{ each.counter_lose }}<br>Lost Total Odds : {{ each.counter_lost_odd }}</div>
-                 {% endfor %}
-        </div>
+
 <div class="nav_spacer"></div>
 
 <!--custom js-->

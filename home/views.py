@@ -5,13 +5,45 @@ from datetime import timedelta
 import bs4
 import requests
 from django.shortcuts import render, get_object_or_404
-
+from collections import Counter
 from .models import Prono, Progress
 
 
 def topnavselector():
     date = datetime.datetime.now()
     return date
+
+
+def wallet(request):
+    from_date = request.POST.get('From')
+    to_date = request.POST.get('To')
+    submitbutton = request.POST.get('Submit')
+    from_date2 = ""
+    to_date2 = ""
+    try:
+        from_date2 = datetime.datetime.strptime(from_date, "%m/%d/%Y")
+    except:
+        pass
+    try:
+        to_date2 = datetime.datetime.strptime(to_date, "%m/%d/%Y")
+    except:
+        pass
+    progress_details = {}
+    try:
+        while from_date2 != to_date2 + timedelta(days=1):
+            res = requests.get(
+                'http://www.zulubet.com/tips-%d-0%d-%d.html' % (from_date2.day, from_date2.month, from_date2.year))
+            formatted_date = from_date2.strftime("%d-%m")
+            progress_details = dict(Counter(progress_details) + Counter(parser(res, formatted_date)[1]))
+
+            from_date2 = from_date2 + timedelta(days=1)
+    except:
+        pass
+
+    confirm = {'from_date': from_date, 'to_date': to_date,
+               'submitbutton': submitbutton}
+
+    return render(request, 'mysite/wallet.html', {"progress": progress_details, "confirm": confirm})
 
 
 def homepage_today(request):
@@ -21,7 +53,8 @@ def homepage_today(request):
     games = parser(res, match_date)[0]
     progress_details = parser(res, match_date)[1]
     request_from = "tod"
-    return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from, "progress": progress_details})
+    return render(request, 'mysite/index.html',
+                  {"games": games, "request_tom": request_from, "progress": progress_details})
 
 
 def yesterday(request):
@@ -31,7 +64,8 @@ def yesterday(request):
     games = parser(res, match_date)[0]
     progress_details = parser(res, match_date)[1]
     request_from = "yest"
-    return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from, "progress": progress_details})
+    return render(request, 'mysite/index.html',
+                  {"games": games, "request_tom": request_from, "progress": progress_details})
 
 
 def tomorrow(request):
@@ -50,6 +84,7 @@ def parser(res, match_date):
     counter_won_odd = 0.0
     counter_win = 0
     counter_lose = 0
+    context = {}
     try:
         res.raise_for_status()
 
@@ -148,7 +183,8 @@ def parser(res, match_date):
                 result_home = str(result_home)
                 result_away = str(result_away)
 
-                if overall_result()[0] == 'homewin' or overall_result()[0] == 'awaywin' or overall_result()[0] == '12win':
+                if overall_result()[0] == 'homewin' or overall_result()[0] == 'awaywin' or overall_result()[
+                    0] == '12win':
                     counter_win += 1
                     counter_won_odd += float(overall_result()[1])
                 elif overall_result()[0] == 'drawwin':
@@ -160,12 +196,11 @@ def parser(res, match_date):
                     counter_lost_odd += float(overall_result()[1])
                 elif overall_result()[0] == 'no_results_yet':
                     pass
-                obj0, created0 = Progress.objects.update_or_create(
-                    defaults={
-                        "counter_lost_odd": counter_lost_odd, "counter_won_odd": counter_won_odd,
-                        "counter_lose": counter_lose, "counter_win": counter_win
+
+                context = {
+                    "counter_lost_odd": counter_lost_odd, "counter_won_odd": counter_won_odd,
+                    "counter_lose": counter_lose, "counter_win": counter_win
                     }
-                )
 
                 obj, created = Prono.objects.update_or_create(
                     teams=game_info[0][2],
@@ -176,8 +211,8 @@ def parser(res, match_date):
                               'match_result': game_info[0][14], 'result_overall': overall_result()[0]})
 
         games = Prono.objects.filter(match_date=match_date).order_by('time', 'teams')[:games_number]
-        progress = Progress.objects.all()
-        return [games, progress]
+
+        return [games, context]
 
 
 def error_404(request):
