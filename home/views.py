@@ -140,7 +140,7 @@ def parser(res, match_date):
 
                 def overall_result():
                     if result_home == 'no_result' or result_away == 'no_result':
-                        win_odd = game_info[0][11].split(":")[1]
+                        win_odd = 0
                         return ['no_results_yet', win_odd]
                     else:
                         if game_info[0][8] == 'X':
@@ -156,25 +156,29 @@ def parser(res, match_date):
                             else:
                                 return ['homelose', win_odd]
                         elif game_info[0][8] == '2':
+
+                            print("game_info[0][12].split()")
+                            print(game_info[0][12].split(":"))
+
                             win_odd = game_info[0][12].split(":")[1]
                             if result_away > result_home:
                                 return ['awaywin', win_odd]
                             else:
                                 return ['awaylose', win_odd]
                         elif game_info[0][8] == '12':
-                            win_odd = game_info[0][11].split(":")[1]
+                            win_odd = 0
                             if result_away != result_home:
                                 return ['12win', win_odd]
                             else:
                                 return ['12lose', win_odd]
                         elif game_info[0][8] == '1X':
-                            win_odd = game_info[0][10].split(":")[1]
+                            win_odd = 0
                             if result_home >= result_away:
                                 return ['homewin', win_odd]
                             else:
                                 return ['homelose', win_odd]
                         elif game_info[0][8] == 'X2':
-                            win_odd = game_info[0][12].split(":")[1]
+                            win_odd = 0
                             if result_home <= result_away:
                                 return ['awaywin', win_odd]
                             else:
