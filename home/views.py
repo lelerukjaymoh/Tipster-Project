@@ -157,8 +157,8 @@ def parser(res, match_date):
                                 return ['homelose', win_odd]
                         elif game_info[0][8] == '2':
 
-                            print("game_info[0][12].split()")
-                            print(game_info[0][12].split(":"))
+                            # print("game_info[0][12].split()")
+                            # print(game_info[0][12].split(":"))
 
                             win_odd = game_info[0][12].split(":")[1]
                             if result_away > result_home:
