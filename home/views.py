@@ -80,9 +80,12 @@ def tomorrow(request):
 
 
 def parser(res, match_date):
+    total_straight_lose = 0
+    total_straight_win = 0
     counter_lost_odd = 0.0
     counter_won_odd = 0.0
     counter_win = 0
+    profit = 0
     counter_lose = 0
     context = {}
     try:
@@ -156,10 +159,6 @@ def parser(res, match_date):
                             else:
                                 return ['homelose', win_odd]
                         elif game_info[0][8] == '2':
-
-                            # print("game_info[0][12].split()")
-                            # print(game_info[0][12].split(":"))
-
                             win_odd = game_info[0][12].split(":")[1]
                             if result_away > result_home:
                                 return ['awaywin', win_odd]
@@ -174,36 +173,50 @@ def parser(res, match_date):
                         elif game_info[0][8] == '1X':
                             win_odd = 0
                             if result_home >= result_away:
-                                return ['homewin', win_odd]
+                                return ['1Xwin', win_odd]
                             else:
-                                return ['homelose', win_odd]
+                                return ['1Xlose', win_odd]
                         elif game_info[0][8] == 'X2':
                             win_odd = 0
                             if result_home <= result_away:
-                                return ['awaywin', win_odd]
+                                return ['X2win', win_odd]
                             else:
-                                return ['awaylose', win_odd]
+                                return ['X2lose', win_odd]
 
                 result_home = str(result_home)
                 result_away = str(result_away)
-
                 if overall_result()[0] == 'homewin' or overall_result()[0] == 'awaywin' or overall_result()[
-                    0] == '12win':
+                    0] == '12win' or overall_result()[0] == '1Xwin' or overall_result()[0] == 'X2win':
                     counter_win += 1
                     counter_won_odd += float(overall_result()[1])
+                    if overall_result()[0] == 'homewin' or overall_result()[0] == 'awaywin':
+                        total_straight_win += 1
                 elif overall_result()[0] == 'drawwin':
                     counter_win += 1
+                    total_straight_win += 1
                     counter_won_odd += float(overall_result()[1])
                 elif overall_result()[0] == 'drawlose' or overall_result()[0] == 'homelose' or overall_result()[
-                    0] == 'awaylose' or overall_result()[0] == '12lose':
+                    0] == 'awaylose' or overall_result()[0] == '12lose' or overall_result()[0] == '1Xlose' \
+                        or overall_result()[0] == 'X2lose':
                     counter_lose += 1
+                    if overall_result()[0] == 'drawlose' or overall_result()[0] == 'homelose' or overall_result()[
+                    0] == 'awaylose':
+                        total_straight_lose += 1
                     counter_lost_odd += float(overall_result()[1])
                 elif overall_result()[0] == 'no_results_yet':
                     pass
 
+                print(total_straight_win)
+                profit = (counter_won_odd * 49) - (counter_win * 49) - (
+                    counter_lose * 49)
+
+                print(profit)
                 context = {
                     "counter_lost_odd": counter_lost_odd, "counter_won_odd": counter_won_odd,
-                    "counter_lose": counter_lose, "counter_win": counter_win
+                    "counter_lose": counter_lose, "counter_win": counter_win,
+                    "total_straight_lose": total_straight_lose,
+                    "total_straight_win": total_straight_win,
+                    "profit2": profit
                     }
 
                 obj, created = Prono.objects.update_or_create(

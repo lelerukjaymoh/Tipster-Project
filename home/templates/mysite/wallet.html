@@ -32,9 +32,20 @@
 </div>
 </form>
 <div>
-    Won: {{ progress.counter_win }}<br>Won Total Odds : {{ progress.counter_won_odd }} </div>
-<div>Lost: {{ progress.counter_lose }}<br>Lost Total Odds : {{ progress.counter_lost_odd }}</div>
+    Won: {{ progress.counter_win }}<br>
+    <b>Total Straight Win: {{ progress.total_straight_win }}<br>
+        <i>Won Total Odds : {{ progress.counter_won_odd }}</i></b>
 </div>
+<div>Lost: {{ progress.counter_lose }}<br>
+    <b>Total Straight lose: {{ progress.total_straight_lose }}<br>
+        <i>Lost Total Odds : {{ progress.counter_lost_odd }}</i></b>
+</div>
+
+    <div>
+       <h4>Profit: {{ progress.profit2 }}  </h4>
+    </div>
+</div>
+
 <script>
   $( function() {
     $( ".datepicker" ).datepicker({ minDate:"-1M -5D", maxDate: +3 });

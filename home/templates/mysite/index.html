@@ -119,13 +119,13 @@
                         Pick <b style="font-size: 11px;">{{ game.chance }}</b>
                         <i>Result</i> <b style="font-size: 12px;">{{ game.match_result }}</b>
 						</span>
-{% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' %}
+{% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' or game.result_overall == '1Xwin' or game.result_overall == 'X2win' %}
                     <i class="forecasts__result icon icon_success" title="won"></i>
                     {% endif %}
                     {% if game.result_overall == 'drawwin' %}
                     <i class="forecasts__result icon icon_success" title="won"></i>
                     {% endif %}
-{% if game.result_overall == 'drawlose' or game.result_overall == 'homelose' or game.result_overall == 'awaylose' or game.result_overall == '12lose' %}
+{% if game.result_overall == 'drawlose' or game.result_overall == 'homelose' or game.result_overall == 'awaylose' or game.result_overall == '12lose' or game.result_overall == '1Xlose' or game.result_overall == 'X2lose' %}
                     <i class="forecasts__result icon icon_failure" title="lost"></i>
                     {% endif %}
                     {% if game.result_overall == 'no_results_yet' %}
