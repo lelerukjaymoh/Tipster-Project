@@ -144,6 +144,12 @@ def parser(res, match_date):
                 def overall_result():
                     if result_home == 'no_result' or result_away == 'no_result':
                         win_odd = 0
+                        if game_info[0][8] == 'X':
+                            win_odd = game_info[0][11].split(":")[1]
+                        elif game_info[0][8] == '1':
+                            win_odd = game_info[0][10].split(":")[1]
+                        elif game_info[0][8] == '2':
+                            win_odd = game_info[0][12].split(":")[1]
                         return ['no_results_yet', win_odd]
                     else:
                         if game_info[0][8] == 'X':
@@ -207,8 +213,7 @@ def parser(res, match_date):
                     pass
 
                 print(total_straight_win)
-                profit = (counter_won_odd * 49) - (counter_win * 49) - (
-                    counter_lose * 49)
+                profit += float(49*(counter_won_odd - total_straight_win - 2 * total_straight_lose))
 
                 print(profit)
                 context = {
@@ -216,7 +221,7 @@ def parser(res, match_date):
                     "counter_lose": counter_lose, "counter_win": counter_win,
                     "total_straight_lose": total_straight_lose,
                     "total_straight_win": total_straight_win,
-                    "profit2": profit
+                    "profit": profit
                     }
 
                 obj, created = Prono.objects.update_or_create(
