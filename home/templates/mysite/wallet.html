@@ -18,12 +18,12 @@
       <div class="form-row align-items-center">
         <div class="col-auto">
           <input type="text" class="form-control mb-2 datepicker" name="From" id="inlineFormInput"
-                 placeholder='{% if confirm.submitbutton == "Apply" %} {{ confirm.from_date }} {% endif %}' required autocomplete="off">
+                 value='{% if confirm.submitbutton == "Apply" %} {{ confirm.from_date }} {% endif %}' required autocomplete="off">
       </div>
       <div class="col-auto">
           <div class="input-group mb-2">
             <input type="text" class="form-control datepicker" name="To" id="inlineFormInputGroup"
-                   placeholder='{% if confirm.submitbutton == "Apply" %} {{ confirm.to_date }} {% endif %}' required autocomplete="off">
+                   value='{% if confirm.submitbutton == "Apply" %} {{ confirm.to_date }} {% endif %}' required autocomplete="off">
         </div>
     </div>
     <div class="col-auto">

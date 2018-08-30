@@ -213,7 +213,7 @@ def parser(res, match_date):
                     pass
 
                 print(total_straight_win)
-                profit += float(49*(counter_won_odd - total_straight_win - 2 * total_straight_lose))
+                profit += float((counter_won_odd - (total_straight_win + total_straight_lose))*49)
 
                 print(profit)
                 context = {
