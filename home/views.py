@@ -212,16 +212,13 @@ def parser(res, match_date):
                 elif overall_result()[0] == 'no_results_yet':
                     pass
 
-                print(total_straight_win)
-                profit += float(counter_won_odd - (total_straight_win + total_straight_lose))*49
-
-                print(profit)
+                profit = counter_won_odd - (total_straight_win + total_straight_lose)  
                 context = {
                     "counter_lost_odd": counter_lost_odd, "counter_won_odd": counter_won_odd,
                     "counter_lose": counter_lose, "counter_win": counter_win,
                     "total_straight_lose": total_straight_lose,
                     "total_straight_win": total_straight_win,
-                    "profit": profit
+                    "profit": profit * 49
                     }
 
                 obj, created = Prono.objects.update_or_create(
