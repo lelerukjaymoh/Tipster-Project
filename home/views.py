@@ -85,7 +85,6 @@ def parser(res, match_date):
     counter_lost_odd = 0.0
     counter_won_odd = 0.0
     counter_win = 0
-    profit = 0
     counter_lose = 0
     context = {}
     try:
@@ -143,13 +142,22 @@ def parser(res, match_date):
 
                 def overall_result():
                     if result_home == 'no_result' or result_away == 'no_result':
-                        win_odd = 0
+                        win_odd = 0.0
                         if game_info[0][8] == 'X':
                             win_odd = game_info[0][11].split(":")[1]
                         elif game_info[0][8] == '1':
                             win_odd = game_info[0][10].split(":")[1]
                         elif game_info[0][8] == '2':
                             win_odd = game_info[0][12].split(":")[1]
+                        elif game_info[0][8] == '12':
+                            win_odd = 1.15
+                            # get odd for double chance
+                        elif game_info[0][8] == '1X':
+                            win_odd = 1.15
+                            # get odd for double chance
+                        elif game_info[0][8] == 'X2':
+                            win_odd = 1.15
+                            # get odd for double chance
                         return ['no_results_yet', win_odd]
                     else:
                         if game_info[0][8] == 'X':
@@ -171,19 +179,19 @@ def parser(res, match_date):
                             else:
                                 return ['awaylose', win_odd]
                         elif game_info[0][8] == '12':
-                            win_odd = 0
+                            win_odd = 1.15
                             if result_away != result_home:
                                 return ['12win', win_odd]
                             else:
                                 return ['12lose', win_odd]
                         elif game_info[0][8] == '1X':
-                            win_odd = 0
+                            win_odd = 1.15
                             if result_home >= result_away:
                                 return ['1Xwin', win_odd]
                             else:
                                 return ['1Xlose', win_odd]
                         elif game_info[0][8] == 'X2':
-                            win_odd = 0
+                            win_odd = 1.15
                             if result_home <= result_away:
                                 return ['X2win', win_odd]
                             else:
@@ -212,7 +220,7 @@ def parser(res, match_date):
                 elif overall_result()[0] == 'no_results_yet':
                     pass
 
-                profit = counter_won_odd - (total_straight_win + total_straight_lose)  
+                profit = counter_won_odd - (counter_win + counter_lose)
                 context = {
                     "counter_lost_odd": counter_lost_odd, "counter_won_odd": counter_won_odd,
                     "counter_lose": counter_lose, "counter_win": counter_win,
