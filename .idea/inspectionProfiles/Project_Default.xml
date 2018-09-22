@@ -14,7 +14,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="105">
+          <list size="107">
             <item index="0" class="java.lang.String" itemvalue="tabulate" />
             <item index="1" class="java.lang.String" itemvalue="PyYAML" />
             <item index="2" class="java.lang.String" itemvalue="apparmor" />
@@ -120,6 +120,8 @@
             <item index="102" class="java.lang.String" itemvalue="openpyxl" />
             <item index="103" class="java.lang.String" itemvalue="stem" />
             <item index="104" class="java.lang.String" itemvalue="setuptools" />
+            <item index="105" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="106" class="java.lang.String" itemvalue="pip" />
           </list>
         </value>
       </option>
