@@ -11,6 +11,7 @@ from .models import Prono, Progress
 
 def topnavselector():
     date = datetime.datetime.now()
+
     return date
 
 
