@@ -18,19 +18,17 @@
   <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 </head>
 <body>
-  <div class="navbar-fixed">  <!-- navbar -->
-    <nav class="nav-extended white black-text">
+  <!-- navbar -->
+  <nav class="nav-extended black-text">
       <div class="nav-wrapper">
         <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <!-- <img width="32" height="32" src="https://secure.gravatar.com/avatar/34fdf268f6b275d475af750edcf1fcf4?s=32&amp;d=404" alt="Dennis"
-        style="max-width: 100%; width: 38px; height: 38px; border-radius: 500px;"> -->
-        <!-- <a href="/" class="center">
-        <span class="header__text">BEST SPORT PREDICTIONS</span>
-      </a> -->
-      <ul class="right">
-        <li><a href="#" class="black-text">User</a></li>
-      </ul>
-    </div>
+        <!-- <a href="#" class="brand-logo black-text">Hustler</a> -->
+        <ul class="right">
+          <li><a href="#"><i class="material-icons">search</i></a></li>
+          <li><a href="#" class="black-text">Games</a></li>
+          <li><a href="#" class="black-text">Wallet</a></li>
+        </ul>
+      </div>
     <div class="nav-content">
       <ul class="tabs tabs-transparent">
         {% if request_tom == "yest" %}
@@ -50,46 +48,31 @@
         {% endif %}
       </ul>
     </div>
-    <!-- <h2 class="forecasts__title">
-      <i class="icon icon_soccer"></i>
-      <span class="forecasts__sport">Football</span>
-      {% if request_tom == "yest" %}
-      <span class="forecasts__day">Yesterday</span>
-      {% endif %}
-      {% if request_tom == "tod" %}
-      <span class="forecasts__day">Today</span>
-      {% endif %}
-      {% if request_tom == "tom" %}
-      <span class="forecasts__day">Tomorrow</span>
-      {% endif %}
-      <span class="forecasts__coefficient">Odds</span>
-    </h2> -->
   </nav>
-</div>
-<!-- Mobile Device Navbar -->
-<ul class="sidenav sidenav-fixed collapsible" id="mobile-nav">
-  <li>
-    <div class="user-view">
-      <div class="row">
-        <div class="col col s4 m4 l4">
-          <img src="{% static 'css/assets/avatar-7.png' %}" alt="Dennis" class="circle responsive-img valign profile-image cyan">
-        </div>
-        <div class="col col s8 m8 l8">
-          <a class="waves-effect waves-black white-text" href="#">Dennis Peterson<i class="mdi-navigation-arrow-drop-down right"></i></a>
-          <p class="waves-effect waves-black user-roal green-text">Online</p>
+  <!-- Mobile Device Navbar -->
+  <ul class="sidenav sidenav-fixed collapsible" id="mobile-nav">
+    <li>
+      <div class="user-view">
+        <div class="row">
+          <div class="col col s4 m4 l4">
+            <img src="{% static 'css/assets/avatar-7.png' %}" alt="Dennis" class="circle responsive-img valign profile-image cyan">
+          </div>
+          <div class="col col s8 m8 l8">
+            <a class="waves-effect waves-black white-text" href="#">Dennis Peterson<i class="mdi-navigation-arrow-drop-down right"></i></a>
+            <p class="waves-effect waves-black user-roal green-text">Online</p>
+          </div>
         </div>
       </div>
-    </div>
-  </li>
-  <li class="divider"></li>
-  <!-- <li><a href="/today/">Games</a></li>
-  <li><a href="#">Favorites</a></li>
-  <li><a href="#">Bet Slip</a></li>
-  <li><a href="">Sign in</a>
-  <p>
-  Don't have an account?
-  <a href="#" style="color: orange;">Register</a> for free
-</p>
+    </li>
+    <li class="divider"></li>
+    <!-- <li><a href="/today/">Games</a></li>
+    <li><a href="#">Favorites</a></li>
+    <li><a href="#">Bet Slip</a></li>
+    <li><a href="">Sign in</a>
+    <p>
+    Don't have an account?
+    <a href="#" style="color: orange;">Register</a> for free
+  </p>
 </li> -->
 <li><a class="subheader">SITE MAP</a></li>
 <li class="divider"></li>
@@ -106,6 +89,20 @@
 <!--main content  -->
 <div class="wrapper">
   <div class="forecasts">
+    <div class="forecasts__title">
+      <i class="icon icon_soccer"></i>
+      <span class="forecasts__sport">Football</span>
+      {% if request_tom == "yest" %}
+      <span class="forecasts__day">Yesterday</span>
+      {% endif %}
+      {% if request_tom == "tod" %}
+      <span class="forecasts__day">Today</span>
+      {% endif %}
+      {% if request_tom == "tom" %}
+      <span class="forecasts__day">Tomorrow</span>
+      {% endif %}
+      <span class="forecasts__coefficient">Odds</span>
+    </div>
     <div class="forecasts__list">
       {% for game in games %}
       <a href="{% url 'game_details' pk=game.pk%}" class="forecasts__item">

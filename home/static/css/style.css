@@ -15,6 +15,9 @@ body{
   fill: none;
   padding-right: 10px;
 }
+.nav-wrapper{
+  border-bottom: 1px solid rgba(32,35,95,.2);
+}
 /* Navigation Bar */
 .sidenav{
   bottom: 0;
