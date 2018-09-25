@@ -20,15 +20,15 @@
 <body>
   <!-- navbar -->
   <nav class="nav-extended black-text">
-      <div class="nav-wrapper">
-        <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <!-- <a href="#" class="brand-logo black-text">Hustler</a> -->
-        <ul class="right">
-          <li><a href="#"><i class="material-icons">search</i></a></li>
-          <li><a href="#" class="black-text">Games</a></li>
-          <li><a href="#" class="black-text">Wallet</a></li>
-        </ul>
-      </div>
+    <div class="nav-wrapper">
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <!-- <a href="#" class="brand-logo black-text">Hustler</a> -->
+      <ul class="right">
+        <li><a href="#"><i class="material-icons">search</i></a></li>
+        <li><a href="#" class="black-text">Games</a></li>
+        <li><a href="#" class="black-text">Wallet</a></li>
+      </ul>
+    </div>
     <div class="nav-content">
       <ul class="tabs tabs-transparent">
         {% if request_tom == "yest" %}
@@ -168,6 +168,8 @@ $(document).ready(function(){
   feather.replace();
   // For collapsible menu items
   $('.collapsible').collapsible();
+  // for activating tabs transition
+  $('.tabs').tabs();
 });
 </script>
 <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
