@@ -50,7 +50,7 @@ justify-content:center;text-decoration:none;
 } */
 
 .wrapper{
-  padding: 1px 3px;
+	padding: 1px 3px;
 	border-bottom-left-radius:5px;
 	border-bottom-right-radius:5px
 }
@@ -248,18 +248,53 @@ color: #000 !important;
 	font-size:20px;font-weight:700
 }
 .calc__range{
-	margin-top:35px;line-height:18px;font-size:12px;text-transform:uppercase
+	margin-top:35px;line-height:18px;font-size:12px;text-transform:uppercase;
 }
 
+/* footer */
+.navigation, .navigation__link {
+	display: -ms-flexbox;
+	display: flex;
+}
+.navigation {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 3;
+	background-color: #f8f8f8;
+	border-top: 1px solid rgba(19,21,58,.15);
+}
+.navigation .navigation__link:hover{
+	background-color: rgba(0,0,0,0.05);
+}
+.navigation__link {
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	padding-bottom: 4px;
+	text-align: center;
+	line-height: 50px;
+	text-decoration: none;
+	color:#000;
+	position: relative;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: end;
+	justify-content: center;
+}
 
 .icon{
 	display:inline-block;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:50%;
-	-webkit-font-smoothing:antialiased
+	-webkit-font-smoothing:antialiased;
 }
-.icon_soccer {
+.icon_soccer{
 	width: 16px;
 	height: 17px;
 	background-image: url(assets/icon-sport-football.svg);
@@ -267,26 +302,13 @@ color: #000 !important;
 .icon_success{
 	background-image:url(assets/icon-success.svg);
 }
+.icon_pending{
+	background-image:url(assets/pending.svg)
+}
 .icon_pending,.icon_failure,.icon_success{
 	width:15px;height:15px;
 	border-radius:50%
 }
 .icon_failure{
 	background-image:url(assets/icon-failure.svg);
-}
-.icon_pending{
-	background-image:url(assets/pending.svg)
-}
-.icon_login {
-	width: 22px;
-	height: 23px;
-	background-image: url(assets/icon-login.svg);
-}
-.icon_free {
-	width: 18px;
-	height: 23px;
-	background-image: url(assets/icon-free.svg);
-}
-.user_wallet2{
-	color:#000;
 }
