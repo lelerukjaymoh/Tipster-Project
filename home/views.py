@@ -267,5 +267,9 @@ def game_details(request, pk):
     return render(request, 'mysite/game_details.html', {'game': games_detail})
 
 
+def comingsoon(request):
+    return render(request, 'mysite/comingsoon.html')
+
+
 def login(request):
     return render(request, 'mysite/login.html')
