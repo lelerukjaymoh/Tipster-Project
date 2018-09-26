@@ -87,15 +87,20 @@ nav,.nav-extended{
   padding: 0 60px;
 }
 /*  For Larger screen to show fixed menu */
-nav,header,.forecasts,.wrapper {
+nav,header,.forecasts,.wrapper,.wrap {
   padding-left: 300px;
 }
 @media only screen and (max-width : 992px) {
-  nav,header,.forecasts,.wrapper {
+  nav,header,.forecasts,.wrapper,.wrap {
     padding-left: 0;
   }
   .sidenav{
     width: 260px;
   }
-
+  a.item {
+		background: white none no-repeat scroll 0 0;
+		height: auto;
+		width: auto;
+		margin: 10px 0;
+	}
 }

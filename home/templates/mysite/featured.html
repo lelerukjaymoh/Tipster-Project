@@ -1,1 +1,28 @@
-{% extends 'mysite/index.html' %}
+{% extends 'mysite/base.html' %}
+{% load staticfiles %}
+{% block content %}
+<div class="wrap">
+  <a href="#reg" class="item">
+    <div class="flag"><img src="{% static 'css/assets/flag_default.png' %}"></div>
+    <div class="info">
+      <div class="name">Sweden - Allsvenskan</div>
+      <div class="y">
+        <span><b>19:00</b></span>
+        Prediction and bet for <span>Norrkoping - Malmo</span>
+      </div>
+    </div>
+    <div class="clr"></div>
+  </a>
+  <a href="#reg" class="item">
+    <div class="flag"><img src="{% static 'css/assets/flag_default.png' %}"></div>
+    <div class="info">
+      <div class="name">Sweden - Allsvenskan</div>
+      <div class="y">
+        <span><b>19:00</b></span>
+        Prediction and bet for <span>Norrkoping - Malmo</span>
+      </div>
+    </div>
+    <div class="clr"></div>
+  </a>
+</div>
+{% endblock %}

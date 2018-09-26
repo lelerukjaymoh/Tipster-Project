@@ -1,176 +1,49 @@
-<!DOCTYPE html>
-{% load staticfiles %}
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Hustler</title>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Font Family  -->
-  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}"  media="screen,projection"/>
-  <!--Lets the browser know website is optimized for mobile-->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--custom css-->
-  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
-  <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
-</head>
-<body>
-  <!-- navbar -->
-  <nav class="nav-extended black-text">
-    <div class="nav-wrapper">
-      <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
-      <!-- <a href="#" class="brand-logo black-text">Hustler</a> -->
-      <ul class="right">
-        <li><a href="#"><i class="material-icons black-text">search</i></a></li>
-        <li><a href="#" class="black-text">Games</a></li>
-        <li><a href="#" class="black-text">Wallet</a></li>
-      </ul>
-    </div>
-    <div class="nav-content">
-      <ul class="tabs tabs-transparent">
-        {% if request_tom == "yest" %}
-        <li class="tab"><a target="_self" href="/yesterday/" class="active black-text">Yesterday</a></li>
-        <li class="tab"><a target="_self" href="/" class="black-text">Today</a></li>
-        <li class="tab"><a target="_self" href="/tomorrow/" class="black-text">Tomorrow</a></li>
-        {% endif %}
-        {% if request_tom == "tod" %}
-        <li class="tab"><a target="_self" href="/yesterday/" class="black-text">Yesterday</a></li>
-        <li class="tab"><a target="_self" href="/" class="active black-text">Today</a></li>
-        <li class="tab"><a target="_self" href="/tomorrow/" class="black-text">Tomorrow</a></li>
-        {% endif %}
-        {% if request_tom == "tom" %}
-        <li class="tab"><a target="_self" href="/yesterday/" class="black-text">Yesterday</a></li>
-        <li class="tab"><a target="_self" href="/" class="black-text">Today</a></li>
-        <li class="tab"><a target="_self" href="/tomorrow/" class="black-text active">Tomorrow</a></li>
-        {% endif %}
-      </ul>
-    </div>
-  </nav>
-  <!-- Mobile Device Navbar -->
-  <ul class="sidenav sidenav-fixed collapsible" id="mobile-nav">
-    <li>
-      <div class="user-view">
-        <div class="row">
-          <div class="col col s4 m4 l4">
-            <img src="{% static 'css/assets/avatar-7.png' %}" alt="Dennis" class="circle responsive-img valign profile-image cyan">
-          </div>
-          <div class="col col s8 m8 l8">
-            <a class="waves-effect waves-black white-text" href="#">Dennis Peterson<i class="mdi-navigation-arrow-drop-down right"></i></a>
-            <p class="waves-effect waves-black user-roal green-text">Online</p>
-          </div>
-        </div>
-      </div>
-    </li>
-    <li class="divider"></li>
-    <!-- <li><a href="/today/">Games</a></li>
-    <li><a href="#">Favorites</a></li>
-    <li><a href="#">Bet Slip</a></li>
-    <li><a href="">Sign in</a>
-    <p>
-    Don't have an account?
-    <a href="#" style="color: orange;">Register</a> for free
-  </p>
-</li> -->
-<li><a class="subheader">SITE MAP</a></li>
-<li class="divider"></li>
-<li><a href="#home" class="sidenav-close"><i class="feather waves-effect" data-feather="home"></i>Home</a></li>
-<li><a href="" class="sidenav-close"><i class="feather waves-effect" data-feather="activity"></i>Games</a></li>
-<li><a href="" class="sidenav-close"><i class="feather waves-effect" data-feather="star"></i>Favorites</a></li>
-<li><a href="" class="sidenav-close"><i class="feather waves-effect" data-feather="file"></i>Bet slip</a></li>
-<li><a href="" class="sidenav-close"><i class="feather waves-effect" data-feather="file-text"></i>My Bets</a></li>
-<li><a href="" class="sidenav-close"><i class="feather waves-effect" data-feather="user"></i>Account</a></li>
-<li><a href="wallet/" target="_self" class="sidenav-close"><i class="feather waves-effect" data-feather="dollar-sign"></i>Wallet</a></li>
-<li><a href="#" class="sidenav-close"><i class="feather waves-effect" data-feather="settings"></i>Settings</a></li>
-<li><a href="#" class="sidenav-close"><i class="feather waves-effect" data-feather="log-out"></i>Sign Out</a></li>
-</ul>
+{% extends 'mysite/base.html' %}
 <!--main content  -->
-<div class="wrapper">
-  <div class="forecasts">
-    <div class="forecasts__title">
-      <i class="icon icon_soccer"></i>
-      <span class="forecasts__sport">Football</span>
-      {% if request_tom == "yest" %}
-      <span class="forecasts__day">Yesterday</span>
-      {% endif %}
-      {% if request_tom == "tod" %}
-      <span class="forecasts__day">Today</span>
-      {% endif %}
-      {% if request_tom == "tom" %}
-      <span class="forecasts__day">Tomorrow</span>
-      {% endif %}
-      <span class="forecasts__coefficient center">Odds</span>
-    </div>
-    <div class="forecasts__list">
-      {% for game in games %}
-      <a href="{% url 'game_details' pk=game.pk%}" class="forecasts__item">
-        <h4 class="forecasts__teams">{{ game.teams }}</h4>
-        <span class="forecasts__league">
-          <span class="forecasts__date">
-            <b>{{ game.time }}</b>
-          </span>
-          Pick <b style="font-size: 11px;">{{ game.chance }}</b>
-          <i>Result</i> <b style="font-size: 12px;">{{ game.match_result }}</b>
-        </span>
-        {% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' or game.result_overall == '1Xwin' or game.result_overall == 'X2win' %}
-        <i class="forecasts__result icon icon_success" title="won"></i>
-        {% endif %}
-        {% if game.result_overall == 'drawwin' %}
-        <i class="forecasts__result icon icon_success" title="won"></i>
-        {% endif %}
-        {% if game.result_overall == 'drawlose' or game.result_overall == 'homelose' or game.result_overall == 'awaylose' or game.result_overall == '12lose' or game.result_overall == '1Xlose' or game.result_overall == 'X2lose' %}
-        <i class="forecasts__result icon icon_failure" title="lost"></i>
-        {% endif %}
-        {% if game.result_overall == 'no_results_yet' %}
-        <i class="forecasts__result icon icon_pending" title="waiting"></i>
-        {% endif %}
-        <span
-        class="forecasts__coeff forecasts__coeff_free">{{ game.win_odd }}
-      </span>
-    </a>
-    {% endfor %}
+{% block content %}
+<div class="forecasts">
+  <div class="forecasts__title">
+    <i class="icon icon_soccer"></i>
+    <span class="forecasts__sport">Football</span>
+    {% if request_tom == "yest" %}
+    <span class="forecasts__day">Yesterday</span>
+    {% endif %}
+    {% if request_tom == "tod" %}
+    <span class="forecasts__day">Today</span>
+    {% endif %}
+    {% if request_tom == "tom" %}
+    <span class="forecasts__day">Tomorrow</span>
+    {% endif %}
+    <span class="forecasts__coefficient center">Odds</span>
   </div>
+  <div class="forecasts__list">
+    {% for game in games %}
+    <a href="{% url 'game_details' pk=game.pk%}" class="forecasts__item">
+      <h4 class="forecasts__teams">{{ game.teams }}</h4>
+      <span class="forecasts__league">
+        <span class="forecasts__date">
+          <b>{{ game.time }}</b>
+        </span>
+        Pick <b style="font-size: 11px;">{{ game.chance }}</b>
+        <i>Result</i> <b style="font-size: 12px;">{{ game.match_result }}</b>
+      </span>
+      {% if game.result_overall == 'homewin' or game.result_overall == 'awaywin' or game.result_overall == '12win' or game.result_overall == '1Xwin' or game.result_overall == 'X2win' %}
+      <i class="forecasts__result icon icon_success" title="won"></i>
+      {% endif %}
+      {% if game.result_overall == 'drawwin' %}
+      <i class="forecasts__result icon icon_success" title="won"></i>
+      {% endif %}
+      {% if game.result_overall == 'drawlose' or game.result_overall == 'homelose' or game.result_overall == 'awaylose' or game.result_overall == '12lose' or game.result_overall == '1Xlose' or game.result_overall == 'X2lose' %}
+      <i class="forecasts__result icon icon_failure" title="lost"></i>
+      {% endif %}
+      {% if game.result_overall == 'no_results_yet' %}
+      <i class="forecasts__result icon icon_pending" title="waiting"></i>
+      {% endif %}
+      <span
+      class="forecasts__coeff forecasts__coeff_free">{{ game.win_odd }}
+    </span>
+  </a>
+  {% endfor %}
 </div>
 </div>
-<!--footer  -->
-<nav class="navigation">
-  <a target="_self" href="/" class="navigation__link">
-    <i class="feather hide-on-small-only" data-feather="home"></i>
-    <span class="navigation__text">All Games</span>
-  </a>
-  <a target="_self" href="/featured/" class="navigation__link">
-    <i class="feather hide-on-small-only" data-feather="heart"></i>Featured</a>
-  <a target="_self" href="/comingsoon/" class="navigation__link">
-    <i class="feather hide-on-small-only" data-feather="target"></i>
-    <span class="navigation__text">G-G</span>
-  </a>
-  <a target="_self" href="comingsoon" class="navigation__link">
-    <i class="feather hide-on-small-only" data-feather="plus"></i>
-    <span class="navigation__text">Over 2.5</span>
-  </a>
-
-</nav>
-<!-- For optimized loading-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-<script type="text/javascript" src="{% static 'js/materialize.js' %}"></script>
-<!-- feather icos -->
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-
-<!--custom js-->
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.sidenav').sidenav();
-  //for feather Icons
-  feather.replace();
-  // For collapsible menu items
-  $('.collapsible').collapsible();
-  // for activating tabs transition
-  $('.tabs').tabs();
-});
-</script>
-<script type="text/javascript" src="{% static 'js/main.js' %}"></script>
-<script type="text/javascript" src="{% static 'js/index.js' %}"></script>
-</body>
-</html>
+{% endblock %}
