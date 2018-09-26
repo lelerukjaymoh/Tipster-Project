@@ -8,10 +8,7 @@ body{
 }
 a { color: #000;
 }
-.tabs .tab a:hover{
-  background-color: rgba(0,0,0,0.4);
-}
-.tabs .tab a.active {
+.tabs .tab a:hover, .tabs .tab a.active {
   background-color: #fff;
 }
 .feather {

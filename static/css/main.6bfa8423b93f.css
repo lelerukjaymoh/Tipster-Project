@@ -50,7 +50,8 @@ justify-content:center;text-decoration:none;
 } */
 
 .wrapper{
-  padding: 1px 3px;
+	/* background-color:#17181c; */
+	padding: 5px;
 	border-bottom-left-radius:5px;
 	border-bottom-right-radius:5px
 }
@@ -74,11 +75,11 @@ color: #000 !important;
 
 .forecasts{
 	background-color:#fff;
-	border-radius:3px;
+	border-radius:5px;
 	overflow:hidden;
 }
 .forecasts__title{
-	height:60px;
+	height:65px;
 	display:-webkit-box;
 	display:-ms-flexbox;
 	display:flex;
@@ -110,7 +111,6 @@ color: #000 !important;
 	background-color: #e5e5e5;
 	font-size:12px;
 	height: inherit;
-	line-height: 60px;
 	color:rgba(0,0,0,.7);
 }
 .forecasts__item{
@@ -262,30 +262,30 @@ color: #000 !important;
 .icon_soccer {
 	width: 16px;
 	height: 17px;
-	background-image: url(assets/icon-sport-football.svg);
+	background-image: url("assets/icon-sport-football.3fb0e02b8a7a.svg");
 }
 .icon_success{
-	background-image:url(assets/icon-success.svg);
+	background-image:url("assets/icon-success.96a51dda8e18.svg");
 }
 .icon_pending,.icon_failure,.icon_success{
 	width:15px;height:15px;
 	border-radius:50%
 }
 .icon_failure{
-	background-image:url(assets/icon-failure.svg);
+	background-image:url("assets/icon-failure.de8106553eea.svg");
 }
 .icon_pending{
-	background-image:url(assets/pending.svg)
+	background-image:url("assets/pending.638cca9370fa.svg")
 }
 .icon_login {
 	width: 22px;
 	height: 23px;
-	background-image: url(assets/icon-login.svg);
+	background-image: url("assets/icon-login.32eef96a8549.svg");
 }
 .icon_free {
 	width: 18px;
 	height: 23px;
-	background-image: url(assets/icon-free.svg);
+	background-image: url("assets/icon-free.075235595746.svg");
 }
 .user_wallet2{
 	color:#000;

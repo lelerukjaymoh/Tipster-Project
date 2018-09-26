@@ -6,13 +6,7 @@ body{
   background-color: #222;
 
 }
-a { color: #000;
-}
-.tabs .tab a:hover{
-  background-color: rgba(0,0,0,0.4);
-}
-.tabs .tab a.active {
-  background-color: #fff;
+a{ color: #000;
 }
 .feather {
   width: 24px;
@@ -27,10 +21,9 @@ a { color: #000;
 .nav-wrapper{
   border-bottom: 1px solid rgba(32,35,95,.2);
 }
-nav,.nav-extended{
-  background: #f8f8f8;
-}
-
+.nav-extended{
+  background: #e5e5e5;
+  }
 /* Navigation Bar */
 .sidenav{
   bottom: 0;

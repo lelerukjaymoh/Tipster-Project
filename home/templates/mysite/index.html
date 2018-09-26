@@ -21,10 +21,10 @@
   <!-- navbar -->
   <nav class="nav-extended black-text">
     <div class="nav-wrapper">
-      <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
       <!-- <a href="#" class="brand-logo black-text">Hustler</a> -->
       <ul class="right">
-        <li><a href="#"><i class="material-icons">search</i></a></li>
+        <li><a href="#"><i class="material-icons black-text">search</i></a></li>
         <li><a href="#" class="black-text">Games</a></li>
         <li><a href="#" class="black-text">Wallet</a></li>
       </ul>
@@ -32,19 +32,19 @@
     <div class="nav-content">
       <ul class="tabs tabs-transparent">
         {% if request_tom == "yest" %}
-        <li class="tab"><a href="/yesterday/" class="active">Yesterday</a></li>
-        <li class="tab"><a href="/">Today</a></li>
-        <li class="tab"><a href="/tomorrow/">Tomorrow</a></li>
+        <li class="tab"><a target="_self" href="/yesterday/" class="active black-text">Yesterday</a></li>
+        <li class="tab"><a target="_self" href="/" class="black-text">Today</a></li>
+        <li class="tab"><a target="_self" href="/tomorrow/" class="black-text">Tomorrow</a></li>
         {% endif %}
         {% if request_tom == "tod" %}
-        <li class="tab"><a href="/yesterday/">Yesterday</a></li>
-        <li class="tab"><a href="/" class="active">Today</a></li>
-        <li class="tab"><a href="/tomorrow/">Tomorrow</a></li>
+        <li class="tab"><a target="_self" href="/yesterday/" class="black-text">Yesterday</a></li>
+        <li class="tab"><a target="_self" href="/" class="active black-text">Today</a></li>
+        <li class="tab"><a target="_self" href="/tomorrow/" class="black-text">Tomorrow</a></li>
         {% endif %}
         {% if request_tom == "tom" %}
-        <li class="tab"><a href="/yesterday/" >Yesterday</a></li>
-        <li class="tab"><a href="/">Today</a></li>
-        <li class="tab"><a href="/tomorrow/" class="active">Tomorrow</a></li>
+        <li class="tab"><a target="_self" href="/yesterday/" class="black-text">Yesterday</a></li>
+        <li class="tab"><a target="_self" href="/" class="black-text">Today</a></li>
+        <li class="tab"><a target="_self" href="/tomorrow/" class="black-text active">Tomorrow</a></li>
         {% endif %}
       </ul>
     </div>
@@ -101,7 +101,7 @@
       {% if request_tom == "tom" %}
       <span class="forecasts__day">Tomorrow</span>
       {% endif %}
-      <span class="forecasts__coefficient">Odds</span>
+      <span class="forecasts__coefficient center">Odds</span>
     </div>
     <div class="forecasts__list">
       {% for game in games %}

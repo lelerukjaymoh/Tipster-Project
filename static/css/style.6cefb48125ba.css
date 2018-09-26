@@ -6,13 +6,7 @@ body{
   background-color: #222;
 
 }
-a { color: #000;
-}
-.tabs .tab a:hover{
-  background-color: rgba(0,0,0,0.4);
-}
-.tabs .tab a.active {
-  background-color: #fff;
+a{ color: #000;
 }
 .feather {
   width: 24px;
