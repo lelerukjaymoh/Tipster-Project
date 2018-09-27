@@ -24,6 +24,7 @@ a {
   stroke-linejoin: round;
   fill: none;
   padding-right: 10px;
+  vertical-align: middle;
 }
 .nav-wrapper{
   border-bottom: 1px solid rgba(32,35,95,.2);
@@ -87,21 +88,21 @@ nav,.nav-extended{
   padding: 0 60px;
 }
 /*  For Larger screen to show fixed menu */
-nav,header,.forecasts,.wrapper {
+nav,header,.wrapper,.navigation {
   padding-left: 300px;
 }
 @media only screen and (max-width : 992px) {
-  nav,header,.forecasts,.wrapper{
+  nav,header,.wrapper,.navigation{
     padding-left: 0;
   }
   .sidenav{
     width: 260px;
   }
   a.item {
-		background: white none no-repeat scroll 0 0;
-		height: auto;
-		width: auto;
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
+    background: white none no-repeat scroll 0 0;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }

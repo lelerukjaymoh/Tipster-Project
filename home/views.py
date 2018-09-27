@@ -6,7 +6,8 @@ import bs4
 import requests
 from django.shortcuts import render, get_object_or_404
 from collections import Counter
-from .models import Prono, Progress
+from .models import Prono
+from .featured import Featured
 
 
 def topnavselector():
@@ -60,6 +61,7 @@ def homepage_today(request):
 
 def yesterday(request):
     today = topnavselector() - timedelta(days=1)
+    print(today)
     res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
     match_date = today.strftime("%d-%m")  # date when the match is played
     games = parser(res, match_date)[0]
@@ -254,12 +256,18 @@ def error_500(request):
 
 
 def featured(request):
+    games_dict = []
     today = topnavselector()
-    res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
-    match_date = today.strftime("%d-%m")  # date when the match is played
-    games = parser(res, match_date)[0]
+    page_url = 'http://cashbettingtips.blogspot.com/%d/0%d/%d-september.html' % (today.year, today.month, today.day)
+    # match_date = today.strftime("%d-%m")  # date when the match is played
+    games = Featured(page_url).getgames()
+    for group in games:
+        for each in group:
+            if len(each) > 3:
+                games_dict.append({"teams": each[0], "tips": each[1], 'odds': each[3]})
+    # print(games_dict)
     request_from = "tod"
-    return render(request, 'mysite/featured.html', {"games": games[:7], "request_tom": request_from})
+    return render(request, 'mysite/featured.html', {"games": games_dict, "request_tom": request_from})
 
 
 def game_details(request, pk):
