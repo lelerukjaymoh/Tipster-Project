@@ -52,7 +52,12 @@ def homepage_today(request):
     today = topnavselector()
     res = requests.get('http://www.zulubet.com/tips-%d-0%d-%d.html' % (today.day, today.month, today.year))
     match_date = today.strftime("%d-%m")  # date when the match is played
-    games = parser(res, match_date)[0]
+
+    try:
+        games = parser(res, match_date)[0]
+    except Exception as MultipleObjectsReturned:
+        print("MultipleObjectsReturned error occurred"+str(MultipleObjectsReturned))
+        pass
     progress_details = parser(res, match_date)[1]
     request_from = "tod"
     return render(request, 'mysite/index.html',
