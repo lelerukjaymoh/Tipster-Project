@@ -18,7 +18,7 @@ class Featured:
         if type(cash_soup) == bs4.BeautifulSoup:
             games = cash_soup.findAll("span", style="font-family: sans-serif;")
             games_num = len(games)
-            print(games[1].getText())
+            print(games[2].getText())
             for match in range(games_num):
                 get_reg = re.compile(r'(.*?)\s*(12|1x|1|2|x2|x|(un|ov)\d+.\d+)\s*(@\d+.\d+)')
                 game_info.append(get_reg.findall(games[match].getText()))
