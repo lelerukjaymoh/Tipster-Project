@@ -263,9 +263,10 @@ def error_500(request):
 def featured(request):
     games_dict = []
     today = topnavselector()
-    page_url = 'http://cashbettingtips.blogspot.com/%d/0%d/%d-september.html' % (today.year, today.month, today.day)
+    page_url = 'http://cashbettingtips.blogspot.com/%d/%d/0%d-october.html' % (today.year, today.month, today.day)
     # match_date = today.strftime("%d-%m")  # date when the match is played
-    games = Featured(page_url).getgames()
+    print(page_url)
+    games = Featured(page_url).procedure1()
     for group in games:
         for each in group:
             if len(each) > 3:
