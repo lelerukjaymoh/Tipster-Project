@@ -3,7 +3,7 @@ import bs4
 import re
 
 
-class Featured:
+class CashBet:
     def __init__(self, page_url):
         self.page_url = page_url
 
@@ -18,7 +18,8 @@ class Featured:
         if type(cash_soup) == bs4.BeautifulSoup:
             games = cash_soup.findAll("span", style="font-family: sans-serif;")
             games_num = len(games)
-            self.procedure2(games)  # parsing data to method 2
+            # parsing data to method 2
+            self.procedure2(games)
             for match in range(games_num):
                 get_reg = re.compile(r'(.*?)\s*(12|1x|1|2|x2|x|(un|ov)\d+.\d+)\s*(@\d+.\d+)')
                 game_info.append(get_reg.findall(games[match].getText()))
@@ -27,4 +28,5 @@ class Featured:
 
     def procedure2(self, game_info2):
         for each in game_info2:
-            print(each.getText())
+            if each.getText() != '':
+                print(each.getText())
