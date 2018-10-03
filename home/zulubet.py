@@ -24,49 +24,49 @@ class ZuluBet:
             tr_elems = zulu_soup.findAll("tr", bgcolor=re.compile('^#.*'))
             games_number = len(tr_elems)
             print("Today games are " + str(games_number))
-            # Games that could not be parsed
-            error_games = []
-            # Extracting games
-            removing_mf_usertime = re.compile(r'^mf_usertime(.*);')
-            for gameNo in range(games_number):
-                team = removing_mf_usertime.sub('', tr_elems[gameNo].getText())
-                groupings_trial = re.compile(r'''(
-                \d+-\d+,\s)                                                       #date
-                (\d+:\d+\s)                                                       #time
-                ([\w+\W+]*(\s\w+)*\s-\s\w+[^1:]*)              #teams
-                ([\d+]*[\s\w+]*1:\s+\d+%)*   #1
-                (X:\s+\d+%)*   #X
-                (2:\s+\d+%)*   #2
-                (\d+%\d+%\d+%)   #
-                (12|1X|1|2|X2|X)      #chance
-                (\d[^1:])*
-                ([1:\s\d+.\d+]+[^X:]*)  #prob1
-                (X:\s\d+.\d{2})         #probX
-                (2:\s\d+.\d{2})         #prob2
-                (\d+.\d+.\d+.\d{2})
-                (\d+:\d+|[\s-]*)              #result
-
-                ''', re.VERBOSE)
-                game_info = groupings_trial.findall(team)
-                if len(game_info) < 1:
-                    error_games += ["empty list"]
-                # if games_info list is not empty
-                else:
-                    game_time = game_info[0][1].strip()
-                    full_date = datetime.datetime.strptime(game_time, "%H:%M")
-                    full_date = full_date + timedelta(hours=2)
-                    formatted_date = full_date.strftime("%H:%M")
-                    try:
-                        results = game_info[0][14].split(':')
-                        if len(results) == 2:
-                            result_home = int(results[0])
-                            result_away = int(results[1])
-                        else:
-                            result_home = 'no_result'
-                            result_away = 'no_result'
-                    except Exception as no_score:
-                        # Adding to error games that there was no result
-                        error_games += [no_score]
+            if games_number != 0:
+                # Games that could not be parsed
+                error_games = []
+                # Extracting games
+                removing_mf_usertime = re.compile(r'^mf_usertime(.*);')
+                for gameNo in range(games_number):
+                    team = removing_mf_usertime.sub('', tr_elems[gameNo].getText())
+                    groupings_trial = re.compile(r'''(
+                    \d+-\d+,\s)                                                       #date
+                    (\d+:\d+\s)                                                       #time
+                    ([\w+\W+]*(\s\w+)*\s-\s\w+[^1:]*)              #teams
+                    ([\d+]*[\s\w+]*1:\s+\d+%)*   #1
+                    (X:\s+\d+%)*   #X
+                    (2:\s+\d+%)*   #2
+                    (\d+%\d+%\d+%)   #
+                    (12|1X|1|2|X2|X)      #chance
+                    (\d[^1:])*
+                    ([1:\s\d+.\d+]+[^X:]*)  #prob1
+                    (X:\s\d+.\d{2})         #probX
+                    (2:\s\d+.\d{2})         #prob2
+                    (\d+.\d+.\d+.\d{2})
+                    (\d+:\d+|[\s-]*)              #result
+                    ''', re.VERBOSE)
+                    game_info = groupings_trial.findall(team)
+                    if len(game_info) < 1:
+                        error_games += ["empty list"]
+                        # if games_info list is not empty
+                    else:
+                        game_time = game_info[0][1].strip()
+                        full_date = datetime.datetime.strptime(game_time, "%H:%M")
+                        full_date = full_date + timedelta(hours=2)
+                        formatted_date = full_date.strftime("%H:%M")
+                        try:
+                            results = game_info[0][14].split(':')
+                            if len(results) == 2:
+                                result_home = int(results[0])
+                                result_away = int(results[1])
+                            else:
+                                result_home = 'no_result'
+                                result_away = 'no_result'
+                        except Exception as no_score:
+                                # Adding to error games that there was no result
+                                error_games += [no_score]
 
                     def overall_result():
                         if result_home == 'no_result' or result_away == 'no_result':
@@ -153,7 +153,7 @@ class ZuluBet:
                     #     "profit": profit * 49
                     #     }
 
-            obj, created = Prono.objects.update_or_create(
+                obj, created = Prono.objects.update_or_create(
                     teams=game_info[0][2],
                     defaults={
                         'match_date': self.match_date, 'time': formatted_date,
@@ -163,6 +163,6 @@ class ZuluBet:
                         'match_result': game_info[0][14],
                         'result_overall': overall_result()[0]})
 
-            games = Prono.objects.filter(match_date=self.match_date).order_by('time', 'teams')[:games_number]
+                games = Prono.objects.filter(match_date=self.match_date).order_by('time', 'teams')[:games_number]
 
-            return games
+                return games

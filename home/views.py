@@ -1,7 +1,6 @@
 import datetime
 from datetime import timedelta
 
-import requests
 from django.shortcuts import render, get_object_or_404
 # from collections import Counter
 from .models import Prono
@@ -78,17 +77,10 @@ def tomorrow(request):
 
 
 def featured(request):
-    games_dict = []
     today = topnavselector()
-    page_url = 'http://cashbettingtips.blogspot.com/%d/0%d/%d-september.html' % (today.year, 9, 30)
+    page_url = 'http://cashbettingtips.blogspot.com/%d/%d/0%d-october.html' % (today.year, today.month, 2)
     # match_date = today.strftime("%d-%m")  # date when the match is played
-    print(page_url)
-    games = CashBet(page_url).procedure1()
-    for group in games:
-        for each in group:
-            if len(each) > 3:
-                games_dict.append({"teams": each[0], "tips": each[1], 'odds': each[3]})
-    # print(games_dict)
+    games_dict = CashBet(page_url).procedure1()
     request_from = "tod"
     return render(request, 'mysite/featured.html', {"games": games_dict, "request_tom": request_from})
 
