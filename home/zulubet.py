@@ -52,6 +52,7 @@ class ZuluBet:
                         error_games += ["empty list"]
                         # if games_info list is not empty
                     else:
+                        # print(game_info)
                         game_time = game_info[0][1].strip()
                         full_date = datetime.datetime.strptime(game_time, "%H:%M")
                         full_date = full_date + timedelta(hours=2)
@@ -124,45 +125,23 @@ class ZuluBet:
                                     return ['X2win', win_odd]
                                 else:
                                     return ['X2lose', win_odd]
-
-                    result_home = str(result_home)
-                    result_away = str(result_away)
-                    # if overall_result()[0] == 'homewin' or overall_result()[0] == 'awaywin' or overall_result()[0] == '12win' or overall_result()[0] == '1Xwin' or overall_result()[0] == 'X2win':
-                    #     counter_win += 1
-                    #     counter_won_odd += float(overall_result()[1])
-                    # if overall_result()[0] == 'homewin' or overall_result()[0] == 'awaywin':
-                    #     total_straight_win += 1
-                    # elif overall_result()[0] == 'drawwin':
-                    #     counter_win += 1
-                    #     total_straight_win += 1
-                    #     counter_won_odd += float(overall_result()[1])
-                    # elif overall_result()[0] == 'drawlose' or overall_result()[0] == 'homelose' or overall_result()[0] == 'awaylose' or overall_result()[0] == '12lose' or overall_result()[0] == '1Xlose' or overall_result()[0] == 'X2lose':
-                    #     counter_lose += 1
-                    #     if overall_result()[0] == 'drawlose' or overall_result()[0] == 'homelose' or overall_result()[0] == 'awaylose':
-                    #         total_straight_lose += 1
-                    #         counter_lost_odd += float(overall_result()[1])
-                    # elif overall_result()[0] == 'no_results_yet':
-                    #     pass
                     #
-                    # profit = counter_won_odd - (total_straight_win + total_straight_lose)
-                    # context = {
-                    #     "counter_lost_odd": counter_lost_odd, "counter_won_odd": counter_won_odd,
-                    #     "counter_lose": counter_lose, "counter_win": counter_win,
-                    #     "total_straight_lose": total_straight_lose,
-                    #     "total_straight_win": total_straight_win,
-                    #     "profit": profit * 49
-                    #     }
+                    # result_home = str(result_home)
+                    # result_away = str(result_away)
 
-                obj, created = Prono.objects.update_or_create(
-                    teams=game_info[0][2],
-                    defaults={
-                        'match_date': self.match_date, 'time': formatted_date,
-                        'teams': game_info[0][2], 'chance': game_info[0][8],
-                        'odd1': game_info[0][10], 'oddX': game_info[0][11],
-                        'odd2': game_info[0][12], 'win_odd': overall_result()[1],
-                        'match_result': game_info[0][14],
-                        'result_overall': overall_result()[0]})
-
+                try:
+                    obj, created = Prono.objects.update_or_create(
+                        teams=game_info[0][2],
+                        defaults={
+                            'match_date': self.match_date, 'time': formatted_date,
+                            'teams': game_info[0][2], 'chance': game_info[0][8],
+                            'odd1': game_info[0][10], 'oddX': game_info[0][11],
+                            'odd2': game_info[0][12], 'win_odd': overall_result()[1],
+                            'match_result': game_info[0][14],
+                            'result_overall': overall_result()[0]
+                            })
+                except Exception as IndexError:
+                    print("I got IndexError: " + str(IndexError))
                 games = Prono.objects.filter(match_date=self.match_date).order_by('time', 'teams')[:games_number]
 
                 return games
