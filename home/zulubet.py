@@ -29,6 +29,7 @@ class ZuluBet:
                 error_games = []
                 # Extracting games
                 removing_mf_usertime = re.compile(r'^mf_usertime(.*);')
+                empty_games_counter = 0
                 for gameNo in range(games_number):
                     team = removing_mf_usertime.sub('', tr_elems[gameNo].getText())
                     groupings_trial = re.compile(r'''(
@@ -49,10 +50,11 @@ class ZuluBet:
                     ''', re.VERBOSE)
                     game_info = groupings_trial.findall(team)
                     if len(game_info) < 1:
+                        empty_games_counter += 1
                         error_games += ["empty list"]
                         # if games_info list is not empty
+                        print(str(empty_games_counter)+" Games could not be parsed")
                     else:
-                        # print(game_info)
                         game_time = game_info[0][1].strip()
                         full_date = datetime.datetime.strptime(game_time, "%H:%M")
                         full_date = full_date + timedelta(hours=2)
@@ -69,79 +71,77 @@ class ZuluBet:
                                 # Adding to error games that there was no result
                                 error_games += [no_score]
 
-                    def overall_result():
-                        if result_home == 'no_result' or result_away == 'no_result':
-                            win_odd = 0.0
-                            if game_info[0][8] == 'X':
-                                win_odd = game_info[0][11].split(":")[1]
-                            elif game_info[0][8] == '1':
-                                win_odd = game_info[0][10].split(":")[1]
-                            elif game_info[0][8] == '2':
-                                win_odd = game_info[0][12].split(":")[1]
-                            elif game_info[0][8] == '12':
-                                win_odd = 0
-                                # get odd for double chance
-                            elif game_info[0][8] == '1X':
-                                win_odd = 0
-                                # get odd for double chance
-                            elif game_info[0][8] == 'X2':
-                                win_odd = 0
-                                # get odd for double chance
-                            return ['no_results_yet', win_odd]
-                        else:
-                            if game_info[0][8] == 'X':
-                                win_odd = game_info[0][11].split(":")[1]
-                                if result_home == result_away:
-                                    return ['drawwin', win_odd]
-                                else:
-                                    return ['drawlose', win_odd]
-                            elif game_info[0][8] == '1':
-                                win_odd = game_info[0][10].split(":")[1]
-                                if result_home > result_away:
-                                    return ['homewin', win_odd]
-                                else:
-                                    return ['homelose', win_odd]
-                            elif game_info[0][8] == '2':
-                                win_odd = game_info[0][12].split(":")[1]
-                                if result_away > result_home:
-                                    return ['awaywin', win_odd]
-                                else:
-                                    return ['awaylose', win_odd]
-                            elif game_info[0][8] == '12':
-                                win_odd = 0
-                                if result_away != result_home:
-                                    return ['12win', win_odd]
-                                else:
-                                    return ['12lose', win_odd]
-                            elif game_info[0][8] == '1X':
-                                win_odd = 0
-                                if result_home >= result_away:
-                                    return ['1Xwin', win_odd]
-                                else:
-                                    return ['1Xlose', win_odd]
-                            elif game_info[0][8] == 'X2':
-                                win_odd = 0
-                                if result_home <= result_away:
-                                    return ['X2win', win_odd]
-                                else:
-                                    return ['X2lose', win_odd]
-                    #
-                    # result_home = str(result_home)
-                    # result_away = str(result_away)
+                        result_home = str(result_home)
+                        result_away = str(result_away)
 
-                try:
-                    obj, created = Prono.objects.update_or_create(
-                        teams=game_info[0][2],
-                        defaults={
-                            'match_date': self.match_date, 'time': formatted_date,
-                            'teams': game_info[0][2], 'chance': game_info[0][8],
-                            'odd1': game_info[0][10], 'oddX': game_info[0][11],
-                            'odd2': game_info[0][12], 'win_odd': overall_result()[1],
-                            'match_result': game_info[0][14],
-                            'result_overall': overall_result()[0]
+                        def overall_result():
+                            if result_home == 'no_result' or result_away == 'no_result':
+                                win_odd = 0.0
+                                if game_info[0][8] == 'X':
+                                    win_odd = game_info[0][11].split(":")[1]
+                                elif game_info[0][8] == '1':
+                                    win_odd = game_info[0][10].split(":")[1]
+                                elif game_info[0][8] == '2':
+                                    win_odd = game_info[0][12].split(":")[1]
+                                elif game_info[0][8] == '12':
+                                    win_odd = 0
+                                    # get odd for double chance
+                                elif game_info[0][8] == '1X':
+                                    win_odd = 0
+                                    # get odd for double chance
+                                elif game_info[0][8] == 'X2':
+                                    win_odd = 0
+                                    # get odd for double chance
+                                return ['no_results_yet', win_odd]
+                            else:
+                                if game_info[0][8] == 'X':
+                                    win_odd = game_info[0][11].split(":")[1]
+                                    if result_home == result_away:
+                                        return ['drawwin', win_odd]
+                                    else:
+                                        return ['drawlose', win_odd]
+                                elif game_info[0][8] == '1':
+                                    win_odd = game_info[0][10].split(":")[1]
+                                    if result_home > result_away:
+                                        return ['homewin', win_odd]
+                                    else:
+                                        return ['homelose', win_odd]
+                                elif game_info[0][8] == '2':
+                                    win_odd = game_info[0][12].split(":")[1]
+                                    if result_away > result_home:
+                                        return ['awaywin', win_odd]
+                                    else:
+                                        return ['awaylose', win_odd]
+                                elif game_info[0][8] == '12':
+                                    win_odd = 0
+                                    if result_away != result_home:
+                                        return ['12win', win_odd]
+                                    else:
+                                        return ['12lose', win_odd]
+                                elif game_info[0][8] == '1X':
+                                    win_odd = 0
+                                    if result_home >= result_away:
+                                        return ['1Xwin', win_odd]
+                                    else:
+                                        return ['1Xlose', win_odd]
+                                elif game_info[0][8] == 'X2':
+                                    win_odd = 0
+                                    if result_home <= result_away:
+                                        return ['X2win', win_odd]
+                                    else:
+                                        return ['X2lose', win_odd]
+                        obj, created = Prono.objects.update_or_create(
+                            teams=game_info[0][2],
+                            defaults={
+                                'match_date': self.match_date, 'time': formatted_date,
+                                'teams': game_info[0][2], 'chance': game_info[0][8],
+                                'odd1': game_info[0][10], 'oddX': game_info[0][11],
+                                'odd2': game_info[0][12], 'win_odd': overall_result()[1],
+                                'match_result': game_info[0][14],
+                                'result_overall': overall_result()[0]
                             })
-                except Exception as IndexError:
-                    print("I got IndexError: " + str(IndexError))
-                games = Prono.objects.filter(match_date=self.match_date).order_by('time', 'teams')[:games_number]
 
-                return games
+                        # print("I got IndexError: " + str(IndexError))
+            games = Prono.objects.filter(match_date=self.match_date).order_by('time', 'teams')[:games_number]
+            print(games)
+            return games
