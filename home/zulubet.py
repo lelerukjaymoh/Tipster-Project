@@ -141,7 +141,5 @@ class ZuluBet:
                                 'result_overall': overall_result()[0]
                             })
 
-                        # print("I got IndexError: " + str(IndexError))
             games = Prono.objects.filter(match_date=self.match_date).order_by('time', 'teams')[:games_number]
-            print(games)
             return games
