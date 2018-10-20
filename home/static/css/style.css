@@ -87,10 +87,7 @@ nav,.nav-extended{
 .sidenav .collapsible-body li a, .sidenav.fixed .collapsible-body li a {
   padding: 0 60px;
 }
-/*  For Larger screen to show fixed menu */
-nav,header,.wrapper,.navigation {
-  padding-left: 300px;
-}
+/*
 @media only screen and (max-width : 992px) {
   nav,header,.wrapper,.navigation{
     padding-left: 0;
@@ -105,4 +102,4 @@ nav,header,.wrapper,.navigation {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-}
+} */
