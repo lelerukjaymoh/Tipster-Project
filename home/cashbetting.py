@@ -42,7 +42,8 @@ class CashBet:
                             "tip": each[1], 'odds': each[3],
                             "time": "..."
                             })
-        # print(all_games)
+        # print("Printing from procedure1")
+        # print(game_info)
         return all_games
 
     def procedure2(self, game_info2):
