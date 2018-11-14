@@ -57,18 +57,42 @@
 <!--footer  -->
 <div class="navigation">
   <ul class="tabs tabs-transparent">
-    <li class="tab"><a target="_self" href="/today/" class="navigation__link black-text">
+    {% if "/today/" == request.path or "/yesterday/" == request.path or "/tomorrow/" == request.path or request.path %}
+    <li class="tab"><a target="_self" href="/today/" class="active black-text">
       <i class="feather hide-on-small-only wave" data-feather="home"></i>All Games</a>
     </li>
-    <li class="tab"><a target="_self" href="/featured/" class="navigation__link black-text active">
+    {% else %}
+    <li class="tab"><a target="_self" href="/today/" class="black-text">
+      <i class="feather hide-on-small-only wave" data-feather="home"></i>All Games</a>
+    </li>
+    {% endif %}
+    {% if "/featured/" == request.path %}
+    <li class="tab"><a target="_self" href="/featured/" class="active black-text">
       <i class="feather hide-on-small-only wave" data-feather="heart"></i>Featured </a>
     </li>
-    <li class="tab"><a target="_self" href="/comingsoon/" class="navigation__link black-text" >
+    {% else %}
+    <li class="tab"><a target="_self" href="/featured/" class="active black-text">
+      <i class="feather hide-on-small-only wave" data-feather="heart"></i>Featured </a>
+    </li>
+    {% endif %}
+    {% if "/G-G/" == request.path %}
+    <li class="tab"><a target="_self" href="/comingsoon/" class="active black-text" >
       <i class="feather hide-on-small-only wave" data-feather="target"></i>G-G </a>
     </li>
-    <li class="tab"><a target="_self" href="comingsoon" class="navigation__link black-text">
+    {% else %}
+    <li class="tab"><a target="_self" href="/comingsoon/" class="black-text" >
+      <i class="feather hide-on-small-only wave" data-feather="target"></i>G-G </a>
+    </li>
+    {% endif %}
+    {% if "/Over2.5/" == request.path %}
+    <li class="tab"><a target="_self" href="comingsoon" class="active black-text">
       <i class="feather hide-on-small-only wave" data-feather="plus"></i>Over 2.5 </a>
     </li>
+    {% else %}
+    <li class="tab"><a target="_self" href="comingsoon" class="black-text">
+      <i class="feather hide-on-small-only wave" data-feather="plus"></i>Over 2.5 </a>
+    </li>
+    {% endif %}
   </ul>
 </div>
 <!-- For optimized loading-->
@@ -90,6 +114,5 @@ $(document).ready(function(){
 });
 </script>
 <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
-<script type="text/javascript" src="{% static 'js/index.js' %}"></script>
 </body>
 </html>

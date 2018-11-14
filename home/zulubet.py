@@ -65,7 +65,7 @@ class ZuluBet:
                                 result_home = int(results[0])
                                 result_away = int(results[1])
                             else:
-                                result_home = 'no_result'   
+                                result_home = 'no_result'
                                 result_away = 'no_result'
                         except Exception as no_score:
                                 # Adding to error games that there was no result

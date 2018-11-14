@@ -12,9 +12,17 @@ a {
 .tabs .tab a:hover{
   background-color: rgba(0,0,0,0.05);
 }
-.tabs .tab a.active {
-  background-color: #fff;
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  background: #fff;
 }
+.tabs .tab {
+  background-color: lightgrey;
+}
+.tabs .indicator {
+  background: darkgrey;
+}
+
 .feather {
   width: 24px;
   height: 24px;

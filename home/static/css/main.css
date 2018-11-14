@@ -219,11 +219,11 @@ color: #000 !important;
 	background-color: #f8f8f8;
 	border-top: 1px solid rgba(19,21,58,.15);
 }
-.tabs.tabs-transparent .tab a:hover, .tabs.tabs-transparent .tab a.active {
-    color: #000;
+.tabs.tabs-transparent .tab a.active {
+	background-color: #fff;
 }
-.tab .navigation__link:hover{
-	background-color: rgba(0,0,0,0.05);
+.tabs.tabs-transparent .tab a:hover{
+	background-color: gainsboro;
 }
 
 .icon{
