@@ -48,31 +48,33 @@ def topnavselector():
 
 def homepage_today(request):
     today = topnavselector()
-    res = 'http://www.zulubet.com/tips-0%d-%d-%d.html' % (today.day, today.month, today.year)
+    res = 'http://www.zulubet.com/tips-%d-%d-%d.html' % (today.day, today.month, today.year)
     match_date = today.strftime("%d-%m")  # date when the match is played
     games = ZuluBet(res, match_date).zulu_procedure()
     request_from = "tod"
+    print(res)
     return render(request, 'mysite/index.html',
                   {"games": games, "request_tom": request_from})
 
 
 def yesterday(request):
     today = topnavselector() - timedelta(days=1)
-    print(today)
-    res = 'http://www.zulubet.com/tips-0%d-%d-%d.html' % (today.day, today.month, today.year)
+    res = 'http://www.zulubet.com/tips-%d-%d-%d.html' % (today.day, today.month, today.year)
     match_date = today.strftime("%d-%m")  # date when the match is played
     games = ZuluBet(res, match_date).zulu_procedure()
     request_from = "yest"
+    print(res)
     return render(request, 'mysite/index.html',
                   {"games": games, "request_tom": request_from})
 
 
 def tomorrow(request):
     today = topnavselector() + timedelta(days=1)
-    res = 'http://www.zulubet.com/tips-0%d-%d-%d.html' % (today.day, today.month, today.year)
+    res = 'http://www.zulubet.com/tips-%d-%d-%d.html' % (today.day, today.month, today.year)
     match_date = today.strftime("%d-%m")  # date when the match is played
     games = ZuluBet(res, match_date).zulu_procedure()
     request_from = "tom"
+    print(res)
     return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from })
 
 

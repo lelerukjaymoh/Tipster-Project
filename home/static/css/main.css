@@ -222,6 +222,9 @@ color: #000 !important;
 .tabs.tabs-transparent .tab a.active {
 	background-color: #fff;
 }
+.tabs.tabs-transparent .tab a.active:hover{
+	background-color: white;
+}
 .tabs.tabs-transparent .tab a:hover{
 	background-color: gainsboro;
 }
