@@ -4,6 +4,7 @@ import bs4
 import re
 from datetime import timedelta
 from .models import Prono
+from .send_mail import send_mail
 
 
 class ZuluBet:
@@ -52,6 +53,7 @@ class ZuluBet:
                     if len(game_info) < 1:
                         empty_games_counter += 1
                         error_games += ["empty list"]
+                        # print(tr_elems[0+gameNo].getText())
                         # if games_info list is not empty
                         print(str(empty_games_counter)+" Games could not be parsed")
                     else:
@@ -141,5 +143,6 @@ class ZuluBet:
                                 'result_overall': overall_result()[0]
                             })
 
+                send_mail(len(error_games))
             games = Prono.objects.filter(match_date=self.match_date).order_by('time', 'teams')[:games_number]
             return games
