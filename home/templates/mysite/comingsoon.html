@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+{% extends 'mysite/base.html' %}
 {% load staticfiles %}
+{% block content %}
 <section class="container">
-	<div class="center">
+	<div class="center white-text">
 		<h1>COMING SOON</h1>
 		<hr>
 
@@ -10,6 +11,7 @@
 	</div>
 
 </section>
+
 <script>
 var countDownDate = new Date("Nov 30, 2018 00:00:00").getTime();
 
@@ -35,3 +37,5 @@ var countDownfunction = setInterval(function() {
 },1000);
 
 </script>
+
+{% endblock %}

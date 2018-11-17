@@ -74,7 +74,7 @@ color: #000 !important;
 	height:60px;
 	display:-webkit-box;
 	display:-ms-flexbox;
-	display:flex;
+	/* display:flex; */
 	-webkit-box-orient:vertical;
 	-webkit-box-direction:normal;
 	-ms-flex-direction:column;
@@ -86,7 +86,8 @@ color: #000 !important;
 	padding-left:15px;text-decoration:none
 }
 .forecasts__teams{
-	margin:0 0 10px;font-size:14px;font-weight:400
+	margin:0 0 0 5px;font-size:14px;font-weight:400;
+	display: inline-block
 }
 .forecasts__league,.forecasts__teams{
 	width:calc(100% - 70px - 45px);
@@ -94,11 +95,18 @@ color: #000 !important;
 	text-overflow:ellipsis;
 	overflow:hidden;
 }
+div.forecasts__list > .forecasts__item > i.flag {
+	margin-top: 10px;
+}
+.abtto_start{
+	background: grey;
+}
 .forecasts__league{
 	font-size:9px;
 	color:#1b3c5e;
 	text-transform:uppercase;
 	letter-spacing: 2px;
+	margin-left: 30px;
 }
 .forecasts__date{
 	font-weight:700;
@@ -110,6 +118,10 @@ color: #000 !important;
 	width:70px;background-color:#e5e5e5;
 	position:absolute;top:0;right:0;text-align:center;
 	line-height:60px;font-size:14px;font-weight:500;color:#4b4b4b
+}
+.forecasts__coeff {
+	border-right: 2px solid #279d79;
+	border-left: 2px solid #279d79;
 }
 
 .forecasts__result{
@@ -334,11 +346,11 @@ a.item .info .y span {
 }
 
 @media (max-width: 400px) {
-    a.item .info .name {
-        font-size: 15px;
-    }
-    a.item .info .y {
-        padding-top: 0;
-    }
+	a.item .info .name {
+		font-size: 15px;
+	}
+	a.item .info .y {
+		padding-top: 0;
+	}
 
 }

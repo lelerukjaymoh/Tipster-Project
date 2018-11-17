@@ -19,6 +19,7 @@
   <div class="forecasts__list">
     {% for game in games %}
     <a href="{% url 'game_details' pk=game.pk%}" class="forecasts__item">
+      <i class="flag"><img src=""></i>
       <h4 class="forecasts__teams">{{ game.teams }}</h4>
       <span class="forecasts__league">
         <span class="forecasts__date">
