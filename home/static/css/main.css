@@ -99,8 +99,9 @@ div.forecasts__list > .forecasts__item > i.flag {
 	margin-top: 10px;
 }
 .abtto_start{
-	background: grey;
+	background: #efefef;
 }
+
 .forecasts__league{
 	font-size:9px;
 	color:#1b3c5e;
