@@ -4,7 +4,7 @@ import bs4
 import re
 from datetime import timedelta
 from .models import Prono
-from .send_mail import send_mail
+# from .send_mail import send_mail
 
 
 class ZuluBet:
