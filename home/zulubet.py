@@ -143,6 +143,6 @@ class ZuluBet:
                                 'result_overall': overall_result()[0]
                             })
 
-                send_mail(len(error_games))
+                # send_mail(len(error_games))
             games = Prono.objects.filter(match_date=self.match_date).order_by('time', 'teams')[:games_number]
             return games
