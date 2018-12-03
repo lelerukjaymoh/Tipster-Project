@@ -37,46 +37,55 @@
       </ul>
     </div>
   </nav>
-<div class="wrapper">
-  {% block content %}
-  <!--main content  -->
-  {% endblock %}
-</div>
-<!--footer  -->
-<div class="navigation">
-  <ul class="tabs tabs-transparent">
-    <li class="tab"><a target="_self" href="/today/" class="{% if '/today/' == request.path or '/yesterday/' == request.path or '/tomorrow/' == request.path %} active {% endif %} black-text">
-      <i class="feather hide-on-small-only wave" data-feather="home"></i>All Games</a>
-    </li>
-    <li class="tab"><a target="_self" href="/featured/" class="{% if '/featured/' == request.path %} active {% endif %} black-text">
-      <i class="feather hide-on-small-only wave" data-feather="heart"></i>Featured </a>
-    </li>
-    <li class="tab"><a target="_self" href="/comingsoon/" class="{% if '/G-G/' == request.path %} active {% endif %} black-text" >
-      <i class="feather hide-on-small-only wave" data-feather="target"></i>G-G </a>
-    </li>
-    <li class="tab"><a target="_self" href="/comingsoon/" class="{% if '/Over2.5/' == request.path %} active {% endif %} black-text">
-      <i class="feather hide-on-small-only wave" data-feather="plus"></i>Over 2.5 </a>
-    </li>
-  </ul>
-</div>
-<!-- For optimized loading-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
-<!-- feather icos -->
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <div class="wrapper">
+    {% block content %}
+    <!--main content  -->
+    {% endblock %}
+  </div>
+  <!--footer  -->
+  <div class="navigation">
+    <ul class="tabs tabs-transparent">
+      <li class="tab"><a target="_self" href="/today/" class="{% if '/today/' == request.path or '/yesterday/' == request.path or '/tomorrow/' == request.path %} active {% endif %} black-text">
+        <i class="feather hide-on-small-only wave" data-feather="home"></i>All Games</a>
+      </li>
+      <li class="tab"><a target="_self" href="/featured/" class="{% if '/featured/' == request.path %} active {% endif %} black-text">
+        <i class="feather hide-on-small-only wave" data-feather="heart"></i>Featured </a>
+      </li>
+      <li class="tab"><a target="_self" href="/comingsoon/" class="{% if '/G-G/' == request.path %} active {% endif %} black-text" >
+        <i class="feather hide-on-small-only wave" data-feather="target"></i>G-G </a>
+      </li>
+      <li class="tab"><a target="_self" href="/comingsoon/" class="{% if '/Over2.5/' == request.path %} active {% endif %} black-text">
+        <i class="feather hide-on-small-only wave" data-feather="plus"></i>Over 2.5 </a>
+      </li>
+    </ul>
+  </div>
+  <!-- For optimized loading-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
+  <!-- feather icos -->
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
-<!--custom js-->
-<script type="text/javascript">
-$(document).ready(function(){
-  $('.sidenav').sidenav();
-  //for feather Icons
-  feather.replace();
-  // For collapsible menu items
-  $('.collapsible').collapsible();
-  // for activating tabs transition
-  $('.tabs').tabs();
-});
+  <!--custom js-->
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+    //for feather Icons
+    feather.replace();
+    // For collapsible menu items
+    $('.collapsible').collapsible();
+    // for activating tabs transition
+    $('.tabs').tabs();
+  });
 </script>
 <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+<script type='text/javascript'>
+window.__lo_site_id = 133908;
+
+(function() {
+  var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+  wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+})();
+</script>
 </body>
 </html>
