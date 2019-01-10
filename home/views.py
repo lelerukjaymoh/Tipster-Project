@@ -78,9 +78,16 @@ def tomorrow(request):
     return render(request, 'mysite/index.html', {"games": games, "request_tom": request_from })
 
 
+month = {
+    1: "january", 2: "february", 3: "march", 4: "april", 5: "may", 6: "june",
+    7: "july", 8: "august", 9: "september", 10: "october", 11: "november",
+    12: "december"
+    }
+
+
 def featured(request):
     today = topnavselector()
-    page_url = 'http://cashbettingtips.blogspot.com/%d/%d/%d-december.html' % (today.year, today.month, today.day)
+    page_url = 'http://cashbettingtips.blogspot.com/%d/%d/%d-{}.html' % (today.year, today.month, today.day, month[today.month])
     # match_date = today.strftime("%d-%m")  # date when the match is played
     games_dict = CashBet(page_url).procedure1()
     request_from = "tod"
