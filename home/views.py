@@ -2,7 +2,6 @@ import datetime
 from datetime import timedelta
 
 from django.shortcuts import render, get_object_or_404
-# from collections import Counter
 from .models import Prono
 from .cashbetting import CashBet
 from .zulubet import ZuluBet
