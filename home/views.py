@@ -87,7 +87,8 @@ month = {
 
 def featured(request):
     today = topnavselector()
-    page_url = 'http://cashbettingtips.blogspot.com/%d/%d/%d-%s.html' % (today.year, today.month, today.day, month[today.month])
+    # page_url = "http://cashbettingtips.blogspot.com/2019/01/11-january.html"
+    page_url = 'http://cashbettingtips.blogspot.com/%d/0%d/%d-%s.html' % (today.year, today.month, today.day, "january")
     # match_date = today.strftime("%d-%m")  # date when the match is played
     games_dict = CashBet(page_url).procedure1()
     request_from = "tod"
