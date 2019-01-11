@@ -13,38 +13,6 @@ def topnavselector():
 
     return date
 
-#
-# def wallet(request):
-#     from_date = request.POST.get('From')
-#     to_date = request.POST.get('To')
-#     submitbutton = request.POST.get('Submit')
-#     from_date2 = ""
-#     to_date2 = ""
-#     try:
-#         from_date2 = datetime.datetime.strptime(from_date, "%m/%d/%Y")
-#     except:
-#         pass
-#     try:
-#         to_date2 = datetime.datetime.strptime(to_date, "%m/%d/%Y")
-#     except:
-#         pass
-#     progress_details = {}
-#     try:
-#         while from_date2 != to_date2 + timedelta(days=1):
-#             res = requests.get(
-#                 'http://www.zulubet.com/tips-0%d-%d-%d.html' % (from_date2.day, from_date2.month, from_date2.year))
-#             formatted_date = from_date2.strftime("%d-%m")
-#             progress_details = dict(Counter(progress_details) + Counter(parser(res, formatted_date)[1]))
-#
-#             from_date2 = from_date2 + timedelta(days=1)
-#     except:
-#         pass
-#
-#     confirm = {'from_date': from_date, 'to_date': to_date,
-#                'submitbutton': submitbutton}
-#
-#     return render(request, 'mysite/wallet.html', {"progress": progress_details, "confirm": confirm})
-
 
 def homepage_today(request):
     today = topnavselector()
@@ -88,11 +56,13 @@ month = {
 def featured(request):
     today = topnavselector()
     # page_url = "http://cashbettingtips.blogspot.com/2019/01/11-january.html"
-    page_url = 'http://cashbettingtips.blogspot.com/%d/0%d/%d-%s.html' % (today.year, today.month, today.day, "january")
+    page_url = 'http://cashbettingtips.blogspot.com/%d/0%d/%d-%s.html' % (today.year, today.month, today.day, month[today.month])
     # match_date = today.strftime("%d-%m")  # date when the match is played
     games_dict = CashBet(page_url).procedure1()
     request_from = "tod"
-    return render(request, 'mysite/featured.html', {"games": games_dict, "request_tom": request_from})
+    return render(request, 'mysite/featured.html', {
+        "games": games_dict, "request_tom": request_from
+        })
 
 
 def game_details(request, pk):
